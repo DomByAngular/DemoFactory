@@ -1,0 +1,15 @@
+C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\BusinessObject\bin\Debug\BusinessObject.dll
+C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\BusinessObject\bin\Debug\BusinessObject.pdb
+C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\BusinessObject\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\BusinessObject\obj\Debug\BusinessObject.dll
+C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\BusinessObject\obj\Debug\BusinessObject.pdb
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\HuatongApply\BusinessObject\bin\Debug\BusinessObject.dll
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\HuatongApply\BusinessObject\bin\Debug\BusinessObject.pdb
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\HuatongApply\BusinessObject\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\HuatongApply\BusinessObject\obj\Debug\BusinessObject.dll
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\HuatongApply\BusinessObject\obj\Debug\BusinessObject.pdb
+C:\Users\Administrator\Desktop\PlinqO-NhibernateDemo2013-12-17\BusinessObject\bin\Debug\BusinessObject.dll
+C:\Users\Administrator\Desktop\PlinqO-NhibernateDemo2013-12-17\BusinessObject\bin\Debug\BusinessObject.pdb
+C:\Users\Administrator\Desktop\PlinqO-NhibernateDemo2013-12-17\BusinessObject\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\PlinqO-NhibernateDemo2013-12-17\BusinessObject\obj\Debug\BusinessObject.dll
+C:\Users\Administrator\Desktop\PlinqO-NhibernateDemo2013-12-17\BusinessObject\obj\Debug\BusinessObject.pdb

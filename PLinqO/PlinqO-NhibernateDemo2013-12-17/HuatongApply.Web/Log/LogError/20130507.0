@@ -1,0 +1,24 @@
+
+异常时间：2013-05-07 23:02:21,562 [9] 
+异常级别：ERROR 
+异 常 类：logerror [(null)] 
+RoleService.DeleteRole(0)异常 
+ System.ArgumentNullException: Attempt to create delete event with null entity
+参数名: entity
+   在 NHibernate.Event.DeleteEvent..ctor(Object entity, IEventSource source)
+   在 NHibernate.Impl.SessionImpl.Delete(Object obj)
+   在 CodeSmith.Data.NHibernate.StatefulSession.Delete(Object o)
+   在 CodeSmith.Data.NHibernate.Table`1.DeleteOnSubmit(T entity)
+   在 Services.Admin.RoleControl.RoleService.DeleteRoleById(Int64 roleId) 位置 E:\CommercialProjects\Huatong2\HuatongMIS\HuaTongBusinessWeb\Services\Admin\RoleControl\RoleService.cs:行号 95
+
+异常时间：2013-05-07 23:02:55,359 [9] 
+异常级别：ERROR 
+异 常 类：logerror [(null)] 
+RoleService.DeleteRole(0)异常 
+ System.ArgumentNullException: Attempt to create delete event with null entity
+参数名: entity
+   在 NHibernate.Event.DeleteEvent..ctor(Object entity, IEventSource source)
+   在 NHibernate.Impl.SessionImpl.Delete(Object obj)
+   在 CodeSmith.Data.NHibernate.StatefulSession.Delete(Object o)
+   在 CodeSmith.Data.NHibernate.Table`1.DeleteOnSubmit(T entity)
+   在 Services.Admin.RoleControl.RoleService.DeleteRoleById(Int64 roleId) 位置 E:\CommercialProjects\Huatong2\HuatongMIS\HuaTongBusinessWeb\Services\Admin\RoleControl\RoleService.cs:行号 95

@@ -1,0 +1,9 @@
+<Modules>
+  <Module PersistentId="A47740E5-995C-4F6A-B7E7-EDE3D97965BC" ModuleId="HuatongApply.Data" />
+  <Module PersistentId="1C703AAD-85BC-4285-8C17-5F34857480F7" ModuleId="IService" />
+  <Module PersistentId="2DFEB337-6182-499A-99D6-B31B02F23139" ModuleId="Service" />
+  <Module PersistentId="37DBD507-D4A9-43A2-9B5A-3477AC5D386D" ModuleId="Test" />
+  <Module PersistentId="973513E3-4743-4F68-ACDE-3C9F5A425829" ModuleId="BusinessObject" />
+  <Module PersistentId="B0D59240-2AF3-484F-9156-A5E00BA13503" ModuleId="Domain" />
+  <Module PersistentId="231D5E7F-6DC4-4E21-B87E-AB5BDF8F2061" ModuleId="HuaTongSystem" />
+</Modules>

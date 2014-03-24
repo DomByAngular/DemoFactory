@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HuatongApply.Data", "C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\HuatongApply.Data\HuatongApply.Data.csproj", "{A47740E5-995C-4F6A-B7E7-EDE3D97965BC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IService", "IService\IService.csproj", "{1C703AAD-85BC-4285-8C17-5F34857480F7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Service", "Service\Service.csproj", "{2DFEB337-6182-499A-99D6-B31B02F23139}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{37DBD507-D4A9-43A2-9B5A-3477AC5D386D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessObject", "BusinessObject\BusinessObject.csproj", "{973513E3-4743-4F68-ACDE-3C9F5A425829}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{B0D59240-2AF3-484F-9156-A5E00BA13503}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HuaTongApply.Web", "HuatongApply.Web\HuaTongApply.Web.csproj", "{231D5E7F-6DC4-4E21-B87E-AB5BDF8F2061}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A47740E5-995C-4F6A-B7E7-EDE3D97965BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A47740E5-995C-4F6A-B7E7-EDE3D97965BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A47740E5-995C-4F6A-B7E7-EDE3D97965BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A47740E5-995C-4F6A-B7E7-EDE3D97965BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C703AAD-85BC-4285-8C17-5F34857480F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C703AAD-85BC-4285-8C17-5F34857480F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C703AAD-85BC-4285-8C17-5F34857480F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C703AAD-85BC-4285-8C17-5F34857480F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2DFEB337-6182-499A-99D6-B31B02F23139}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DFEB337-6182-499A-99D6-B31B02F23139}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DFEB337-6182-499A-99D6-B31B02F23139}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DFEB337-6182-499A-99D6-B31B02F23139}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37DBD507-D4A9-43A2-9B5A-3477AC5D386D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37DBD507-D4A9-43A2-9B5A-3477AC5D386D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37DBD507-D4A9-43A2-9B5A-3477AC5D386D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37DBD507-D4A9-43A2-9B5A-3477AC5D386D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{973513E3-4743-4F68-ACDE-3C9F5A425829}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{973513E3-4743-4F68-ACDE-3C9F5A425829}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{973513E3-4743-4F68-ACDE-3C9F5A425829}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{973513E3-4743-4F68-ACDE-3C9F5A425829}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0D59240-2AF3-484F-9156-A5E00BA13503}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0D59240-2AF3-484F-9156-A5E00BA13503}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0D59240-2AF3-484F-9156-A5E00BA13503}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0D59240-2AF3-484F-9156-A5E00BA13503}.Release|Any CPU.Build.0 = Release|Any CPU
+		{231D5E7F-6DC4-4E21-B87E-AB5BDF8F2061}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{231D5E7F-6DC4-4E21-B87E-AB5BDF8F2061}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{231D5E7F-6DC4-4E21-B87E-AB5BDF8F2061}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{231D5E7F-6DC4-4E21-B87E-AB5BDF8F2061}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

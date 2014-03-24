@@ -1,0 +1,84 @@
+C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\HuatongApply.Web\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\HuatongApply.Web\obj\Debug\HuaTongSystem.pdb
+C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\HuatongApply.Web\bin\Common\Configs\log4net_local.config
+C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\HuatongApply.Web\bin\Common\Configs\webservices.xml
+C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\HuatongApply.Web\bin\HuaTongSystem.dll
+C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\HuatongApply.Web\bin\HuaTongSystem.pdb
+C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\HuatongApply.Web\bin\BusinessObject.dll
+C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\HuatongApply.Web\bin\Domain.dll
+C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\HuatongApply.Web\bin\IService.dll
+C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\HuatongApply.Web\bin\Service.dll
+C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\HuatongApply.Web\bin\HuatongApply.Data.dll
+C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\HuatongApply.Web\bin\AutoMapper.dll
+C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\HuatongApply.Web\bin\CodeSmith.Data.NHibernate.dll
+C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\HuatongApply.Web\bin\NHibernate.dll
+C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\HuatongApply.Web\bin\CodeSmith.Data.dll
+C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\HuatongApply.Web\bin\BusinessObject.pdb
+C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\HuatongApply.Web\bin\Domain.pdb
+C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\HuatongApply.Web\bin\IService.pdb
+C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\HuatongApply.Web\bin\Service.pdb
+C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\HuatongApply.Web\bin\HuatongApply.Data.pdb
+C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\HuatongApply.Web\obj\Debug\HuaTongSystem.dll
+C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\HuatongApply.Web\bin\log4net.dll
+C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\HuatongApply.Web\bin\NHibernate.ByteCode.Castle.dll
+C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\HuatongApply.Web\bin\Remotion.Linq.dll
+C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\HuatongApply.Web\bin\HibernatingRhinos.Profiler.Appender.dll
+C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\HuatongApply.Web\bin\Castle.Core.dll
+C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\HuatongApply.Web\bin\Antlr3.Runtime.dll
+C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\HuatongApply.Web\bin\Iesi.Collections.dll
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\HuatongApply\HuatongApply.Web\bin\Common\Configs\log4net_local.config
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\HuatongApply\HuatongApply.Web\bin\Common\Configs\webservices.xml
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\HuatongApply\HuatongApply.Web\bin\HuaTongSystem.dll
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\HuatongApply\HuatongApply.Web\bin\HuaTongSystem.pdb
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\HuatongApply\HuatongApply.Web\bin\BusinessObject.dll
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\HuatongApply\HuatongApply.Web\bin\Castle.Core.dll
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\HuatongApply\HuatongApply.Web\bin\CodeSmith.Data.dll
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\HuatongApply\HuatongApply.Web\bin\CodeSmith.Data.NHibernate.dll
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\HuatongApply\HuatongApply.Web\bin\Domain.dll
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\HuatongApply\HuatongApply.Web\bin\HibernatingRhinos.Profiler.Appender.dll
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\HuatongApply\HuatongApply.Web\bin\IService.dll
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\HuatongApply\HuatongApply.Web\bin\log4net.dll
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\HuatongApply\HuatongApply.Web\bin\NHibernate.ByteCode.Castle.dll
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\HuatongApply\HuatongApply.Web\bin\NHibernate.dll
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\HuatongApply\HuatongApply.Web\bin\Remotion.Linq.dll
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\HuatongApply\HuatongApply.Web\bin\Service.dll
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\HuatongApply\HuatongApply.Web\bin\HuatongApply.Data.dll
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\HuatongApply\HuatongApply.Web\bin\AutoMapper.dll
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\HuatongApply\HuatongApply.Web\bin\BusinessObject.pdb
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\HuatongApply\HuatongApply.Web\bin\Domain.pdb
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\HuatongApply\HuatongApply.Web\bin\IService.pdb
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\HuatongApply\HuatongApply.Web\bin\Service.pdb
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\HuatongApply\HuatongApply.Web\bin\HuatongApply.Data.pdb
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\HuatongApply\HuatongApply.Web\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\HuatongApply\HuatongApply.Web\obj\Debug\HuaTongSystem.dll
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\HuatongApply\HuatongApply.Web\obj\Debug\HuaTongSystem.pdb
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\HuatongApply\HuatongApply.Web\bin\Antlr3.Runtime.dll
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\HuatongApply\HuatongApply.Web\bin\Iesi.Collections.dll
+C:\Users\Administrator\Desktop\PlinqO-NhibernateDemo2013-12-17\HuatongApply.Web\bin\Common\Configs\log4net_local.config
+C:\Users\Administrator\Desktop\PlinqO-NhibernateDemo2013-12-17\HuatongApply.Web\bin\Common\Configs\webservices.xml
+C:\Users\Administrator\Desktop\PlinqO-NhibernateDemo2013-12-17\HuatongApply.Web\bin\HuaTongSystem.dll
+C:\Users\Administrator\Desktop\PlinqO-NhibernateDemo2013-12-17\HuatongApply.Web\bin\HuaTongSystem.pdb
+C:\Users\Administrator\Desktop\PlinqO-NhibernateDemo2013-12-17\HuatongApply.Web\bin\BusinessObject.dll
+C:\Users\Administrator\Desktop\PlinqO-NhibernateDemo2013-12-17\HuatongApply.Web\bin\Castle.Core.dll
+C:\Users\Administrator\Desktop\PlinqO-NhibernateDemo2013-12-17\HuatongApply.Web\bin\CodeSmith.Data.dll
+C:\Users\Administrator\Desktop\PlinqO-NhibernateDemo2013-12-17\HuatongApply.Web\bin\CodeSmith.Data.NHibernate.dll
+C:\Users\Administrator\Desktop\PlinqO-NhibernateDemo2013-12-17\HuatongApply.Web\bin\Domain.dll
+C:\Users\Administrator\Desktop\PlinqO-NhibernateDemo2013-12-17\HuatongApply.Web\bin\HibernatingRhinos.Profiler.Appender.dll
+C:\Users\Administrator\Desktop\PlinqO-NhibernateDemo2013-12-17\HuatongApply.Web\bin\IService.dll
+C:\Users\Administrator\Desktop\PlinqO-NhibernateDemo2013-12-17\HuatongApply.Web\bin\log4net.dll
+C:\Users\Administrator\Desktop\PlinqO-NhibernateDemo2013-12-17\HuatongApply.Web\bin\NHibernate.ByteCode.Castle.dll
+C:\Users\Administrator\Desktop\PlinqO-NhibernateDemo2013-12-17\HuatongApply.Web\bin\NHibernate.dll
+C:\Users\Administrator\Desktop\PlinqO-NhibernateDemo2013-12-17\HuatongApply.Web\bin\Remotion.Linq.dll
+C:\Users\Administrator\Desktop\PlinqO-NhibernateDemo2013-12-17\HuatongApply.Web\bin\Service.dll
+C:\Users\Administrator\Desktop\PlinqO-NhibernateDemo2013-12-17\HuatongApply.Web\bin\HuatongApply.Data.dll
+C:\Users\Administrator\Desktop\PlinqO-NhibernateDemo2013-12-17\HuatongApply.Web\bin\AutoMapper.dll
+C:\Users\Administrator\Desktop\PlinqO-NhibernateDemo2013-12-17\HuatongApply.Web\bin\Antlr3.Runtime.dll
+C:\Users\Administrator\Desktop\PlinqO-NhibernateDemo2013-12-17\HuatongApply.Web\bin\Iesi.Collections.dll
+C:\Users\Administrator\Desktop\PlinqO-NhibernateDemo2013-12-17\HuatongApply.Web\bin\BusinessObject.pdb
+C:\Users\Administrator\Desktop\PlinqO-NhibernateDemo2013-12-17\HuatongApply.Web\bin\Domain.pdb
+C:\Users\Administrator\Desktop\PlinqO-NhibernateDemo2013-12-17\HuatongApply.Web\bin\IService.pdb
+C:\Users\Administrator\Desktop\PlinqO-NhibernateDemo2013-12-17\HuatongApply.Web\bin\Service.pdb
+C:\Users\Administrator\Desktop\PlinqO-NhibernateDemo2013-12-17\HuatongApply.Web\bin\HuatongApply.Data.pdb
+C:\Users\Administrator\Desktop\PlinqO-NhibernateDemo2013-12-17\HuatongApply.Web\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\PlinqO-NhibernateDemo2013-12-17\HuatongApply.Web\obj\Debug\HuaTongSystem.dll
+C:\Users\Administrator\Desktop\PlinqO-NhibernateDemo2013-12-17\HuatongApply.Web\obj\Debug\HuaTongSystem.pdb

@@ -1,0 +1,5 @@
+F:\个人重要资料备份\工作相关\工作软件和插件\我的微盘\Demo库\ORM\NhibernateSessionManageFramework_20130505\YS.BO\bin\Debug\YS.BO.dll
+F:\个人重要资料备份\工作相关\工作软件和插件\我的微盘\Demo库\ORM\NhibernateSessionManageFramework_20130505\YS.BO\bin\Debug\YS.BO.pdb
+F:\个人重要资料备份\工作相关\工作软件和插件\我的微盘\Demo库\ORM\NhibernateSessionManageFramework_20130505\YS.BO\obj\Debug\ResolveAssemblyReference.cache
+F:\个人重要资料备份\工作相关\工作软件和插件\我的微盘\Demo库\ORM\NhibernateSessionManageFramework_20130505\YS.BO\obj\Debug\YS.BO.dll
+F:\个人重要资料备份\工作相关\工作软件和插件\我的微盘\Demo库\ORM\NhibernateSessionManageFramework_20130505\YS.BO\obj\Debug\YS.BO.pdb

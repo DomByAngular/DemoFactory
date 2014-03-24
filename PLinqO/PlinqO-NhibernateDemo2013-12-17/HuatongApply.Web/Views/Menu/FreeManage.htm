@@ -1,0 +1,26 @@
+﻿<script type="text/javascript">
+    $(document).ready(function () {
+        $('#west').load("Scripts/side-menu/SideMenuTemplate.htm", function () { 
+            var source = $("#entry-template").html();
+            var template = Handlebars.compile(source);
+            var context =
+                {
+                    menu: [
+                        {
+                            "title": "套餐管理",
+                            "content": [
+                                {
+                                    "id": "_free_combo",
+                                    "url": "Views/Product/ProductList.htm",
+                                    "content": "套餐列表"
+                                }
+                            ]
+                        }
+                    ]
+                };
+            var html = template(context);
+            $(".side-content").html(html);
+            $.getScript("/Scripts/side-menu/side-menu.js");
+        });
+    });
+</script>

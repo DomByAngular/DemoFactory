@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" namespace="HuatongApply.Data" assembly="HuatongApply.Data">
+    <class name="Applyrecord" table="[dbo].[tb_applyrecord]" >
+        <id name="ApplyId" column="[ApplyId]" type="Int32" >
+            <generator class="native" />
+        </id>
+        <property name="OrId" column="[Or_Id]" type="Int32" not-null="false" /> 
+        <property name="Price" column="[Price]" type="Double" not-null="false" /> 
+        <property name="Currency" column="[Currency]" type="AnsiString" not-null="false" length="10" /> 
+        <property name="ApplyBy" column="[ApplyBy]" type="AnsiString" not-null="false" length="200" /> 
+        <property name="ApplyOn" column="[ApplyOn]" type="DateTime" not-null="false" /> 
+        <property name="Description" column="[Description]" type="AnsiString" not-null="false" length="500" /> 
+        <property name="IsCar" column="[IsCar]" type="Int32" not-null="false" /> 
+        <property name="CarNo" column="[CarNo]" type="AnsiString" not-null="false" length="20" /> 
+        <property name="AuditStatus" column="[AuditStatus]" type="Int32" not-null="false" /> 
+        <property name="DepAuditBy" column="[DepAuditBy]" type="AnsiString" not-null="false" length="200" /> 
+        <property name="FinanceAuditBy" column="[FinanceAuditBy]" type="AnsiString" not-null="false" length="200" /> 
+        <property name="FinalAuditBy" column="[FinalAuditBy]" type="AnsiString" not-null="false" length="200" /> 
+        <property name="CreatedOn" column="[CreatedOn]" type="DateTime" not-null="false" /> 
+        <property name="CreatedBy" column="[CreatedBy]" type="AnsiString" not-null="false" length="200" /> 
+        <property name="ModifiedOn" column="[ModifiedOn]" type="DateTime" not-null="false" /> 
+        <property name="ModifiedBy" column="[ModifiedBy]" type="AnsiString" not-null="false" length="200" />
+      <property name="OrName" column="[OrName]" type="AnsiString" not-null="false" length="200" />
+      <bag name="ApplydetailList" inverse="true" cascade="all-delete-orphan" lazy="true" >
+            <key>
+                <column name="[ApplyId]" />
+            </key>
+            <one-to-many class="Applydetail" />
+        </bag>
+    </class>
+</hibernate-mapping>
+

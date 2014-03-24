@@ -1,0 +1,126 @@
+.side
+{
+    z-index: 10;
+    overflow-y: auto;
+    position: relative;
+    font-size:13px;
+     background: #EAEEF4;
+}
+.side.panel-body
+{
+}
+.side a
+{
+    color: #2b4051;
+    display: block;
+    cursor: pointer;
+    text-decoration: none;
+}
+.side .side-inner
+{
+    height: 100%;
+    border-right: 1px solid #d4d4d4;
+    background: #EAEEF4;
+}
+.side .side-content
+{
+    padding: 6px 0;
+    background: #EAEEF4;
+}
+.side .side-content h2
+{
+    margin: 10px 0 3px;
+}
+.side .side-content h2 a
+{
+    text-align: left;
+    font-size: 14px;
+    padding: 0 0 0 30px;
+    font-weight: bold;
+    color: #354952;
+}
+.side-bx
+{
+    border-bottom: 1px solid #C1CFE2;
+    border-top: 1px solid white;
+    margin: 0 6px;
+}
+.side-bx.first
+{
+    border-top: none;
+}
+.side-bx ul
+{
+    padding: 1px 0 5px;
+}
+.side-bx li
+{
+    margin: 0 0 1px;
+}
+.side-bx a
+{
+    padding: 2px 18px 2px 20px;
+    height:20px;
+    line-height:20px;
+    zoom: 1;
+    text-decoration: none;
+}
+.side-bx a:hover
+{
+    background: #D8DDE9;
+    text-decoration: none;
+    color: #3c5283;
+}
+.side-bx .current, .side-bx .current:hover
+{
+    background-position: 0 -1006px;
+    color: white;
+    padding: 2px 18px 2px 20px;
+}
+
+
+.side-bx-title h3
+{
+    background: url(../../images/side_open_title_icon.png) no-repeat left center;
+    cursor: pointer;
+    padding: 4px 18px 4px 20px;
+    font-size: 13px;
+    color: black;
+    line-height: 22px;
+}
+.side-bx-toggled h3
+{
+    background: url(../../images/side_close_title_icon.png) no-repeat left center;
+}
+.side-r
+{
+    background: #EAEEF4;
+    border-left: 1px solid #d4d4d4;
+    margin: 0;
+    padding: 3px;
+    position: relative;
+}
+.side-r .side-r-resize
+{
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: -5px;
+    width: 5px;
+    cursor: col-resize;
+    z-index: 60000;
+}
+.side-r .side-r-resize-ing
+{
+    background: #4f6596;
+}
+div.side, div.side-r
+{
+    height: 100%;
+    margin: 0;
+}
+.side-bx .current, .side-bx .current:hover
+{
+    background: url(../../images/sprite.png) no-repeat;
+}
+

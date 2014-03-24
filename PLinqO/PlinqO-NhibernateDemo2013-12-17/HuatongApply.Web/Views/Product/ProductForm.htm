@@ -1,0 +1,71 @@
+﻿ <div id="dlg" class="easyui-dialog" title="Complex Toolbar on Dialog" style="width:400px;padding:10px"
+         data-options=" buttons: '#dlg-buttons',
+                        closed: true,
+                        shadow:false,
+                        modal:true
+			">
+     <form id="ff"  method="post">
+            <div id="formTabs" class="easyui-tabs">  
+                <div title="基本信息" style="padding:10px 0;">  
+                    <table class="custom_forms_popup">
+                        <tr>
+                            <td class="td_right" style=" width:30%;">
+                                Product Name:
+                            </td>
+                            <td class="td_left">
+                                <input class="easyui-validatebox" type="text" name="Productname"></input>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="td_right">
+                                Status:
+                            </td>
+                            <td class="td_left">
+                                <input class="easyui-validatebox" type="text" name="Status"></input>
+                            </td>
+                        </tr>
+                    </table>
+                </div>  
+                <div title="价格信息" style="padding:10px 0;">  
+                    <table class="custom_forms_popup">
+                        <tr>
+                            <td class="td_right" style=" width:30%;">
+                                Unitcost:
+                            </td>
+                            <td class="td_left">
+                                <input class="easyui-validatebox" type="text" name="Unitcost" value="0.0"></input>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="td_right">
+                                Listprice:
+                            </td>
+                            <td class="td_left">
+                                <input class="easyui-validatebox" type="text" name="Listprice" value="0.0">
+                            </td>
+                        </tr>
+                    </table>
+                </div>  
+                <div title="其它信息" style="padding:10px 0;">  
+                    <table class="custom_forms_popup">
+                        <tr>
+                            <td class="td_right" style=" width:30%;">
+                                Attr1:
+                            </td>
+                            <td class="td_left">
+                                <input class="easyui-validatebox" type="text" name="Attr1">
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div>
+                <input id="Itemid" type="hidden" name="Itemid"/>
+                <input id="Productid" type="hidden" name="Productid"/>
+            </div>
+    </form>
+</div>
+<div id="dlg-buttons">
+    <a href="javascript:void(0)" class="easyui-linkbutton" onclick="saveData();">Save</a>
+    <a href="javascript:void(0)" class="easyui-linkbutton" onclick="closeDialogAndClearForm();">Close</a>
+</div>

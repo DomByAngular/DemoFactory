@@ -1,0 +1,28 @@
+﻿<div class="side-inner">
+    <div class="side-content">
+    </div>
+</div>
+<script id="entry-template" type="text/x-handlebars-template">
+{{#each menu}}
+{{#if @index }}
+    <div class="side-bx">
+{{else}}
+    <div class="side-bx first">
+    {{/if}}
+        <div class="side-bx-title">
+            <h3>{{this.title}}</h3>
+        </div>
+        <div class="side-bx-bd">
+            <ul>
+                {{#each this.content}}
+                <li><a id={{this.id}} href="#"
+                    {{#if this.url}}
+                    ref="{{this.url}}" onclick="loadListPage(this)"
+                    {{/if}}
+                >{{this.content}}</a></li>
+                {{/each}}
+            </ul>
+        </div>
+    </div>
+{{/each}}
+</script>

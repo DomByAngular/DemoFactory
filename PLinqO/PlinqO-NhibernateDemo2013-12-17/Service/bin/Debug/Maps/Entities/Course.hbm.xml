@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" namespace="HuatongApply.Data" assembly="HuatongApply.Data">
+    <class name="Course" table="[dbo].[tb_course]" >
+        <id name="Identification" column="[CourseId]" type="Int32" >
+            <generator class="native" />
+        </id>
+        <property name="Name" column="[CourseName]" type="String" not-null="false" length="50" /> 
+        <bag name="StudentList" table="[dbo].[tb_studentcourses]" inverse="false" cascade="all" lazy="true" >
+            <key>
+                <column name="[CourseId]" />
+            </key>
+            <many-to-many class="Student" >
+                <column name="[StudentId]" />
+            </many-to-many>
+        </bag>
+    </class>
+</hibernate-mapping>
+

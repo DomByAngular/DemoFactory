@@ -1,0 +1,208 @@
+
+异常时间：2013-05-09 16:28:15,437 [14] 
+异常级别：ERROR 
+异 常 类：logerror [(null)] 
+ModuleService.GetModuleListByParentId(11)异常 
+ AutoMapper.AutoMapperMappingException: Trying to map System.Collections.Generic.List`1[[Data.Module, Data, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] to System.Collections.Generic.List`1[[BusinessObject.AdminBo.ModuleBO, BusinessObject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]].
+引发类型为“AutoMapper.AutoMapperMappingException”的异常。 ---> AutoMapper.AutoMapperMappingException: Trying to map Data.Module to BusinessObject.AdminBo.ModuleBO.
+Using mapping configuration for Data.Module to BusinessObject.AdminBo.ModuleBO
+引发类型为“AutoMapper.AutoMapperMappingException”的异常。 ---> AutoMapper.AutoMapperMappingException: Trying to map Data.Module to BusinessObject.AdminBo.ModuleBO.
+Using mapping configuration for Data.Module to BusinessObject.AdminBo.ModuleBO
+Destination property: ModuleMember
+引发类型为“AutoMapper.AutoMapperMappingException”的异常。 ---> AutoMapper.AutoMapperMappingException: Trying to map Data.Module to BusinessObject.AdminBo.ModuleBO.
+Using mapping configuration for Data.Module to BusinessObject.AdminBo.ModuleBO
+Destination property: ModuleMember
+引发类型为“AutoMapper.AutoMapperMappingException”的异常。 ---> AutoMapper.AutoMapperMappingException: Trying to map Castle.Proxies.ModuleProxy to BusinessObject.AdminBo.ModuleBO.
+Using mapping configuration for Data.Module to BusinessObject.AdminBo.ModuleBO
+Destination property: ModuleMember
+引发类型为“AutoMapper.AutoMapperMappingException”的异常。 ---> NHibernate.LazyInitializationException: Initializing[Data.Module#11]-Could not initialize proxy - no Session.
+   在 NHibernate.Proxy.AbstractLazyInitializer.Initialize()
+   在 NHibernate.Proxy.AbstractLazyInitializer.GetImplementation()
+   在 NHibernate.ByteCode.Castle.LazyInitializer.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.ModuleProxy.get_ModuleMember()
+   在 lambda_method(Closure , Object )
+   在 AutoMapper.Internal.PropertyGetter.GetValue(Object source)
+   在 AutoMapper.Internal.MemberGetter.Resolve(ResolutionResult source)
+   在 AutoMapper.PropertyMap.ResolveValue(ResolutionContext context)
+   在 AutoMapper.Mappers.TypeMapObjectMapperRegistry.PropertyMapMappingStrategy.MapPropertyValue(ResolutionContext context, IMappingEngineRunner mapper, Object mappedObject, PropertyMap propertyMap)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AutoMapper.Mappers.TypeMapObjectMapperRegistry.PropertyMapMappingStrategy.MapPropertyValue(ResolutionContext context, IMappingEngineRunner mapper, Object mappedObject, PropertyMap propertyMap)
+   在 AutoMapper.Mappers.TypeMapObjectMapperRegistry.PropertyMapMappingStrategy.Map(ResolutionContext context, IMappingEngineRunner mapper)
+   在 AutoMapper.Mappers.TypeMapMapper.Map(ResolutionContext context, IMappingEngineRunner mapper)
+   在 AutoMapper.MappingEngine.AutoMapper.IMappingEngineRunner.Map(ResolutionContext context)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AutoMapper.MappingEngine.AutoMapper.IMappingEngineRunner.Map(ResolutionContext context)
+   在 AutoMapper.Mappers.TypeMapObjectMapperRegistry.PropertyMapMappingStrategy.MapPropertyValue(ResolutionContext context, IMappingEngineRunner mapper, Object mappedObject, PropertyMap propertyMap)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AutoMapper.Mappers.TypeMapObjectMapperRegistry.PropertyMapMappingStrategy.MapPropertyValue(ResolutionContext context, IMappingEngineRunner mapper, Object mappedObject, PropertyMap propertyMap)
+   在 AutoMapper.Mappers.TypeMapObjectMapperRegistry.PropertyMapMappingStrategy.Map(ResolutionContext context, IMappingEngineRunner mapper)
+   在 AutoMapper.Mappers.TypeMapMapper.Map(ResolutionContext context, IMappingEngineRunner mapper)
+   在 AutoMapper.MappingEngine.AutoMapper.IMappingEngineRunner.Map(ResolutionContext context)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AutoMapper.MappingEngine.AutoMapper.IMappingEngineRunner.Map(ResolutionContext context)
+   在 AutoMapper.Mappers.EnumerableMapperBase`1.Map(ResolutionContext context, IMappingEngineRunner mapper)
+   在 AutoMapper.Mappers.CollectionMapper.Map(ResolutionContext context, IMappingEngineRunner mapper)
+   在 AutoMapper.MappingEngine.AutoMapper.IMappingEngineRunner.Map(ResolutionContext context)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AutoMapper.MappingEngine.AutoMapper.IMappingEngineRunner.Map(ResolutionContext context)
+   在 AutoMapper.MappingEngine.Map(Object source, Type sourceType, Type destinationType)
+   在 AutoMapper.MappingEngine.Map[TSource,TDestination](TSource source)
+   在 AutoMapper.Mapper.Map[TSource,TDestination](TSource source)
+   在 Services.Admin.ModuleControl.ModuleService.GetModuleListByParentId(Int32 parentId) 位置 E:\CommercialProjects\Huatong2\HuatongMIS\HuaTongBusinessWeb\Services\Admin\ModuleControl\ModuleService.cs:行号 202
+
+异常时间：2013-05-09 16:28:23,078 [13] 
+异常级别：ERROR 
+异 常 类：logerror [(null)] 
+ModuleService.GetModuleListByParentId(4)异常 
+ AutoMapper.AutoMapperMappingException: Trying to map System.Collections.Generic.List`1[[Data.Module, Data, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] to System.Collections.Generic.List`1[[BusinessObject.AdminBo.ModuleBO, BusinessObject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]].
+引发类型为“AutoMapper.AutoMapperMappingException”的异常。 ---> AutoMapper.AutoMapperMappingException: Trying to map Data.Module to BusinessObject.AdminBo.ModuleBO.
+Using mapping configuration for Data.Module to BusinessObject.AdminBo.ModuleBO
+引发类型为“AutoMapper.AutoMapperMappingException”的异常。 ---> AutoMapper.AutoMapperMappingException: Trying to map Data.Module to BusinessObject.AdminBo.ModuleBO.
+Using mapping configuration for Data.Module to BusinessObject.AdminBo.ModuleBO
+Destination property: ModuleMember
+引发类型为“AutoMapper.AutoMapperMappingException”的异常。 ---> AutoMapper.AutoMapperMappingException: Trying to map Data.Module to BusinessObject.AdminBo.ModuleBO.
+Using mapping configuration for Data.Module to BusinessObject.AdminBo.ModuleBO
+Destination property: ModuleMember
+引发类型为“AutoMapper.AutoMapperMappingException”的异常。 ---> AutoMapper.AutoMapperMappingException: Trying to map Castle.Proxies.ModuleProxy to BusinessObject.AdminBo.ModuleBO.
+Using mapping configuration for Data.Module to BusinessObject.AdminBo.ModuleBO
+Destination property: ModuleMember
+引发类型为“AutoMapper.AutoMapperMappingException”的异常。 ---> NHibernate.LazyInitializationException: Initializing[Data.Module#4]-Could not initialize proxy - no Session.
+   在 NHibernate.Proxy.AbstractLazyInitializer.Initialize()
+   在 NHibernate.Proxy.AbstractLazyInitializer.GetImplementation()
+   在 NHibernate.ByteCode.Castle.LazyInitializer.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.ModuleProxy.get_ModuleMember()
+   在 lambda_method(Closure , Object )
+   在 AutoMapper.Internal.PropertyGetter.GetValue(Object source)
+   在 AutoMapper.Internal.MemberGetter.Resolve(ResolutionResult source)
+   在 AutoMapper.PropertyMap.ResolveValue(ResolutionContext context)
+   在 AutoMapper.Mappers.TypeMapObjectMapperRegistry.PropertyMapMappingStrategy.MapPropertyValue(ResolutionContext context, IMappingEngineRunner mapper, Object mappedObject, PropertyMap propertyMap)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AutoMapper.Mappers.TypeMapObjectMapperRegistry.PropertyMapMappingStrategy.MapPropertyValue(ResolutionContext context, IMappingEngineRunner mapper, Object mappedObject, PropertyMap propertyMap)
+   在 AutoMapper.Mappers.TypeMapObjectMapperRegistry.PropertyMapMappingStrategy.Map(ResolutionContext context, IMappingEngineRunner mapper)
+   在 AutoMapper.Mappers.TypeMapMapper.Map(ResolutionContext context, IMappingEngineRunner mapper)
+   在 AutoMapper.MappingEngine.AutoMapper.IMappingEngineRunner.Map(ResolutionContext context)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AutoMapper.MappingEngine.AutoMapper.IMappingEngineRunner.Map(ResolutionContext context)
+   在 AutoMapper.Mappers.TypeMapObjectMapperRegistry.PropertyMapMappingStrategy.MapPropertyValue(ResolutionContext context, IMappingEngineRunner mapper, Object mappedObject, PropertyMap propertyMap)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AutoMapper.Mappers.TypeMapObjectMapperRegistry.PropertyMapMappingStrategy.MapPropertyValue(ResolutionContext context, IMappingEngineRunner mapper, Object mappedObject, PropertyMap propertyMap)
+   在 AutoMapper.Mappers.TypeMapObjectMapperRegistry.PropertyMapMappingStrategy.Map(ResolutionContext context, IMappingEngineRunner mapper)
+   在 AutoMapper.Mappers.TypeMapMapper.Map(ResolutionContext context, IMappingEngineRunner mapper)
+   在 AutoMapper.MappingEngine.AutoMapper.IMappingEngineRunner.Map(ResolutionContext context)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AutoMapper.MappingEngine.AutoMapper.IMappingEngineRunner.Map(ResolutionContext context)
+   在 AutoMapper.Mappers.EnumerableMapperBase`1.Map(ResolutionContext context, IMappingEngineRunner mapper)
+   在 AutoMapper.Mappers.CollectionMapper.Map(ResolutionContext context, IMappingEngineRunner mapper)
+   在 AutoMapper.MappingEngine.AutoMapper.IMappingEngineRunner.Map(ResolutionContext context)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AutoMapper.MappingEngine.AutoMapper.IMappingEngineRunner.Map(ResolutionContext context)
+   在 AutoMapper.MappingEngine.Map(Object source, Type sourceType, Type destinationType)
+   在 AutoMapper.MappingEngine.Map[TSource,TDestination](TSource source)
+   在 AutoMapper.Mapper.Map[TSource,TDestination](TSource source)
+   在 Services.Admin.ModuleControl.ModuleService.GetModuleListByParentId(Int32 parentId) 位置 E:\CommercialProjects\Huatong2\HuatongMIS\HuaTongBusinessWeb\Services\Admin\ModuleControl\ModuleService.cs:行号 202
+
+异常时间：2013-05-09 16:28:27,468 [12] 
+异常级别：ERROR 
+异 常 类：logerror [(null)] 
+ModuleService.GetModuleListByParentId(4)异常 
+ AutoMapper.AutoMapperMappingException: Trying to map System.Collections.Generic.List`1[[Data.Module, Data, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] to System.Collections.Generic.List`1[[BusinessObject.AdminBo.ModuleBO, BusinessObject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]].
+引发类型为“AutoMapper.AutoMapperMappingException”的异常。 ---> AutoMapper.AutoMapperMappingException: Trying to map Data.Module to BusinessObject.AdminBo.ModuleBO.
+Using mapping configuration for Data.Module to BusinessObject.AdminBo.ModuleBO
+引发类型为“AutoMapper.AutoMapperMappingException”的异常。 ---> AutoMapper.AutoMapperMappingException: Trying to map Data.Module to BusinessObject.AdminBo.ModuleBO.
+Using mapping configuration for Data.Module to BusinessObject.AdminBo.ModuleBO
+Destination property: ModuleMember
+引发类型为“AutoMapper.AutoMapperMappingException”的异常。 ---> AutoMapper.AutoMapperMappingException: Trying to map Data.Module to BusinessObject.AdminBo.ModuleBO.
+Using mapping configuration for Data.Module to BusinessObject.AdminBo.ModuleBO
+Destination property: ModuleMember
+引发类型为“AutoMapper.AutoMapperMappingException”的异常。 ---> AutoMapper.AutoMapperMappingException: Trying to map Castle.Proxies.ModuleProxy to BusinessObject.AdminBo.ModuleBO.
+Using mapping configuration for Data.Module to BusinessObject.AdminBo.ModuleBO
+Destination property: ModuleMember
+引发类型为“AutoMapper.AutoMapperMappingException”的异常。 ---> NHibernate.LazyInitializationException: Initializing[Data.Module#4]-Could not initialize proxy - no Session.
+   在 NHibernate.Proxy.AbstractLazyInitializer.Initialize()
+   在 NHibernate.Proxy.AbstractLazyInitializer.GetImplementation()
+   在 NHibernate.ByteCode.Castle.LazyInitializer.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.ModuleProxy.get_ModuleMember()
+   在 lambda_method(Closure , Object )
+   在 AutoMapper.Internal.PropertyGetter.GetValue(Object source)
+   在 AutoMapper.Internal.MemberGetter.Resolve(ResolutionResult source)
+   在 AutoMapper.PropertyMap.ResolveValue(ResolutionContext context)
+   在 AutoMapper.Mappers.TypeMapObjectMapperRegistry.PropertyMapMappingStrategy.MapPropertyValue(ResolutionContext context, IMappingEngineRunner mapper, Object mappedObject, PropertyMap propertyMap)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AutoMapper.Mappers.TypeMapObjectMapperRegistry.PropertyMapMappingStrategy.MapPropertyValue(ResolutionContext context, IMappingEngineRunner mapper, Object mappedObject, PropertyMap propertyMap)
+   在 AutoMapper.Mappers.TypeMapObjectMapperRegistry.PropertyMapMappingStrategy.Map(ResolutionContext context, IMappingEngineRunner mapper)
+   在 AutoMapper.Mappers.TypeMapMapper.Map(ResolutionContext context, IMappingEngineRunner mapper)
+   在 AutoMapper.MappingEngine.AutoMapper.IMappingEngineRunner.Map(ResolutionContext context)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AutoMapper.MappingEngine.AutoMapper.IMappingEngineRunner.Map(ResolutionContext context)
+   在 AutoMapper.Mappers.TypeMapObjectMapperRegistry.PropertyMapMappingStrategy.MapPropertyValue(ResolutionContext context, IMappingEngineRunner mapper, Object mappedObject, PropertyMap propertyMap)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AutoMapper.Mappers.TypeMapObjectMapperRegistry.PropertyMapMappingStrategy.MapPropertyValue(ResolutionContext context, IMappingEngineRunner mapper, Object mappedObject, PropertyMap propertyMap)
+   在 AutoMapper.Mappers.TypeMapObjectMapperRegistry.PropertyMapMappingStrategy.Map(ResolutionContext context, IMappingEngineRunner mapper)
+   在 AutoMapper.Mappers.TypeMapMapper.Map(ResolutionContext context, IMappingEngineRunner mapper)
+   在 AutoMapper.MappingEngine.AutoMapper.IMappingEngineRunner.Map(ResolutionContext context)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AutoMapper.MappingEngine.AutoMapper.IMappingEngineRunner.Map(ResolutionContext context)
+   在 AutoMapper.Mappers.EnumerableMapperBase`1.Map(ResolutionContext context, IMappingEngineRunner mapper)
+   在 AutoMapper.Mappers.CollectionMapper.Map(ResolutionContext context, IMappingEngineRunner mapper)
+   在 AutoMapper.MappingEngine.AutoMapper.IMappingEngineRunner.Map(ResolutionContext context)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AutoMapper.MappingEngine.AutoMapper.IMappingEngineRunner.Map(ResolutionContext context)
+   在 AutoMapper.MappingEngine.Map(Object source, Type sourceType, Type destinationType)
+   在 AutoMapper.MappingEngine.Map[TSource,TDestination](TSource source)
+   在 AutoMapper.Mapper.Map[TSource,TDestination](TSource source)
+   在 Services.Admin.ModuleControl.ModuleService.GetModuleListByParentId(Int32 parentId) 位置 E:\CommercialProjects\Huatong2\HuatongMIS\HuaTongBusinessWeb\Services\Admin\ModuleControl\ModuleService.cs:行号 202
+
+异常时间：2013-05-09 16:28:32,359 [15] 
+异常级别：ERROR 
+异 常 类：logerror [(null)] 
+ModuleService.GetModuleListByParentId(4)异常 
+ AutoMapper.AutoMapperMappingException: Trying to map System.Collections.Generic.List`1[[Data.Module, Data, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] to System.Collections.Generic.List`1[[BusinessObject.AdminBo.ModuleBO, BusinessObject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]].
+引发类型为“AutoMapper.AutoMapperMappingException”的异常。 ---> AutoMapper.AutoMapperMappingException: Trying to map Data.Module to BusinessObject.AdminBo.ModuleBO.
+Using mapping configuration for Data.Module to BusinessObject.AdminBo.ModuleBO
+引发类型为“AutoMapper.AutoMapperMappingException”的异常。 ---> AutoMapper.AutoMapperMappingException: Trying to map Data.Module to BusinessObject.AdminBo.ModuleBO.
+Using mapping configuration for Data.Module to BusinessObject.AdminBo.ModuleBO
+Destination property: ModuleMember
+引发类型为“AutoMapper.AutoMapperMappingException”的异常。 ---> AutoMapper.AutoMapperMappingException: Trying to map Data.Module to BusinessObject.AdminBo.ModuleBO.
+Using mapping configuration for Data.Module to BusinessObject.AdminBo.ModuleBO
+Destination property: ModuleMember
+引发类型为“AutoMapper.AutoMapperMappingException”的异常。 ---> AutoMapper.AutoMapperMappingException: Trying to map Castle.Proxies.ModuleProxy to BusinessObject.AdminBo.ModuleBO.
+Using mapping configuration for Data.Module to BusinessObject.AdminBo.ModuleBO
+Destination property: ModuleMember
+引发类型为“AutoMapper.AutoMapperMappingException”的异常。 ---> NHibernate.LazyInitializationException: Initializing[Data.Module#4]-Could not initialize proxy - no Session.
+   在 NHibernate.Proxy.AbstractLazyInitializer.Initialize()
+   在 NHibernate.Proxy.AbstractLazyInitializer.GetImplementation()
+   在 NHibernate.ByteCode.Castle.LazyInitializer.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.ModuleProxy.get_ModuleMember()
+   在 lambda_method(Closure , Object )
+   在 AutoMapper.Internal.PropertyGetter.GetValue(Object source)
+   在 AutoMapper.Internal.MemberGetter.Resolve(ResolutionResult source)
+   在 AutoMapper.PropertyMap.ResolveValue(ResolutionContext context)
+   在 AutoMapper.Mappers.TypeMapObjectMapperRegistry.PropertyMapMappingStrategy.MapPropertyValue(ResolutionContext context, IMappingEngineRunner mapper, Object mappedObject, PropertyMap propertyMap)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AutoMapper.Mappers.TypeMapObjectMapperRegistry.PropertyMapMappingStrategy.MapPropertyValue(ResolutionContext context, IMappingEngineRunner mapper, Object mappedObject, PropertyMap propertyMap)
+   在 AutoMapper.Mappers.TypeMapObjectMapperRegistry.PropertyMapMappingStrategy.Map(ResolutionContext context, IMappingEngineRunner mapper)
+   在 AutoMapper.Mappers.TypeMapMapper.Map(ResolutionContext context, IMappingEngineRunner mapper)
+   在 AutoMapper.MappingEngine.AutoMapper.IMappingEngineRunner.Map(ResolutionContext context)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AutoMapper.MappingEngine.AutoMapper.IMappingEngineRunner.Map(ResolutionContext context)
+   在 AutoMapper.Mappers.TypeMapObjectMapperRegistry.PropertyMapMappingStrategy.MapPropertyValue(ResolutionContext context, IMappingEngineRunner mapper, Object mappedObject, PropertyMap propertyMap)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AutoMapper.Mappers.TypeMapObjectMapperRegistry.PropertyMapMappingStrategy.MapPropertyValue(ResolutionContext context, IMappingEngineRunner mapper, Object mappedObject, PropertyMap propertyMap)
+   在 AutoMapper.Mappers.TypeMapObjectMapperRegistry.PropertyMapMappingStrategy.Map(ResolutionContext context, IMappingEngineRunner mapper)
+   在 AutoMapper.Mappers.TypeMapMapper.Map(ResolutionContext context, IMappingEngineRunner mapper)
+   在 AutoMapper.MappingEngine.AutoMapper.IMappingEngineRunner.Map(ResolutionContext context)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AutoMapper.MappingEngine.AutoMapper.IMappingEngineRunner.Map(ResolutionContext context)
+   在 AutoMapper.Mappers.EnumerableMapperBase`1.Map(ResolutionContext context, IMappingEngineRunner mapper)
+   在 AutoMapper.Mappers.CollectionMapper.Map(ResolutionContext context, IMappingEngineRunner mapper)
+   在 AutoMapper.MappingEngine.AutoMapper.IMappingEngineRunner.Map(ResolutionContext context)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AutoMapper.MappingEngine.AutoMapper.IMappingEngineRunner.Map(ResolutionContext context)
+   在 AutoMapper.MappingEngine.Map(Object source, Type sourceType, Type destinationType)
+   在 AutoMapper.MappingEngine.Map[TSource,TDestination](TSource source)
+   在 AutoMapper.Mapper.Map[TSource,TDestination](TSource source)
+   在 Services.Admin.ModuleControl.ModuleService.GetModuleListByParentId(Int32 parentId) 位置 E:\CommercialProjects\Huatong2\HuatongMIS\HuaTongBusinessWeb\Services\Admin\ModuleControl\ModuleService.cs:行号 202

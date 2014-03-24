@@ -1,0 +1,482 @@
+
+异常时间：2013-12-14 20:19:13,604 [17] 
+异常级别：ERROR 
+异 常 类：logerror [(null)] 
+ApplyRecordSevice.AddApplyRecord(BusinessObject.CostBo.ApplyRecordBO) 
+ AutoMapper.AutoMapperMappingException: Trying to map BusinessObject.CostBo.ApplyRecordBO to HuatongApply.Data.Applyrecord.
+Using mapping configuration for BusinessObject.CostBo.ApplyRecordBO to HuatongApply.Data.Applyrecord
+引发类型为“AutoMapper.AutoMapperMappingException”的异常。 ---> AutoMapper.AutoMapperMappingException: Trying to map System.Single to System.Nullable`1[[System.Double, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]].
+Using mapping configuration for BusinessObject.CostBo.ApplyRecordBO to HuatongApply.Data.Applyrecord
+Destination property: Price
+引发类型为“AutoMapper.AutoMapperMappingException”的异常。 ---> System.InvalidCastException: 指定的转换无效。
+   在 SetPrice(Object , Object )
+   在 AutoMapper.Internal.PropertyAccessor.SetValue(Object destination, Object value)
+   在 AutoMapper.Mappers.TypeMapObjectMapperRegistry.PropertyMapMappingStrategy.AssignValue(PropertyMap propertyMap, Object mappedObject, Object propertyValueToAssign)
+   在 AutoMapper.Mappers.TypeMapObjectMapperRegistry.PropertyMapMappingStrategy.MapPropertyValue(ResolutionContext context, IMappingEngineRunner mapper, Object mappedObject, PropertyMap propertyMap)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AutoMapper.Mappers.TypeMapObjectMapperRegistry.PropertyMapMappingStrategy.MapPropertyValue(ResolutionContext context, IMappingEngineRunner mapper, Object mappedObject, PropertyMap propertyMap)
+   在 AutoMapper.Mappers.TypeMapObjectMapperRegistry.PropertyMapMappingStrategy.Map(ResolutionContext context, IMappingEngineRunner mapper)
+   在 AutoMapper.Mappers.TypeMapMapper.Map(ResolutionContext context, IMappingEngineRunner mapper)
+   在 AutoMapper.MappingEngine.AutoMapper.IMappingEngineRunner.Map(ResolutionContext context)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AutoMapper.MappingEngine.AutoMapper.IMappingEngineRunner.Map(ResolutionContext context)
+   在 AutoMapper.MappingEngine.Map(Object source, Type sourceType, Type destinationType)
+   在 AutoMapper.MappingEngine.Map[TSource,TDestination](TSource source)
+   在 AutoMapper.Mapper.Map[TSource,TDestination](TSource source)
+   在 Service.Cost.ReimbursementControl.ApplyRecordService.AddApplyRecord(ApplyRecordBO applyRecordBo) 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\Service\Cost\ReimbursementControl\ApplyRecordService.cs:行号 61
+
+异常时间：2013-12-14 20:19:34,898 [28] 
+异常级别：ERROR 
+异 常 类：logerror [(null)] 
+ApplyRecordSevice.AddApplyRecord(BusinessObject.CostBo.ApplyRecordBO) 
+ AutoMapper.AutoMapperMappingException: Trying to map BusinessObject.CostBo.ApplyRecordBO to HuatongApply.Data.Applyrecord.
+Using mapping configuration for BusinessObject.CostBo.ApplyRecordBO to HuatongApply.Data.Applyrecord
+引发类型为“AutoMapper.AutoMapperMappingException”的异常。 ---> AutoMapper.AutoMapperMappingException: Trying to map System.Single to System.Nullable`1[[System.Double, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]].
+Using mapping configuration for BusinessObject.CostBo.ApplyRecordBO to HuatongApply.Data.Applyrecord
+Destination property: Price
+引发类型为“AutoMapper.AutoMapperMappingException”的异常。 ---> System.InvalidCastException: 指定的转换无效。
+   在 SetPrice(Object , Object )
+   在 AutoMapper.Internal.PropertyAccessor.SetValue(Object destination, Object value)
+   在 AutoMapper.Mappers.TypeMapObjectMapperRegistry.PropertyMapMappingStrategy.AssignValue(PropertyMap propertyMap, Object mappedObject, Object propertyValueToAssign)
+   在 AutoMapper.Mappers.TypeMapObjectMapperRegistry.PropertyMapMappingStrategy.MapPropertyValue(ResolutionContext context, IMappingEngineRunner mapper, Object mappedObject, PropertyMap propertyMap)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AutoMapper.Mappers.TypeMapObjectMapperRegistry.PropertyMapMappingStrategy.MapPropertyValue(ResolutionContext context, IMappingEngineRunner mapper, Object mappedObject, PropertyMap propertyMap)
+   在 AutoMapper.Mappers.TypeMapObjectMapperRegistry.PropertyMapMappingStrategy.Map(ResolutionContext context, IMappingEngineRunner mapper)
+   在 AutoMapper.Mappers.TypeMapMapper.Map(ResolutionContext context, IMappingEngineRunner mapper)
+   在 AutoMapper.MappingEngine.AutoMapper.IMappingEngineRunner.Map(ResolutionContext context)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AutoMapper.MappingEngine.AutoMapper.IMappingEngineRunner.Map(ResolutionContext context)
+   在 AutoMapper.MappingEngine.Map(Object source, Type sourceType, Type destinationType)
+   在 AutoMapper.MappingEngine.Map[TSource,TDestination](TSource source)
+   在 AutoMapper.Mapper.Map[TSource,TDestination](TSource source)
+   在 Service.Cost.ReimbursementControl.ApplyRecordService.AddApplyRecord(ApplyRecordBO applyRecordBo) 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\Service\Cost\ReimbursementControl\ApplyRecordService.cs:行号 61
+
+异常时间：2013-12-14 20:28:48,238 [5] 
+异常级别：ERROR 
+异 常 类：logerror [(null)] 
+ApplyRecordSevice.AddApplyRecord(BusinessObject.CostBo.ApplyRecordBO) 
+ AutoMapper.AutoMapperMappingException: Trying to map BusinessObject.CostBo.ApplyRecordBO to HuatongApply.Data.Applyrecord.
+Using mapping configuration for BusinessObject.CostBo.ApplyRecordBO to HuatongApply.Data.Applyrecord
+引发类型为“AutoMapper.AutoMapperMappingException”的异常。 ---> AutoMapper.AutoMapperMappingException: Trying to map System.Single to System.Nullable`1[[System.Double, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]].
+Using mapping configuration for BusinessObject.CostBo.ApplyRecordBO to HuatongApply.Data.Applyrecord
+Destination property: Price
+引发类型为“AutoMapper.AutoMapperMappingException”的异常。 ---> System.InvalidCastException: 指定的转换无效。
+   在 SetPrice(Object , Object )
+   在 AutoMapper.Internal.PropertyAccessor.SetValue(Object destination, Object value)
+   在 AutoMapper.Mappers.TypeMapObjectMapperRegistry.PropertyMapMappingStrategy.AssignValue(PropertyMap propertyMap, Object mappedObject, Object propertyValueToAssign)
+   在 AutoMapper.Mappers.TypeMapObjectMapperRegistry.PropertyMapMappingStrategy.MapPropertyValue(ResolutionContext context, IMappingEngineRunner mapper, Object mappedObject, PropertyMap propertyMap)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AutoMapper.Mappers.TypeMapObjectMapperRegistry.PropertyMapMappingStrategy.MapPropertyValue(ResolutionContext context, IMappingEngineRunner mapper, Object mappedObject, PropertyMap propertyMap)
+   在 AutoMapper.Mappers.TypeMapObjectMapperRegistry.PropertyMapMappingStrategy.Map(ResolutionContext context, IMappingEngineRunner mapper)
+   在 AutoMapper.Mappers.TypeMapMapper.Map(ResolutionContext context, IMappingEngineRunner mapper)
+   在 AutoMapper.MappingEngine.AutoMapper.IMappingEngineRunner.Map(ResolutionContext context)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AutoMapper.MappingEngine.AutoMapper.IMappingEngineRunner.Map(ResolutionContext context)
+   在 AutoMapper.MappingEngine.Map(Object source, Type sourceType, Type destinationType)
+   在 AutoMapper.MappingEngine.Map[TSource,TDestination](TSource source)
+   在 AutoMapper.Mapper.Map[TSource,TDestination](TSource source)
+   在 Service.Cost.ReimbursementControl.ApplyRecordService.AddApplyRecord(ApplyRecordBO applyRecordBo) 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\Service\Cost\ReimbursementControl\ApplyRecordService.cs:行号 61
+
+异常时间：2013-12-14 20:40:00,832 [11] 
+异常级别：ERROR 
+异 常 类：logerror [(null)] 
+ApplyRecordSevice.AddApplyRecord(BusinessObject.CostBo.ApplyRecordBO) 
+ AutoMapper.AutoMapperMappingException: Trying to map BusinessObject.CostBo.ApplyRecordBO to HuatongApply.Data.Applyrecord.
+Using mapping configuration for BusinessObject.CostBo.ApplyRecordBO to HuatongApply.Data.Applyrecord
+引发类型为“AutoMapper.AutoMapperMappingException”的异常。 ---> AutoMapper.AutoMapperMappingException: Trying to map System.Single to System.Nullable`1[[System.Double, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]].
+Using mapping configuration for BusinessObject.CostBo.ApplyRecordBO to HuatongApply.Data.Applyrecord
+Destination property: Price
+引发类型为“AutoMapper.AutoMapperMappingException”的异常。 ---> System.InvalidCastException: 指定的转换无效。
+   在 SetPrice(Object , Object )
+   在 AutoMapper.Internal.PropertyAccessor.SetValue(Object destination, Object value)
+   在 AutoMapper.Mappers.TypeMapObjectMapperRegistry.PropertyMapMappingStrategy.AssignValue(PropertyMap propertyMap, Object mappedObject, Object propertyValueToAssign)
+   在 AutoMapper.Mappers.TypeMapObjectMapperRegistry.PropertyMapMappingStrategy.MapPropertyValue(ResolutionContext context, IMappingEngineRunner mapper, Object mappedObject, PropertyMap propertyMap)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AutoMapper.Mappers.TypeMapObjectMapperRegistry.PropertyMapMappingStrategy.MapPropertyValue(ResolutionContext context, IMappingEngineRunner mapper, Object mappedObject, PropertyMap propertyMap)
+   在 AutoMapper.Mappers.TypeMapObjectMapperRegistry.PropertyMapMappingStrategy.Map(ResolutionContext context, IMappingEngineRunner mapper)
+   在 AutoMapper.Mappers.TypeMapMapper.Map(ResolutionContext context, IMappingEngineRunner mapper)
+   在 AutoMapper.MappingEngine.AutoMapper.IMappingEngineRunner.Map(ResolutionContext context)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AutoMapper.MappingEngine.AutoMapper.IMappingEngineRunner.Map(ResolutionContext context)
+   在 AutoMapper.MappingEngine.Map(Object source, Type sourceType, Type destinationType)
+   在 AutoMapper.MappingEngine.Map[TSource,TDestination](TSource source)
+   在 AutoMapper.Mapper.Map[TSource,TDestination](TSource source)
+   在 Service.Cost.ReimbursementControl.ApplyRecordService.AddApplyRecord(ApplyRecordBO applyRecordBo) 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\Service\Cost\ReimbursementControl\ApplyRecordService.cs:行号 61
+
+异常时间：2013-12-14 20:52:40,305 [17] 
+异常级别：ERROR 
+异 常 类：logerror [(null)] 
+ApplyRecordSevice.AddApplyRecord(BusinessObject.CostBo.ApplyRecordBO) 
+ AutoMapper.AutoMapperMappingException: Trying to map BusinessObject.CostBo.ApplyRecordBO to HuatongApply.Data.Applyrecord.
+Using mapping configuration for BusinessObject.CostBo.ApplyRecordBO to HuatongApply.Data.Applyrecord
+引发类型为“AutoMapper.AutoMapperMappingException”的异常。 ---> AutoMapper.AutoMapperMappingException: Trying to map System.Single to System.Nullable`1[[System.Double, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]].
+Using mapping configuration for BusinessObject.CostBo.ApplyRecordBO to HuatongApply.Data.Applyrecord
+Destination property: Price
+引发类型为“AutoMapper.AutoMapperMappingException”的异常。 ---> System.InvalidCastException: 指定的转换无效。
+   在 SetPrice(Object , Object )
+   在 AutoMapper.Internal.PropertyAccessor.SetValue(Object destination, Object value)
+   在 AutoMapper.Mappers.TypeMapObjectMapperRegistry.PropertyMapMappingStrategy.AssignValue(PropertyMap propertyMap, Object mappedObject, Object propertyValueToAssign)
+   在 AutoMapper.Mappers.TypeMapObjectMapperRegistry.PropertyMapMappingStrategy.MapPropertyValue(ResolutionContext context, IMappingEngineRunner mapper, Object mappedObject, PropertyMap propertyMap)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AutoMapper.Mappers.TypeMapObjectMapperRegistry.PropertyMapMappingStrategy.MapPropertyValue(ResolutionContext context, IMappingEngineRunner mapper, Object mappedObject, PropertyMap propertyMap)
+   在 AutoMapper.Mappers.TypeMapObjectMapperRegistry.PropertyMapMappingStrategy.Map(ResolutionContext context, IMappingEngineRunner mapper)
+   在 AutoMapper.Mappers.TypeMapMapper.Map(ResolutionContext context, IMappingEngineRunner mapper)
+   在 AutoMapper.MappingEngine.AutoMapper.IMappingEngineRunner.Map(ResolutionContext context)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AutoMapper.MappingEngine.AutoMapper.IMappingEngineRunner.Map(ResolutionContext context)
+   在 AutoMapper.MappingEngine.Map(Object source, Type sourceType, Type destinationType)
+   在 AutoMapper.MappingEngine.Map[TSource,TDestination](TSource source)
+   在 AutoMapper.Mapper.Map[TSource,TDestination](TSource source)
+   在 Service.Cost.ReimbursementControl.ApplyRecordService.AddApplyRecord(ApplyRecordBO applyRecordBo) 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\Service\Cost\ReimbursementControl\ApplyRecordService.cs:行号 61
+
+异常时间：2013-12-14 20:58:29,789 [7] 
+异常级别：ERROR 
+异 常 类：logerror [(null)] 
+ApplyRecordService.GetApplyDetailsByRecordId(1) 
+ AutoMapper.AutoMapperMappingException: Trying to map System.Collections.Generic.List`1[[HuatongApply.Data.Applydetail, HuatongApply.Data, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] to System.Collections.Generic.List`1[[BusinessObject.CostBo.ApplydetailBO, BusinessObject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]].
+引发类型为“AutoMapper.AutoMapperMappingException”的异常。 ---> AutoMapper.AutoMapperMappingException: Trying to map HuatongApply.Data.Applydetail to BusinessObject.CostBo.ApplydetailBO.
+Using mapping configuration for HuatongApply.Data.Applydetail to BusinessObject.CostBo.ApplydetailBO
+引发类型为“AutoMapper.AutoMapperMappingException”的异常。 ---> AutoMapper.AutoMapperMappingException: Trying to map System.Double to System.Nullable`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]].
+Using mapping configuration for HuatongApply.Data.Applydetail to BusinessObject.CostBo.ApplydetailBO
+Destination property: Price
+引发类型为“AutoMapper.AutoMapperMappingException”的异常。 ---> System.InvalidCastException: 指定的转换无效。
+   在 SetPrice(Object , Object )
+   在 AutoMapper.Internal.PropertyAccessor.SetValue(Object destination, Object value)
+   在 AutoMapper.Mappers.TypeMapObjectMapperRegistry.PropertyMapMappingStrategy.AssignValue(PropertyMap propertyMap, Object mappedObject, Object propertyValueToAssign)
+   在 AutoMapper.Mappers.TypeMapObjectMapperRegistry.PropertyMapMappingStrategy.MapPropertyValue(ResolutionContext context, IMappingEngineRunner mapper, Object mappedObject, PropertyMap propertyMap)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AutoMapper.Mappers.TypeMapObjectMapperRegistry.PropertyMapMappingStrategy.MapPropertyValue(ResolutionContext context, IMappingEngineRunner mapper, Object mappedObject, PropertyMap propertyMap)
+   在 AutoMapper.Mappers.TypeMapObjectMapperRegistry.PropertyMapMappingStrategy.Map(ResolutionContext context, IMappingEngineRunner mapper)
+   在 AutoMapper.Mappers.TypeMapMapper.Map(ResolutionContext context, IMappingEngineRunner mapper)
+   在 AutoMapper.MappingEngine.AutoMapper.IMappingEngineRunner.Map(ResolutionContext context)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AutoMapper.MappingEngine.AutoMapper.IMappingEngineRunner.Map(ResolutionContext context)
+   在 AutoMapper.Mappers.EnumerableMapperBase`1.Map(ResolutionContext context, IMappingEngineRunner mapper)
+   在 AutoMapper.Mappers.CollectionMapper.Map(ResolutionContext context, IMappingEngineRunner mapper)
+   在 AutoMapper.MappingEngine.AutoMapper.IMappingEngineRunner.Map(ResolutionContext context)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AutoMapper.MappingEngine.AutoMapper.IMappingEngineRunner.Map(ResolutionContext context)
+   在 AutoMapper.MappingEngine.Map(Object source, Type sourceType, Type destinationType)
+   在 AutoMapper.MappingEngine.Map[TSource,TDestination](TSource source)
+   在 AutoMapper.Mapper.Map[TSource,TDestination](TSource source)
+   在 Service.Cost.ReimbursementControl.ApplyRecordService.GetApplyDetailsByRecordId(Int32 id) 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\Service\Cost\ReimbursementControl\ApplyRecordService.cs:行号 356
+
+异常时间：2013-12-14 20:58:38,890 [6] 
+异常级别：ERROR 
+异 常 类：logerror [(null)] 
+ApplyRecordService.GetApplyDetailsByRecordId(1) 
+ AutoMapper.AutoMapperMappingException: Trying to map System.Collections.Generic.List`1[[HuatongApply.Data.Applydetail, HuatongApply.Data, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] to System.Collections.Generic.List`1[[BusinessObject.CostBo.ApplydetailBO, BusinessObject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]].
+引发类型为“AutoMapper.AutoMapperMappingException”的异常。 ---> AutoMapper.AutoMapperMappingException: Trying to map HuatongApply.Data.Applydetail to BusinessObject.CostBo.ApplydetailBO.
+Using mapping configuration for HuatongApply.Data.Applydetail to BusinessObject.CostBo.ApplydetailBO
+引发类型为“AutoMapper.AutoMapperMappingException”的异常。 ---> AutoMapper.AutoMapperMappingException: Trying to map System.Double to System.Nullable`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]].
+Using mapping configuration for HuatongApply.Data.Applydetail to BusinessObject.CostBo.ApplydetailBO
+Destination property: Price
+引发类型为“AutoMapper.AutoMapperMappingException”的异常。 ---> System.InvalidCastException: 指定的转换无效。
+   在 SetPrice(Object , Object )
+   在 AutoMapper.Internal.PropertyAccessor.SetValue(Object destination, Object value)
+   在 AutoMapper.Mappers.TypeMapObjectMapperRegistry.PropertyMapMappingStrategy.AssignValue(PropertyMap propertyMap, Object mappedObject, Object propertyValueToAssign)
+   在 AutoMapper.Mappers.TypeMapObjectMapperRegistry.PropertyMapMappingStrategy.MapPropertyValue(ResolutionContext context, IMappingEngineRunner mapper, Object mappedObject, PropertyMap propertyMap)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AutoMapper.Mappers.TypeMapObjectMapperRegistry.PropertyMapMappingStrategy.MapPropertyValue(ResolutionContext context, IMappingEngineRunner mapper, Object mappedObject, PropertyMap propertyMap)
+   在 AutoMapper.Mappers.TypeMapObjectMapperRegistry.PropertyMapMappingStrategy.Map(ResolutionContext context, IMappingEngineRunner mapper)
+   在 AutoMapper.Mappers.TypeMapMapper.Map(ResolutionContext context, IMappingEngineRunner mapper)
+   在 AutoMapper.MappingEngine.AutoMapper.IMappingEngineRunner.Map(ResolutionContext context)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AutoMapper.MappingEngine.AutoMapper.IMappingEngineRunner.Map(ResolutionContext context)
+   在 AutoMapper.Mappers.EnumerableMapperBase`1.Map(ResolutionContext context, IMappingEngineRunner mapper)
+   在 AutoMapper.Mappers.CollectionMapper.Map(ResolutionContext context, IMappingEngineRunner mapper)
+   在 AutoMapper.MappingEngine.AutoMapper.IMappingEngineRunner.Map(ResolutionContext context)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AutoMapper.MappingEngine.AutoMapper.IMappingEngineRunner.Map(ResolutionContext context)
+   在 AutoMapper.MappingEngine.Map(Object source, Type sourceType, Type destinationType)
+   在 AutoMapper.MappingEngine.Map[TSource,TDestination](TSource source)
+   在 AutoMapper.Mapper.Map[TSource,TDestination](TSource source)
+   在 Service.Cost.ReimbursementControl.ApplyRecordService.GetApplyDetailsByRecordId(Int32 id) 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\Service\Cost\ReimbursementControl\ApplyRecordService.cs:行号 356
+
+异常时间：2013-12-14 20:58:45,347 [6] 
+异常级别：ERROR 
+异 常 类：logerror [(null)] 
+ApplyRecordService.GetApplyDetailsByRecordId(1) 
+ AutoMapper.AutoMapperMappingException: Trying to map System.Collections.Generic.List`1[[HuatongApply.Data.Applydetail, HuatongApply.Data, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] to System.Collections.Generic.List`1[[BusinessObject.CostBo.ApplydetailBO, BusinessObject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]].
+引发类型为“AutoMapper.AutoMapperMappingException”的异常。 ---> AutoMapper.AutoMapperMappingException: Trying to map HuatongApply.Data.Applydetail to BusinessObject.CostBo.ApplydetailBO.
+Using mapping configuration for HuatongApply.Data.Applydetail to BusinessObject.CostBo.ApplydetailBO
+引发类型为“AutoMapper.AutoMapperMappingException”的异常。 ---> AutoMapper.AutoMapperMappingException: Trying to map System.Double to System.Nullable`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]].
+Using mapping configuration for HuatongApply.Data.Applydetail to BusinessObject.CostBo.ApplydetailBO
+Destination property: Price
+引发类型为“AutoMapper.AutoMapperMappingException”的异常。 ---> System.InvalidCastException: 指定的转换无效。
+   在 SetPrice(Object , Object )
+   在 AutoMapper.Internal.PropertyAccessor.SetValue(Object destination, Object value)
+   在 AutoMapper.Mappers.TypeMapObjectMapperRegistry.PropertyMapMappingStrategy.AssignValue(PropertyMap propertyMap, Object mappedObject, Object propertyValueToAssign)
+   在 AutoMapper.Mappers.TypeMapObjectMapperRegistry.PropertyMapMappingStrategy.MapPropertyValue(ResolutionContext context, IMappingEngineRunner mapper, Object mappedObject, PropertyMap propertyMap)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AutoMapper.Mappers.TypeMapObjectMapperRegistry.PropertyMapMappingStrategy.MapPropertyValue(ResolutionContext context, IMappingEngineRunner mapper, Object mappedObject, PropertyMap propertyMap)
+   在 AutoMapper.Mappers.TypeMapObjectMapperRegistry.PropertyMapMappingStrategy.Map(ResolutionContext context, IMappingEngineRunner mapper)
+   在 AutoMapper.Mappers.TypeMapMapper.Map(ResolutionContext context, IMappingEngineRunner mapper)
+   在 AutoMapper.MappingEngine.AutoMapper.IMappingEngineRunner.Map(ResolutionContext context)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AutoMapper.MappingEngine.AutoMapper.IMappingEngineRunner.Map(ResolutionContext context)
+   在 AutoMapper.Mappers.EnumerableMapperBase`1.Map(ResolutionContext context, IMappingEngineRunner mapper)
+   在 AutoMapper.Mappers.CollectionMapper.Map(ResolutionContext context, IMappingEngineRunner mapper)
+   在 AutoMapper.MappingEngine.AutoMapper.IMappingEngineRunner.Map(ResolutionContext context)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AutoMapper.MappingEngine.AutoMapper.IMappingEngineRunner.Map(ResolutionContext context)
+   在 AutoMapper.MappingEngine.Map(Object source, Type sourceType, Type destinationType)
+   在 AutoMapper.MappingEngine.Map[TSource,TDestination](TSource source)
+   在 AutoMapper.Mapper.Map[TSource,TDestination](TSource source)
+   在 Service.Cost.ReimbursementControl.ApplyRecordService.GetApplyDetailsByRecordId(Int32 id) 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\Service\Cost\ReimbursementControl\ApplyRecordService.cs:行号 356
+
+异常时间：2013-12-14 20:58:59,679 [6] 
+异常级别：ERROR 
+异 常 类：logerror [(null)] 
+ApplyRecordService.GetApplyDetailsByRecordId(1) 
+ AutoMapper.AutoMapperMappingException: Trying to map System.Collections.Generic.List`1[[HuatongApply.Data.Applydetail, HuatongApply.Data, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] to System.Collections.Generic.List`1[[BusinessObject.CostBo.ApplydetailBO, BusinessObject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]].
+引发类型为“AutoMapper.AutoMapperMappingException”的异常。 ---> AutoMapper.AutoMapperMappingException: Trying to map HuatongApply.Data.Applydetail to BusinessObject.CostBo.ApplydetailBO.
+Using mapping configuration for HuatongApply.Data.Applydetail to BusinessObject.CostBo.ApplydetailBO
+引发类型为“AutoMapper.AutoMapperMappingException”的异常。 ---> AutoMapper.AutoMapperMappingException: Trying to map System.Double to System.Nullable`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]].
+Using mapping configuration for HuatongApply.Data.Applydetail to BusinessObject.CostBo.ApplydetailBO
+Destination property: Price
+引发类型为“AutoMapper.AutoMapperMappingException”的异常。 ---> System.InvalidCastException: 指定的转换无效。
+   在 SetPrice(Object , Object )
+   在 AutoMapper.Internal.PropertyAccessor.SetValue(Object destination, Object value)
+   在 AutoMapper.Mappers.TypeMapObjectMapperRegistry.PropertyMapMappingStrategy.AssignValue(PropertyMap propertyMap, Object mappedObject, Object propertyValueToAssign)
+   在 AutoMapper.Mappers.TypeMapObjectMapperRegistry.PropertyMapMappingStrategy.MapPropertyValue(ResolutionContext context, IMappingEngineRunner mapper, Object mappedObject, PropertyMap propertyMap)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AutoMapper.Mappers.TypeMapObjectMapperRegistry.PropertyMapMappingStrategy.MapPropertyValue(ResolutionContext context, IMappingEngineRunner mapper, Object mappedObject, PropertyMap propertyMap)
+   在 AutoMapper.Mappers.TypeMapObjectMapperRegistry.PropertyMapMappingStrategy.Map(ResolutionContext context, IMappingEngineRunner mapper)
+   在 AutoMapper.Mappers.TypeMapMapper.Map(ResolutionContext context, IMappingEngineRunner mapper)
+   在 AutoMapper.MappingEngine.AutoMapper.IMappingEngineRunner.Map(ResolutionContext context)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AutoMapper.MappingEngine.AutoMapper.IMappingEngineRunner.Map(ResolutionContext context)
+   在 AutoMapper.Mappers.EnumerableMapperBase`1.Map(ResolutionContext context, IMappingEngineRunner mapper)
+   在 AutoMapper.Mappers.CollectionMapper.Map(ResolutionContext context, IMappingEngineRunner mapper)
+   在 AutoMapper.MappingEngine.AutoMapper.IMappingEngineRunner.Map(ResolutionContext context)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AutoMapper.MappingEngine.AutoMapper.IMappingEngineRunner.Map(ResolutionContext context)
+   在 AutoMapper.MappingEngine.Map(Object source, Type sourceType, Type destinationType)
+   在 AutoMapper.MappingEngine.Map[TSource,TDestination](TSource source)
+   在 AutoMapper.Mapper.Map[TSource,TDestination](TSource source)
+   在 Service.Cost.ReimbursementControl.ApplyRecordService.GetApplyDetailsByRecordId(Int32 id) 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\Service\Cost\ReimbursementControl\ApplyRecordService.cs:行号 356
+
+异常时间：2013-12-14 21:01:04,490 [6] 
+异常级别：ERROR 
+异 常 类：logerror [(null)] 
+ApplyRecordService.GetApplyDetailsByRecordId(1) 
+ AutoMapper.AutoMapperMappingException: Trying to map System.Collections.Generic.List`1[[HuatongApply.Data.Applydetail, HuatongApply.Data, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] to System.Collections.Generic.List`1[[BusinessObject.CostBo.ApplydetailBO, BusinessObject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]].
+引发类型为“AutoMapper.AutoMapperMappingException”的异常。 ---> AutoMapper.AutoMapperMappingException: Trying to map HuatongApply.Data.Applydetail to BusinessObject.CostBo.ApplydetailBO.
+Using mapping configuration for HuatongApply.Data.Applydetail to BusinessObject.CostBo.ApplydetailBO
+引发类型为“AutoMapper.AutoMapperMappingException”的异常。 ---> AutoMapper.AutoMapperMappingException: Trying to map System.Double to System.Nullable`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]].
+Using mapping configuration for HuatongApply.Data.Applydetail to BusinessObject.CostBo.ApplydetailBO
+Destination property: Price
+引发类型为“AutoMapper.AutoMapperMappingException”的异常。 ---> System.InvalidCastException: 指定的转换无效。
+   在 SetPrice(Object , Object )
+   在 AutoMapper.Internal.PropertyAccessor.SetValue(Object destination, Object value)
+   在 AutoMapper.Mappers.TypeMapObjectMapperRegistry.PropertyMapMappingStrategy.AssignValue(PropertyMap propertyMap, Object mappedObject, Object propertyValueToAssign)
+   在 AutoMapper.Mappers.TypeMapObjectMapperRegistry.PropertyMapMappingStrategy.MapPropertyValue(ResolutionContext context, IMappingEngineRunner mapper, Object mappedObject, PropertyMap propertyMap)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AutoMapper.Mappers.TypeMapObjectMapperRegistry.PropertyMapMappingStrategy.MapPropertyValue(ResolutionContext context, IMappingEngineRunner mapper, Object mappedObject, PropertyMap propertyMap)
+   在 AutoMapper.Mappers.TypeMapObjectMapperRegistry.PropertyMapMappingStrategy.Map(ResolutionContext context, IMappingEngineRunner mapper)
+   在 AutoMapper.Mappers.TypeMapMapper.Map(ResolutionContext context, IMappingEngineRunner mapper)
+   在 AutoMapper.MappingEngine.AutoMapper.IMappingEngineRunner.Map(ResolutionContext context)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AutoMapper.MappingEngine.AutoMapper.IMappingEngineRunner.Map(ResolutionContext context)
+   在 AutoMapper.Mappers.EnumerableMapperBase`1.Map(ResolutionContext context, IMappingEngineRunner mapper)
+   在 AutoMapper.Mappers.CollectionMapper.Map(ResolutionContext context, IMappingEngineRunner mapper)
+   在 AutoMapper.MappingEngine.AutoMapper.IMappingEngineRunner.Map(ResolutionContext context)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AutoMapper.MappingEngine.AutoMapper.IMappingEngineRunner.Map(ResolutionContext context)
+   在 AutoMapper.MappingEngine.Map(Object source, Type sourceType, Type destinationType)
+   在 AutoMapper.MappingEngine.Map[TSource,TDestination](TSource source)
+   在 AutoMapper.Mapper.Map[TSource,TDestination](TSource source)
+   在 Service.Cost.ReimbursementControl.ApplyRecordService.GetApplyDetailsByRecordId(Int32 id) 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\Service\Cost\ReimbursementControl\ApplyRecordService.cs:行号 356
+
+异常时间：2013-12-14 21:22:37,430 [10] 
+异常级别：ERROR 
+异 常 类：logerror [(null)] 
+ApplyRecordService.GetApplyDetailsByRecordId(1) 
+ AutoMapper.AutoMapperMappingException: Trying to map System.Collections.Generic.List`1[[HuatongApply.Data.Applydetail, HuatongApply.Data, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] to System.Collections.Generic.List`1[[BusinessObject.CostBo.ApplydetailBO, BusinessObject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]].
+引发类型为“AutoMapper.AutoMapperMappingException”的异常。 ---> AutoMapper.AutoMapperMappingException: Trying to map HuatongApply.Data.Applydetail to BusinessObject.CostBo.ApplydetailBO.
+Using mapping configuration for HuatongApply.Data.Applydetail to BusinessObject.CostBo.ApplydetailBO
+引发类型为“AutoMapper.AutoMapperMappingException”的异常。 ---> AutoMapper.AutoMapperMappingException: Trying to map System.Double to System.Nullable`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]].
+Using mapping configuration for HuatongApply.Data.Applydetail to BusinessObject.CostBo.ApplydetailBO
+Destination property: Price
+引发类型为“AutoMapper.AutoMapperMappingException”的异常。 ---> System.InvalidCastException: 指定的转换无效。
+   在 SetPrice(Object , Object )
+   在 AutoMapper.Internal.PropertyAccessor.SetValue(Object destination, Object value)
+   在 AutoMapper.Mappers.TypeMapObjectMapperRegistry.PropertyMapMappingStrategy.AssignValue(PropertyMap propertyMap, Object mappedObject, Object propertyValueToAssign)
+   在 AutoMapper.Mappers.TypeMapObjectMapperRegistry.PropertyMapMappingStrategy.MapPropertyValue(ResolutionContext context, IMappingEngineRunner mapper, Object mappedObject, PropertyMap propertyMap)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AutoMapper.Mappers.TypeMapObjectMapperRegistry.PropertyMapMappingStrategy.MapPropertyValue(ResolutionContext context, IMappingEngineRunner mapper, Object mappedObject, PropertyMap propertyMap)
+   在 AutoMapper.Mappers.TypeMapObjectMapperRegistry.PropertyMapMappingStrategy.Map(ResolutionContext context, IMappingEngineRunner mapper)
+   在 AutoMapper.Mappers.TypeMapMapper.Map(ResolutionContext context, IMappingEngineRunner mapper)
+   在 AutoMapper.MappingEngine.AutoMapper.IMappingEngineRunner.Map(ResolutionContext context)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AutoMapper.MappingEngine.AutoMapper.IMappingEngineRunner.Map(ResolutionContext context)
+   在 AutoMapper.Mappers.EnumerableMapperBase`1.Map(ResolutionContext context, IMappingEngineRunner mapper)
+   在 AutoMapper.Mappers.CollectionMapper.Map(ResolutionContext context, IMappingEngineRunner mapper)
+   在 AutoMapper.MappingEngine.AutoMapper.IMappingEngineRunner.Map(ResolutionContext context)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AutoMapper.MappingEngine.AutoMapper.IMappingEngineRunner.Map(ResolutionContext context)
+   在 AutoMapper.MappingEngine.Map(Object source, Type sourceType, Type destinationType)
+   在 AutoMapper.MappingEngine.Map[TSource,TDestination](TSource source)
+   在 AutoMapper.Mapper.Map[TSource,TDestination](TSource source)
+   在 Service.Cost.ReimbursementControl.ApplyRecordService.GetApplyDetailsByRecordId(Int32 id) 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\Service\Cost\ReimbursementControl\ApplyRecordService.cs:行号 356
+
+异常时间：2013-12-14 21:22:43,541 [12] 
+异常级别：ERROR 
+异 常 类：logerror [(null)] 
+ApplyRecordService.GetApplyDetailsByRecordId(1) 
+ AutoMapper.AutoMapperMappingException: Trying to map System.Collections.Generic.List`1[[HuatongApply.Data.Applydetail, HuatongApply.Data, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] to System.Collections.Generic.List`1[[BusinessObject.CostBo.ApplydetailBO, BusinessObject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]].
+引发类型为“AutoMapper.AutoMapperMappingException”的异常。 ---> AutoMapper.AutoMapperMappingException: Trying to map HuatongApply.Data.Applydetail to BusinessObject.CostBo.ApplydetailBO.
+Using mapping configuration for HuatongApply.Data.Applydetail to BusinessObject.CostBo.ApplydetailBO
+引发类型为“AutoMapper.AutoMapperMappingException”的异常。 ---> AutoMapper.AutoMapperMappingException: Trying to map System.Double to System.Nullable`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]].
+Using mapping configuration for HuatongApply.Data.Applydetail to BusinessObject.CostBo.ApplydetailBO
+Destination property: Price
+引发类型为“AutoMapper.AutoMapperMappingException”的异常。 ---> System.InvalidCastException: 指定的转换无效。
+   在 SetPrice(Object , Object )
+   在 AutoMapper.Internal.PropertyAccessor.SetValue(Object destination, Object value)
+   在 AutoMapper.Mappers.TypeMapObjectMapperRegistry.PropertyMapMappingStrategy.AssignValue(PropertyMap propertyMap, Object mappedObject, Object propertyValueToAssign)
+   在 AutoMapper.Mappers.TypeMapObjectMapperRegistry.PropertyMapMappingStrategy.MapPropertyValue(ResolutionContext context, IMappingEngineRunner mapper, Object mappedObject, PropertyMap propertyMap)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AutoMapper.Mappers.TypeMapObjectMapperRegistry.PropertyMapMappingStrategy.MapPropertyValue(ResolutionContext context, IMappingEngineRunner mapper, Object mappedObject, PropertyMap propertyMap)
+   在 AutoMapper.Mappers.TypeMapObjectMapperRegistry.PropertyMapMappingStrategy.Map(ResolutionContext context, IMappingEngineRunner mapper)
+   在 AutoMapper.Mappers.TypeMapMapper.Map(ResolutionContext context, IMappingEngineRunner mapper)
+   在 AutoMapper.MappingEngine.AutoMapper.IMappingEngineRunner.Map(ResolutionContext context)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AutoMapper.MappingEngine.AutoMapper.IMappingEngineRunner.Map(ResolutionContext context)
+   在 AutoMapper.Mappers.EnumerableMapperBase`1.Map(ResolutionContext context, IMappingEngineRunner mapper)
+   在 AutoMapper.Mappers.CollectionMapper.Map(ResolutionContext context, IMappingEngineRunner mapper)
+   在 AutoMapper.MappingEngine.AutoMapper.IMappingEngineRunner.Map(ResolutionContext context)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AutoMapper.MappingEngine.AutoMapper.IMappingEngineRunner.Map(ResolutionContext context)
+   在 AutoMapper.MappingEngine.Map(Object source, Type sourceType, Type destinationType)
+   在 AutoMapper.MappingEngine.Map[TSource,TDestination](TSource source)
+   在 AutoMapper.Mapper.Map[TSource,TDestination](TSource source)
+   在 Service.Cost.ReimbursementControl.ApplyRecordService.GetApplyDetailsByRecordId(Int32 id) 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\Service\Cost\ReimbursementControl\ApplyRecordService.cs:行号 356
+
+异常时间：2013-12-14 21:24:44,763 [11] 
+异常级别：ERROR 
+异 常 类：logerror [(null)] 
+ApplyRecordService.GetApplyDetailsByRecordId(2) 
+ AutoMapper.AutoMapperMappingException: Trying to map System.Collections.Generic.List`1[[HuatongApply.Data.Applydetail, HuatongApply.Data, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] to System.Collections.Generic.List`1[[BusinessObject.CostBo.ApplydetailBO, BusinessObject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]].
+引发类型为“AutoMapper.AutoMapperMappingException”的异常。 ---> AutoMapper.AutoMapperMappingException: Trying to map HuatongApply.Data.Applydetail to BusinessObject.CostBo.ApplydetailBO.
+Using mapping configuration for HuatongApply.Data.Applydetail to BusinessObject.CostBo.ApplydetailBO
+引发类型为“AutoMapper.AutoMapperMappingException”的异常。 ---> AutoMapper.AutoMapperMappingException: Trying to map System.Double to System.Nullable`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]].
+Using mapping configuration for HuatongApply.Data.Applydetail to BusinessObject.CostBo.ApplydetailBO
+Destination property: Price
+引发类型为“AutoMapper.AutoMapperMappingException”的异常。 ---> System.InvalidCastException: 指定的转换无效。
+   在 SetPrice(Object , Object )
+   在 AutoMapper.Internal.PropertyAccessor.SetValue(Object destination, Object value)
+   在 AutoMapper.Mappers.TypeMapObjectMapperRegistry.PropertyMapMappingStrategy.AssignValue(PropertyMap propertyMap, Object mappedObject, Object propertyValueToAssign)
+   在 AutoMapper.Mappers.TypeMapObjectMapperRegistry.PropertyMapMappingStrategy.MapPropertyValue(ResolutionContext context, IMappingEngineRunner mapper, Object mappedObject, PropertyMap propertyMap)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AutoMapper.Mappers.TypeMapObjectMapperRegistry.PropertyMapMappingStrategy.MapPropertyValue(ResolutionContext context, IMappingEngineRunner mapper, Object mappedObject, PropertyMap propertyMap)
+   在 AutoMapper.Mappers.TypeMapObjectMapperRegistry.PropertyMapMappingStrategy.Map(ResolutionContext context, IMappingEngineRunner mapper)
+   在 AutoMapper.Mappers.TypeMapMapper.Map(ResolutionContext context, IMappingEngineRunner mapper)
+   在 AutoMapper.MappingEngine.AutoMapper.IMappingEngineRunner.Map(ResolutionContext context)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AutoMapper.MappingEngine.AutoMapper.IMappingEngineRunner.Map(ResolutionContext context)
+   在 AutoMapper.Mappers.EnumerableMapperBase`1.Map(ResolutionContext context, IMappingEngineRunner mapper)
+   在 AutoMapper.Mappers.CollectionMapper.Map(ResolutionContext context, IMappingEngineRunner mapper)
+   在 AutoMapper.MappingEngine.AutoMapper.IMappingEngineRunner.Map(ResolutionContext context)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AutoMapper.MappingEngine.AutoMapper.IMappingEngineRunner.Map(ResolutionContext context)
+   在 AutoMapper.MappingEngine.Map(Object source, Type sourceType, Type destinationType)
+   在 AutoMapper.MappingEngine.Map[TSource,TDestination](TSource source)
+   在 AutoMapper.Mapper.Map[TSource,TDestination](TSource source)
+   在 Service.Cost.ReimbursementControl.ApplyRecordService.GetApplyDetailsByRecordId(Int32 id) 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\Service\Cost\ReimbursementControl\ApplyRecordService.cs:行号 356
+
+异常时间：2013-12-14 21:24:46,762 [11] 
+异常级别：ERROR 
+异 常 类：logerror [(null)] 
+ApplyRecordService.GetApplyDetailsByRecordId(2) 
+ AutoMapper.AutoMapperMappingException: Trying to map System.Collections.Generic.List`1[[HuatongApply.Data.Applydetail, HuatongApply.Data, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] to System.Collections.Generic.List`1[[BusinessObject.CostBo.ApplydetailBO, BusinessObject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]].
+引发类型为“AutoMapper.AutoMapperMappingException”的异常。 ---> AutoMapper.AutoMapperMappingException: Trying to map HuatongApply.Data.Applydetail to BusinessObject.CostBo.ApplydetailBO.
+Using mapping configuration for HuatongApply.Data.Applydetail to BusinessObject.CostBo.ApplydetailBO
+引发类型为“AutoMapper.AutoMapperMappingException”的异常。 ---> AutoMapper.AutoMapperMappingException: Trying to map System.Double to System.Nullable`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]].
+Using mapping configuration for HuatongApply.Data.Applydetail to BusinessObject.CostBo.ApplydetailBO
+Destination property: Price
+引发类型为“AutoMapper.AutoMapperMappingException”的异常。 ---> System.InvalidCastException: 指定的转换无效。
+   在 SetPrice(Object , Object )
+   在 AutoMapper.Internal.PropertyAccessor.SetValue(Object destination, Object value)
+   在 AutoMapper.Mappers.TypeMapObjectMapperRegistry.PropertyMapMappingStrategy.AssignValue(PropertyMap propertyMap, Object mappedObject, Object propertyValueToAssign)
+   在 AutoMapper.Mappers.TypeMapObjectMapperRegistry.PropertyMapMappingStrategy.MapPropertyValue(ResolutionContext context, IMappingEngineRunner mapper, Object mappedObject, PropertyMap propertyMap)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AutoMapper.Mappers.TypeMapObjectMapperRegistry.PropertyMapMappingStrategy.MapPropertyValue(ResolutionContext context, IMappingEngineRunner mapper, Object mappedObject, PropertyMap propertyMap)
+   在 AutoMapper.Mappers.TypeMapObjectMapperRegistry.PropertyMapMappingStrategy.Map(ResolutionContext context, IMappingEngineRunner mapper)
+   在 AutoMapper.Mappers.TypeMapMapper.Map(ResolutionContext context, IMappingEngineRunner mapper)
+   在 AutoMapper.MappingEngine.AutoMapper.IMappingEngineRunner.Map(ResolutionContext context)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AutoMapper.MappingEngine.AutoMapper.IMappingEngineRunner.Map(ResolutionContext context)
+   在 AutoMapper.Mappers.EnumerableMapperBase`1.Map(ResolutionContext context, IMappingEngineRunner mapper)
+   在 AutoMapper.Mappers.CollectionMapper.Map(ResolutionContext context, IMappingEngineRunner mapper)
+   在 AutoMapper.MappingEngine.AutoMapper.IMappingEngineRunner.Map(ResolutionContext context)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AutoMapper.MappingEngine.AutoMapper.IMappingEngineRunner.Map(ResolutionContext context)
+   在 AutoMapper.MappingEngine.Map(Object source, Type sourceType, Type destinationType)
+   在 AutoMapper.MappingEngine.Map[TSource,TDestination](TSource source)
+   在 AutoMapper.Mapper.Map[TSource,TDestination](TSource source)
+   在 Service.Cost.ReimbursementControl.ApplyRecordService.GetApplyDetailsByRecordId(Int32 id) 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\Service\Cost\ReimbursementControl\ApplyRecordService.cs:行号 356
+
+异常时间：2013-12-14 21:25:14,903 [12] 
+异常级别：ERROR 
+异 常 类：logerror [(null)] 
+ApplyRecordService.GetApplyDetailsByRecordId(2) 
+ AutoMapper.AutoMapperMappingException: Trying to map System.Collections.Generic.List`1[[HuatongApply.Data.Applydetail, HuatongApply.Data, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] to System.Collections.Generic.List`1[[BusinessObject.CostBo.ApplydetailBO, BusinessObject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]].
+引发类型为“AutoMapper.AutoMapperMappingException”的异常。 ---> AutoMapper.AutoMapperMappingException: Trying to map HuatongApply.Data.Applydetail to BusinessObject.CostBo.ApplydetailBO.
+Using mapping configuration for HuatongApply.Data.Applydetail to BusinessObject.CostBo.ApplydetailBO
+引发类型为“AutoMapper.AutoMapperMappingException”的异常。 ---> AutoMapper.AutoMapperMappingException: Trying to map System.Double to System.Nullable`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]].
+Using mapping configuration for HuatongApply.Data.Applydetail to BusinessObject.CostBo.ApplydetailBO
+Destination property: Price
+引发类型为“AutoMapper.AutoMapperMappingException”的异常。 ---> System.InvalidCastException: 指定的转换无效。
+   在 SetPrice(Object , Object )
+   在 AutoMapper.Internal.PropertyAccessor.SetValue(Object destination, Object value)
+   在 AutoMapper.Mappers.TypeMapObjectMapperRegistry.PropertyMapMappingStrategy.AssignValue(PropertyMap propertyMap, Object mappedObject, Object propertyValueToAssign)
+   在 AutoMapper.Mappers.TypeMapObjectMapperRegistry.PropertyMapMappingStrategy.MapPropertyValue(ResolutionContext context, IMappingEngineRunner mapper, Object mappedObject, PropertyMap propertyMap)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AutoMapper.Mappers.TypeMapObjectMapperRegistry.PropertyMapMappingStrategy.MapPropertyValue(ResolutionContext context, IMappingEngineRunner mapper, Object mappedObject, PropertyMap propertyMap)
+   在 AutoMapper.Mappers.TypeMapObjectMapperRegistry.PropertyMapMappingStrategy.Map(ResolutionContext context, IMappingEngineRunner mapper)
+   在 AutoMapper.Mappers.TypeMapMapper.Map(ResolutionContext context, IMappingEngineRunner mapper)
+   在 AutoMapper.MappingEngine.AutoMapper.IMappingEngineRunner.Map(ResolutionContext context)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AutoMapper.MappingEngine.AutoMapper.IMappingEngineRunner.Map(ResolutionContext context)
+   在 AutoMapper.Mappers.EnumerableMapperBase`1.Map(ResolutionContext context, IMappingEngineRunner mapper)
+   在 AutoMapper.Mappers.CollectionMapper.Map(ResolutionContext context, IMappingEngineRunner mapper)
+   在 AutoMapper.MappingEngine.AutoMapper.IMappingEngineRunner.Map(ResolutionContext context)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AutoMapper.MappingEngine.AutoMapper.IMappingEngineRunner.Map(ResolutionContext context)
+   在 AutoMapper.MappingEngine.Map(Object source, Type sourceType, Type destinationType)
+   在 AutoMapper.MappingEngine.Map[TSource,TDestination](TSource source)
+   在 AutoMapper.Mapper.Map[TSource,TDestination](TSource source)
+   在 Service.Cost.ReimbursementControl.ApplyRecordService.GetApplyDetailsByRecordId(Int32 id) 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\Service\Cost\ReimbursementControl\ApplyRecordService.cs:行号 356
+
+异常时间：2013-12-14 21:29:42,044 [11] 
+异常级别：ERROR 
+异 常 类：logerror [(null)] 
+ApplyRecordService.GetApplyDetailsByRecordId(2) 
+ AutoMapper.AutoMapperMappingException: Trying to map System.Collections.Generic.List`1[[HuatongApply.Data.Applydetail, HuatongApply.Data, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] to System.Collections.Generic.List`1[[BusinessObject.CostBo.ApplydetailBO, BusinessObject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]].
+引发类型为“AutoMapper.AutoMapperMappingException”的异常。 ---> AutoMapper.AutoMapperMappingException: Trying to map HuatongApply.Data.Applydetail to BusinessObject.CostBo.ApplydetailBO.
+Using mapping configuration for HuatongApply.Data.Applydetail to BusinessObject.CostBo.ApplydetailBO
+引发类型为“AutoMapper.AutoMapperMappingException”的异常。 ---> AutoMapper.AutoMapperMappingException: Trying to map System.Double to System.Nullable`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]].
+Using mapping configuration for HuatongApply.Data.Applydetail to BusinessObject.CostBo.ApplydetailBO
+Destination property: Price
+引发类型为“AutoMapper.AutoMapperMappingException”的异常。 ---> System.InvalidCastException: 指定的转换无效。
+   在 SetPrice(Object , Object )
+   在 AutoMapper.Internal.PropertyAccessor.SetValue(Object destination, Object value)
+   在 AutoMapper.Mappers.TypeMapObjectMapperRegistry.PropertyMapMappingStrategy.AssignValue(PropertyMap propertyMap, Object mappedObject, Object propertyValueToAssign)
+   在 AutoMapper.Mappers.TypeMapObjectMapperRegistry.PropertyMapMappingStrategy.MapPropertyValue(ResolutionContext context, IMappingEngineRunner mapper, Object mappedObject, PropertyMap propertyMap)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AutoMapper.Mappers.TypeMapObjectMapperRegistry.PropertyMapMappingStrategy.MapPropertyValue(ResolutionContext context, IMappingEngineRunner mapper, Object mappedObject, PropertyMap propertyMap)
+   在 AutoMapper.Mappers.TypeMapObjectMapperRegistry.PropertyMapMappingStrategy.Map(ResolutionContext context, IMappingEngineRunner mapper)
+   在 AutoMapper.Mappers.TypeMapMapper.Map(ResolutionContext context, IMappingEngineRunner mapper)
+   在 AutoMapper.MappingEngine.AutoMapper.IMappingEngineRunner.Map(ResolutionContext context)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AutoMapper.MappingEngine.AutoMapper.IMappingEngineRunner.Map(ResolutionContext context)
+   在 AutoMapper.Mappers.EnumerableMapperBase`1.Map(ResolutionContext context, IMappingEngineRunner mapper)
+   在 AutoMapper.Mappers.CollectionMapper.Map(ResolutionContext context, IMappingEngineRunner mapper)
+   在 AutoMapper.MappingEngine.AutoMapper.IMappingEngineRunner.Map(ResolutionContext context)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AutoMapper.MappingEngine.AutoMapper.IMappingEngineRunner.Map(ResolutionContext context)
+   在 AutoMapper.MappingEngine.Map(Object source, Type sourceType, Type destinationType)
+   在 AutoMapper.MappingEngine.Map[TSource,TDestination](TSource source)
+   在 AutoMapper.Mapper.Map[TSource,TDestination](TSource source)
+   在 Service.Cost.ReimbursementControl.ApplyRecordService.GetApplyDetailsByRecordId(Int32 id) 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\Service\Cost\ReimbursementControl\ApplyRecordService.cs:行号 356

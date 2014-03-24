@@ -1,0 +1,36 @@
+﻿<script type="text/javascript">
+    $(document).ready(function () {
+        $('#west').load("Scripts/side-menu/SideMenuTemplate.htm", function () {
+            var source = $("#entry-template").html();
+            var template = Handlebars.compile(source);
+            var context =
+                {
+                    menu: [
+                        {
+                            "title": "报销管理",
+                            "content": [
+                                {
+                                    "id": "applyitems",
+                                    "url": "Views/Cost/Reimbursement/Items/ApplyItemsList.htm",
+                                    "content": "报销项目列表"
+                                },
+                                {
+                                    "id": "applyrecords",
+                                    "url": "Views/Cost/Reimbursement/Records/ApplyRecordList.htm",
+                                    "content": "报销记录列表"
+                                },
+                                {
+                                    "id": "applyaudits",
+                                    "url": "Views/Cost/Reimbursement/Audit/ApplyAuitList.htm",
+                                    "content": "报销审核列表"
+                                }
+                            ]
+                        }
+                    ]
+                };
+            var html = template(context);
+            $(".side-content").html(html);
+            $.getScript("/Scripts/side-menu/side-menu.js");
+        });
+    });
+</script>

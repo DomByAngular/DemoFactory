@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" namespace="HuatongApply.Data" assembly="HuatongApply.Data">
+  <sql-query name="GetDepartMentApplyRecords" >
+    <return-scalar column="ApplyId" type="System.Int32" />
+    <return-scalar column="Or_Id" type="System.Int32" />
+    <return-scalar column="Price" type="System.Double" />
+    <return-scalar column="Currency" type="System.String" />
+    <return-scalar column="ApplyBy" type="System.String" />
+    <return-scalar column="ApplyOn" type="System.DateTime" />
+    <return-scalar column="Description" type="System.String" />
+    <return-scalar column="IsCar" type="System.Int32" />
+    <return-scalar column="CarNo" type="System.String" />
+    <return-scalar column="AuditStatus" type="System.Int32" />
+    <return-scalar column="DepAuditBy" type="System.String" />
+    <return-scalar column="FinanceAuditBy" type="System.String" />
+    <return-scalar column="FinalAuditBy" type="System.String" />
+    <return-scalar column="CreatedOn" type="System.DateTime" />
+    <return-scalar column="CreatedBy" type="System.String" />
+    <return-scalar column="ModifiedOn" type="System.DateTime" />
+    <return-scalar column="ModifiedBy" type="System.String" />
+    <return-scalar column="OrName" type="System.String" />
+    exec sp_DepartMentApplyRecords :pOrId
+  </sql-query>
+</hibernate-mapping>
+

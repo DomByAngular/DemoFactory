@@ -1,0 +1,16 @@
+C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\HuatongApply.Data\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\HuatongApply.Data\bin\Debug\HuatongApply.Data.dll
+C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\HuatongApply.Data\bin\Debug\HuatongApply.Data.pdb
+C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\HuatongApply.Data\bin\Debug\Antlr3.Runtime.dll
+C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\HuatongApply.Data\bin\Debug\Castle.Core.dll
+C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\HuatongApply.Data\bin\Debug\CodeSmith.Data.dll
+C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\HuatongApply.Data\bin\Debug\CodeSmith.Data.NHibernate.dll
+C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\HuatongApply.Data\bin\Debug\Iesi.Collections.dll
+C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\HuatongApply.Data\bin\Debug\NHibernate.ByteCode.Castle.dll
+C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\HuatongApply.Data\bin\Debug\NHibernate.dll
+C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\HuatongApply.Data\obj\Debug\HuatongApply.Data.dll
+C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\HuatongApply.Data\obj\Debug\HuatongApply.Data.pdb
+C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\HuatongApply.Data\bin\Debug\Remotion.Linq.dll
+C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\HuatongApply.Data\bin\Debug\Maps\Entities\Applydetail.hbm.xml
+C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\HuatongApply.Data\bin\Debug\Maps\Entities\Applyitem.hbm.xml
+C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\HuatongApply.Data\bin\Debug\Maps\Entities\Applyrecord.hbm.xml

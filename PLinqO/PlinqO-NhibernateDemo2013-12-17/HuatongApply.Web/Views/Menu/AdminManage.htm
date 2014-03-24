@@ -1,0 +1,66 @@
+﻿<script type="text/javascript">
+    $(document).ready(function () {
+        $('#west').load("Scripts/side-menu/SideMenuTemplate.htm", function () {
+            var source = $("#entry-template").html();
+            var template = Handlebars.compile(source);
+            var context =
+                {
+                    menu: [
+                        {
+                            "title": "系统管理",
+                            "content": [
+                                {
+                                    "id": "_system_user",
+                                    "url": "Views/Product/ProductList.htm",
+                                    "content": "用户管理"
+                                },
+                                {
+                                    "id": "_system_role",
+                                    "url": "Views/Admin/Role/RoleList.htm",
+                                    "content": "角色管理"
+                                },
+                                {
+                                    "id": "_system_right",
+                                    "url": "Views/Admin/Right/RightList.htm",
+                                    "content": "权限管理"
+                                },
+                                {
+                                    "id": "_system_organization",
+                                    "url": "Views/Admin/Organization/OrganizationList.htm",
+                                    "content": "部门管理"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "站点管理",
+                            "content": [
+                                {
+                                    "id": "_system_station",
+                                    "url": "Views/Admin/Station/StationList.htm",
+                                    "content": "站点管理"
+                                },
+                                {
+                                    "id": "_system_station",
+                                    "url": "Views/Admin/Machine/MachineList.htm",
+                                    "content": "触摸机管理"
+                                }
+                            ]},
+                          
+                        {
+                            "title": "会员管理",
+                            "content": [
+                                {
+                                    "id": "_system_vip",
+                                    "url": "Views/Admin/Member/MemberList.htm",
+                                    "content": "会员管理"
+                                }
+                            ]
+                        }
+                    ]
+                };
+            var html = template(context);
+            $(".side-content").html(html);
+            $.getScript("/Scripts/side-menu/side-menu.js");
+        });
+    });
+</script>

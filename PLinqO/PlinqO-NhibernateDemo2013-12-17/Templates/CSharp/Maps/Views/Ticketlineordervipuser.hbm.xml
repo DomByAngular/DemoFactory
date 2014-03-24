@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" namespace="Huatongmis.Data.Entities" assembly="hmbl">
+    <class name="Ticketlineordervipuser" table="vw_ticketlineordervipuser" >
+        <composite-id>
+            <key-property name="OrderPrice" column="OrderPrice" type="Single" /> 
+            <key-property name="OrderNum" column="OrderNum" type="String" length="300" /> 
+            <key-property name="CurrencyType" column="CurrencyType" type="String" length="30" /> 
+            <key-property name="CreatedBy" column="CreatedBy" type="String" length="60" /> 
+            <key-property name="StationId" column="StationId" type="Int32" /> 
+            <key-property name="StationName" column="StationName" type="String" length="150" /> 
+            <key-property name="CreatedOn" column="CreatedOn" type="DateTime" /> 
+            <key-property name="UserName" column="UserName" type="String" length="90" /> 
+        </composite-id>
+    </class>
+</hibernate-mapping>
+

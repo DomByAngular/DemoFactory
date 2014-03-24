@@ -1,0 +1,1449 @@
+
+异常时间：2013-12-13 00:30:24,548 [5] 
+异常级别：ERROR 
+异 常 类：logerror [(null)] 
+RoleService.GetRoles(1,10,BusinessObject.AdminBo.RoleBO)方法出现异常 
+ MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown database 'huatongdb'
+   在 MySql.Data.MySqlClient.MySqlStream.OpenPacket()
+   在 MySql.Data.MySqlClient.NativeDriver.Authenticate411()
+   在 MySql.Data.MySqlClient.NativeDriver.Authenticate()
+   在 MySql.Data.MySqlClient.NativeDriver.Open()
+   在 MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   在 MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   在 MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   在 MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   在 MySql.Data.MySqlClient.MySqlConnection.Open()
+   在 NHibernate.Connection.DriverConnectionProvider.GetConnection()
+   在 NHibernate.Tool.hbm2ddl.SuppliedConnectionProviderConnectionHelper.Prepare()
+   在 NHibernate.Tool.hbm2ddl.SchemaMetadataUpdater.GetReservedWords(Dialect dialect, IConnectionHelper connectionHelper)
+   在 NHibernate.Tool.hbm2ddl.SchemaMetadataUpdater.Update(ISessionFactory sessionFactory)
+   在 NHibernate.Impl.SessionFactoryImpl..ctor(Configuration cfg, IMapping mapping, Settings settings, EventListeners listeners)
+   在 NHibernate.Cfg.Configuration.BuildSessionFactory()
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.CreateSessionFactory(String databaseName, String assemblyName, String dialect, String connectionDriver)
+   在 Data.MiniSysDataContext.get_SessionFactory() 位置 C:\Users\Administrator\Desktop\HuaTongBusinessWeb_20130514\CYSBasicSystem.Data\MiniSysDataContext.generated.cs:行号 39
+   在 Data.MiniSysDataContext.CreateSession() 位置 C:\Users\Administrator\Desktop\HuaTongBusinessWeb_20130514\CYSBasicSystem.Data\MiniSysDataContext.generated.cs:行号 50
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.NHibernateDataContextAdvanced.get_StateSession()
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.NHibernateDataContextAdvanced.get_Session()
+   在 CodeSmith.Data.NHibernate.Table`1.GetQueryable()
+   在 CodeSmith.Data.NHibernate.Table`1.get_Provider()
+   在 System.Linq.Queryable.Count[TSource](IQueryable`1 source)
+   在 Domain.common.LinqExtensions.GetPagedListQuery[TEntity,TOrderBy,TResult](IQueryable`1 query, Int32 index, Int32 pageSize, List`1 wheres, Expression`1 orderBy, Func`2 selector, Boolean isAsc) 位置 C:\Users\Administrator\Desktop\HuaTongBusinessWeb_20130514\Domain\common\LinqExtensions.cs:行号 122
+   在 Services.Admin.RoleControl.RoleService.GetRoles(String order, Int32 page, Int32 rows, String sort, RoleBO roleBo) 位置 C:\Users\Administrator\Desktop\HuaTongBusinessWeb_20130514\Services\Admin\RoleControl\RoleService.cs:行号 196
+
+异常时间：2013-12-13 00:30:28,421 [13] 
+异常级别：ERROR 
+异 常 类：logerror [(null)] 
+RoleService.GetRoles(1,10,BusinessObject.AdminBo.RoleBO)方法出现异常 
+ MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown database 'huatongdb'
+   在 MySql.Data.MySqlClient.MySqlStream.OpenPacket()
+   在 MySql.Data.MySqlClient.NativeDriver.Authenticate411()
+   在 MySql.Data.MySqlClient.NativeDriver.Authenticate()
+   在 MySql.Data.MySqlClient.NativeDriver.Open()
+   在 MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   在 MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   在 MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   在 MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   在 MySql.Data.MySqlClient.MySqlConnection.Open()
+   在 NHibernate.Connection.DriverConnectionProvider.GetConnection()
+   在 NHibernate.Tool.hbm2ddl.SuppliedConnectionProviderConnectionHelper.Prepare()
+   在 NHibernate.Tool.hbm2ddl.SchemaMetadataUpdater.GetReservedWords(Dialect dialect, IConnectionHelper connectionHelper)
+   在 NHibernate.Tool.hbm2ddl.SchemaMetadataUpdater.Update(ISessionFactory sessionFactory)
+   在 NHibernate.Impl.SessionFactoryImpl..ctor(Configuration cfg, IMapping mapping, Settings settings, EventListeners listeners)
+   在 NHibernate.Cfg.Configuration.BuildSessionFactory()
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.CreateSessionFactory(String databaseName, String assemblyName, String dialect, String connectionDriver)
+   在 Data.MiniSysDataContext.get_SessionFactory() 位置 C:\Users\Administrator\Desktop\HuaTongBusinessWeb_20130514\CYSBasicSystem.Data\MiniSysDataContext.generated.cs:行号 39
+   在 Data.MiniSysDataContext.CreateSession() 位置 C:\Users\Administrator\Desktop\HuaTongBusinessWeb_20130514\CYSBasicSystem.Data\MiniSysDataContext.generated.cs:行号 50
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.NHibernateDataContextAdvanced.get_StateSession()
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.NHibernateDataContextAdvanced.get_Session()
+   在 CodeSmith.Data.NHibernate.Table`1.GetQueryable()
+   在 CodeSmith.Data.NHibernate.Table`1.get_Provider()
+   在 System.Linq.Queryable.Count[TSource](IQueryable`1 source)
+   在 Domain.common.LinqExtensions.GetPagedListQuery[TEntity,TOrderBy,TResult](IQueryable`1 query, Int32 index, Int32 pageSize, List`1 wheres, Expression`1 orderBy, Func`2 selector, Boolean isAsc) 位置 C:\Users\Administrator\Desktop\HuaTongBusinessWeb_20130514\Domain\common\LinqExtensions.cs:行号 122
+   在 Services.Admin.RoleControl.RoleService.GetRoles(String order, Int32 page, Int32 rows, String sort, RoleBO roleBo) 位置 C:\Users\Administrator\Desktop\HuaTongBusinessWeb_20130514\Services\Admin\RoleControl\RoleService.cs:行号 196
+
+异常时间：2013-12-13 00:30:30,413 [14] 
+异常级别：ERROR 
+异 常 类：logerror [(null)] 
+RightService.GetRightsList(1,10,BusinessObject.AdminBo.RightBO)异常 
+ MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown database 'huatongdb'
+   在 MySql.Data.MySqlClient.MySqlStream.OpenPacket()
+   在 MySql.Data.MySqlClient.NativeDriver.Authenticate411()
+   在 MySql.Data.MySqlClient.NativeDriver.Authenticate()
+   在 MySql.Data.MySqlClient.NativeDriver.Open()
+   在 MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   在 MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   在 MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   在 MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   在 MySql.Data.MySqlClient.MySqlConnection.Open()
+   在 NHibernate.Connection.DriverConnectionProvider.GetConnection()
+   在 NHibernate.Tool.hbm2ddl.SuppliedConnectionProviderConnectionHelper.Prepare()
+   在 NHibernate.Tool.hbm2ddl.SchemaMetadataUpdater.GetReservedWords(Dialect dialect, IConnectionHelper connectionHelper)
+   在 NHibernate.Tool.hbm2ddl.SchemaMetadataUpdater.Update(ISessionFactory sessionFactory)
+   在 NHibernate.Impl.SessionFactoryImpl..ctor(Configuration cfg, IMapping mapping, Settings settings, EventListeners listeners)
+   在 NHibernate.Cfg.Configuration.BuildSessionFactory()
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.CreateSessionFactory(String databaseName, String assemblyName, String dialect, String connectionDriver)
+   在 Data.MiniSysDataContext.get_SessionFactory() 位置 C:\Users\Administrator\Desktop\HuaTongBusinessWeb_20130514\CYSBasicSystem.Data\MiniSysDataContext.generated.cs:行号 39
+   在 Data.MiniSysDataContext.CreateSession() 位置 C:\Users\Administrator\Desktop\HuaTongBusinessWeb_20130514\CYSBasicSystem.Data\MiniSysDataContext.generated.cs:行号 50
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.NHibernateDataContextAdvanced.get_StateSession()
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.NHibernateDataContextAdvanced.get_Session()
+   在 CodeSmith.Data.NHibernate.Table`1.GetQueryable()
+   在 CodeSmith.Data.NHibernate.Table`1.get_Provider()
+   在 System.Linq.Queryable.Count[TSource](IQueryable`1 source)
+   在 Domain.common.LinqExtensions.GetPagedListQuery[TEntity,TOrderBy,TResult](IQueryable`1 query, Int32 index, Int32 pageSize, List`1 wheres, Expression`1 orderBy, Func`2 selector, Boolean isAsc) 位置 C:\Users\Administrator\Desktop\HuaTongBusinessWeb_20130514\Domain\common\LinqExtensions.cs:行号 122
+   在 Services.Admin.RightControl.RightService.GetRightsList(Int32 pageIndex, Int32 pageSize, RightBO rightBo) 位置 C:\Users\Administrator\Desktop\HuaTongBusinessWeb_20130514\Services\Admin\RightControl\RightService.cs:行号 144
+
+异常时间：2013-12-13 00:33:10,395 [13] 
+异常级别：ERROR 
+异 常 类：logerror [(null)] 
+RoleService.GetRoles(1,10,BusinessObject.AdminBo.RoleBO)方法出现异常 
+ MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown database 'huatongdb'
+   在 MySql.Data.MySqlClient.MySqlStream.OpenPacket()
+   在 MySql.Data.MySqlClient.NativeDriver.Authenticate411()
+   在 MySql.Data.MySqlClient.NativeDriver.Authenticate()
+   在 MySql.Data.MySqlClient.NativeDriver.Open()
+   在 MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   在 MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   在 MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   在 MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   在 MySql.Data.MySqlClient.MySqlConnection.Open()
+   在 NHibernate.Connection.DriverConnectionProvider.GetConnection()
+   在 NHibernate.Tool.hbm2ddl.SuppliedConnectionProviderConnectionHelper.Prepare()
+   在 NHibernate.Tool.hbm2ddl.SchemaMetadataUpdater.GetReservedWords(Dialect dialect, IConnectionHelper connectionHelper)
+   在 NHibernate.Tool.hbm2ddl.SchemaMetadataUpdater.Update(ISessionFactory sessionFactory)
+   在 NHibernate.Impl.SessionFactoryImpl..ctor(Configuration cfg, IMapping mapping, Settings settings, EventListeners listeners)
+   在 NHibernate.Cfg.Configuration.BuildSessionFactory()
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.CreateSessionFactory(String databaseName, String assemblyName, String dialect, String connectionDriver)
+   在 Data.MiniSysDataContext.get_SessionFactory() 位置 C:\Users\Administrator\Desktop\HuaTongBusinessWeb_20130514\CYSBasicSystem.Data\MiniSysDataContext.generated.cs:行号 39
+   在 Data.MiniSysDataContext.CreateSession() 位置 C:\Users\Administrator\Desktop\HuaTongBusinessWeb_20130514\CYSBasicSystem.Data\MiniSysDataContext.generated.cs:行号 50
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.NHibernateDataContextAdvanced.get_StateSession()
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.NHibernateDataContextAdvanced.get_Session()
+   在 CodeSmith.Data.NHibernate.Table`1.GetQueryable()
+   在 CodeSmith.Data.NHibernate.Table`1.get_Provider()
+   在 System.Linq.Queryable.Count[TSource](IQueryable`1 source)
+   在 Domain.common.LinqExtensions.GetPagedListQuery[TEntity,TOrderBy,TResult](IQueryable`1 query, Int32 index, Int32 pageSize, List`1 wheres, Expression`1 orderBy, Func`2 selector, Boolean isAsc) 位置 C:\Users\Administrator\Desktop\HuaTongBusinessWeb_20130514\Domain\common\LinqExtensions.cs:行号 122
+   在 Services.Admin.RoleControl.RoleService.GetRoles(String order, Int32 page, Int32 rows, String sort, RoleBO roleBo) 位置 C:\Users\Administrator\Desktop\HuaTongBusinessWeb_20130514\Services\Admin\RoleControl\RoleService.cs:行号 196
+
+异常时间：2013-12-13 00:35:21,256 [13] 
+异常级别：ERROR 
+异 常 类：logerror [(null)] 
+OrganizationService.GetOrgList(1,10,desc,CreatedOn,)异常 
+ MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown database 'huatongdb'
+   在 MySql.Data.MySqlClient.MySqlStream.OpenPacket()
+   在 MySql.Data.MySqlClient.NativeDriver.Authenticate411()
+   在 MySql.Data.MySqlClient.NativeDriver.Authenticate()
+   在 MySql.Data.MySqlClient.NativeDriver.Open()
+   在 MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   在 MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   在 MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   在 MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   在 MySql.Data.MySqlClient.MySqlConnection.Open()
+   在 NHibernate.Connection.DriverConnectionProvider.GetConnection()
+   在 NHibernate.Tool.hbm2ddl.SuppliedConnectionProviderConnectionHelper.Prepare()
+   在 NHibernate.Tool.hbm2ddl.SchemaMetadataUpdater.GetReservedWords(Dialect dialect, IConnectionHelper connectionHelper)
+   在 NHibernate.Tool.hbm2ddl.SchemaMetadataUpdater.Update(ISessionFactory sessionFactory)
+   在 NHibernate.Impl.SessionFactoryImpl..ctor(Configuration cfg, IMapping mapping, Settings settings, EventListeners listeners)
+   在 NHibernate.Cfg.Configuration.BuildSessionFactory()
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.CreateSessionFactory(String databaseName, String assemblyName, String dialect, String connectionDriver)
+   在 Data.MiniSysDataContext.get_SessionFactory() 位置 C:\Users\Administrator\Desktop\HuaTongBusinessWeb_20130514\CYSBasicSystem.Data\MiniSysDataContext.generated.cs:行号 39
+   在 Data.MiniSysDataContext.CreateSession() 位置 C:\Users\Administrator\Desktop\HuaTongBusinessWeb_20130514\CYSBasicSystem.Data\MiniSysDataContext.generated.cs:行号 50
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.NHibernateDataContextAdvanced.get_StateSession()
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.NHibernateDataContextAdvanced.get_Session()
+   在 CodeSmith.Data.NHibernate.Table`1.GetQueryable()
+   在 CodeSmith.Data.NHibernate.Table`1.get_Provider()
+   在 System.Linq.Queryable.Count[TSource](IQueryable`1 source)
+   在 Domain.common.LinqExtensions.GetPagedListQuery[TEntity,TOrderBy,TResult](IQueryable`1 query, Int32 index, Int32 pageSize, List`1 wheres, Expression`1 orderBy, Func`2 selector, Boolean isAsc) 位置 C:\Users\Administrator\Desktop\HuaTongBusinessWeb_20130514\Domain\common\LinqExtensions.cs:行号 122
+   在 Services.Admin.OrganizationControl.OrganizationService.GetOrgList(Int32 pageIndex, Int32 pageSize, String sort, String order, OrganizationBO organizationBo) 位置 C:\Users\Administrator\Desktop\HuaTongBusinessWeb_20130514\Services\Admin\OrganizationControl\OrganizationService.cs:行号 220
+
+异常时间：2013-12-13 00:35:23,772 [5] 
+异常级别：ERROR 
+异 常 类：logerror [(null)] 
+RoleService.GetRoles(1,10,BusinessObject.AdminBo.RoleBO)方法出现异常 
+ MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown database 'huatongdb'
+   在 MySql.Data.MySqlClient.MySqlStream.OpenPacket()
+   在 MySql.Data.MySqlClient.NativeDriver.Authenticate411()
+   在 MySql.Data.MySqlClient.NativeDriver.Authenticate()
+   在 MySql.Data.MySqlClient.NativeDriver.Open()
+   在 MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   在 MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   在 MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   在 MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   在 MySql.Data.MySqlClient.MySqlConnection.Open()
+   在 NHibernate.Connection.DriverConnectionProvider.GetConnection()
+   在 NHibernate.Tool.hbm2ddl.SuppliedConnectionProviderConnectionHelper.Prepare()
+   在 NHibernate.Tool.hbm2ddl.SchemaMetadataUpdater.GetReservedWords(Dialect dialect, IConnectionHelper connectionHelper)
+   在 NHibernate.Tool.hbm2ddl.SchemaMetadataUpdater.Update(ISessionFactory sessionFactory)
+   在 NHibernate.Impl.SessionFactoryImpl..ctor(Configuration cfg, IMapping mapping, Settings settings, EventListeners listeners)
+   在 NHibernate.Cfg.Configuration.BuildSessionFactory()
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.CreateSessionFactory(String databaseName, String assemblyName, String dialect, String connectionDriver)
+   在 Data.MiniSysDataContext.get_SessionFactory() 位置 C:\Users\Administrator\Desktop\HuaTongBusinessWeb_20130514\CYSBasicSystem.Data\MiniSysDataContext.generated.cs:行号 39
+   在 Data.MiniSysDataContext.CreateSession() 位置 C:\Users\Administrator\Desktop\HuaTongBusinessWeb_20130514\CYSBasicSystem.Data\MiniSysDataContext.generated.cs:行号 50
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.NHibernateDataContextAdvanced.get_StateSession()
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.NHibernateDataContextAdvanced.get_Session()
+   在 CodeSmith.Data.NHibernate.Table`1.GetQueryable()
+   在 CodeSmith.Data.NHibernate.Table`1.get_Provider()
+   在 System.Linq.Queryable.Count[TSource](IQueryable`1 source)
+   在 Domain.common.LinqExtensions.GetPagedListQuery[TEntity,TOrderBy,TResult](IQueryable`1 query, Int32 index, Int32 pageSize, List`1 wheres, Expression`1 orderBy, Func`2 selector, Boolean isAsc) 位置 C:\Users\Administrator\Desktop\HuaTongBusinessWeb_20130514\Domain\common\LinqExtensions.cs:行号 122
+   在 Services.Admin.RoleControl.RoleService.GetRoles(String order, Int32 page, Int32 rows, String sort, RoleBO roleBo) 位置 C:\Users\Administrator\Desktop\HuaTongBusinessWeb_20130514\Services\Admin\RoleControl\RoleService.cs:行号 196
+
+异常时间：2013-12-13 00:35:25,801 [13] 
+异常级别：ERROR 
+异 常 类：logerror [(null)] 
+RightService.GetRightsList(1,10,BusinessObject.AdminBo.RightBO)异常 
+ MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown database 'huatongdb'
+   在 MySql.Data.MySqlClient.MySqlStream.OpenPacket()
+   在 MySql.Data.MySqlClient.NativeDriver.Authenticate411()
+   在 MySql.Data.MySqlClient.NativeDriver.Authenticate()
+   在 MySql.Data.MySqlClient.NativeDriver.Open()
+   在 MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   在 MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   在 MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   在 MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   在 MySql.Data.MySqlClient.MySqlConnection.Open()
+   在 NHibernate.Connection.DriverConnectionProvider.GetConnection()
+   在 NHibernate.Tool.hbm2ddl.SuppliedConnectionProviderConnectionHelper.Prepare()
+   在 NHibernate.Tool.hbm2ddl.SchemaMetadataUpdater.GetReservedWords(Dialect dialect, IConnectionHelper connectionHelper)
+   在 NHibernate.Tool.hbm2ddl.SchemaMetadataUpdater.Update(ISessionFactory sessionFactory)
+   在 NHibernate.Impl.SessionFactoryImpl..ctor(Configuration cfg, IMapping mapping, Settings settings, EventListeners listeners)
+   在 NHibernate.Cfg.Configuration.BuildSessionFactory()
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.CreateSessionFactory(String databaseName, String assemblyName, String dialect, String connectionDriver)
+   在 Data.MiniSysDataContext.get_SessionFactory() 位置 C:\Users\Administrator\Desktop\HuaTongBusinessWeb_20130514\CYSBasicSystem.Data\MiniSysDataContext.generated.cs:行号 39
+   在 Data.MiniSysDataContext.CreateSession() 位置 C:\Users\Administrator\Desktop\HuaTongBusinessWeb_20130514\CYSBasicSystem.Data\MiniSysDataContext.generated.cs:行号 50
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.NHibernateDataContextAdvanced.get_StateSession()
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.NHibernateDataContextAdvanced.get_Session()
+   在 CodeSmith.Data.NHibernate.Table`1.GetQueryable()
+   在 CodeSmith.Data.NHibernate.Table`1.get_Provider()
+   在 System.Linq.Queryable.Count[TSource](IQueryable`1 source)
+   在 Domain.common.LinqExtensions.GetPagedListQuery[TEntity,TOrderBy,TResult](IQueryable`1 query, Int32 index, Int32 pageSize, List`1 wheres, Expression`1 orderBy, Func`2 selector, Boolean isAsc) 位置 C:\Users\Administrator\Desktop\HuaTongBusinessWeb_20130514\Domain\common\LinqExtensions.cs:行号 122
+   在 Services.Admin.RightControl.RightService.GetRightsList(Int32 pageIndex, Int32 pageSize, RightBO rightBo) 位置 C:\Users\Administrator\Desktop\HuaTongBusinessWeb_20130514\Services\Admin\RightControl\RightService.cs:行号 144
+
+异常时间：2013-12-13 00:38:08,863 [11] 
+异常级别：ERROR 
+异 常 类：logerror [(null)] 
+RoleService.GetRoles(1,10,BusinessObject.AdminBo.RoleBO)方法出现异常 
+ MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown database 'huatongdb'
+   在 MySql.Data.MySqlClient.MySqlStream.OpenPacket()
+   在 MySql.Data.MySqlClient.NativeDriver.Authenticate411()
+   在 MySql.Data.MySqlClient.NativeDriver.Authenticate()
+   在 MySql.Data.MySqlClient.NativeDriver.Open()
+   在 MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   在 MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   在 MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   在 MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   在 MySql.Data.MySqlClient.MySqlConnection.Open()
+   在 NHibernate.Connection.DriverConnectionProvider.GetConnection()
+   在 NHibernate.Tool.hbm2ddl.SuppliedConnectionProviderConnectionHelper.Prepare()
+   在 NHibernate.Tool.hbm2ddl.SchemaMetadataUpdater.GetReservedWords(Dialect dialect, IConnectionHelper connectionHelper)
+   在 NHibernate.Tool.hbm2ddl.SchemaMetadataUpdater.Update(ISessionFactory sessionFactory)
+   在 NHibernate.Impl.SessionFactoryImpl..ctor(Configuration cfg, IMapping mapping, Settings settings, EventListeners listeners)
+   在 NHibernate.Cfg.Configuration.BuildSessionFactory()
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.CreateSessionFactory(String databaseName, String assemblyName, String dialect, String connectionDriver)
+   在 Data.MiniSysDataContext.get_SessionFactory() 位置 C:\Users\Administrator\Desktop\HuaTongBusinessWeb_20130514\CYSBasicSystem.Data\MiniSysDataContext.generated.cs:行号 39
+   在 Data.MiniSysDataContext.CreateSession() 位置 C:\Users\Administrator\Desktop\HuaTongBusinessWeb_20130514\CYSBasicSystem.Data\MiniSysDataContext.generated.cs:行号 50
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.NHibernateDataContextAdvanced.get_StateSession()
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.NHibernateDataContextAdvanced.get_Session()
+   在 CodeSmith.Data.NHibernate.Table`1.GetQueryable()
+   在 CodeSmith.Data.NHibernate.Table`1.get_Provider()
+   在 System.Linq.Queryable.Count[TSource](IQueryable`1 source)
+   在 Domain.common.LinqExtensions.GetPagedListQuery[TEntity,TOrderBy,TResult](IQueryable`1 query, Int32 index, Int32 pageSize, List`1 wheres, Expression`1 orderBy, Func`2 selector, Boolean isAsc) 位置 C:\Users\Administrator\Desktop\HuaTongBusinessWeb_20130514\Domain\common\LinqExtensions.cs:行号 122
+   在 Services.Admin.RoleControl.RoleService.GetRoles(String order, Int32 page, Int32 rows, String sort, RoleBO roleBo) 位置 C:\Users\Administrator\Desktop\HuaTongBusinessWeb_20130514\Services\Admin\RoleControl\RoleService.cs:行号 196
+
+异常时间：2013-12-13 00:38:09,697 [5] 
+异常级别：ERROR 
+异 常 类：logerror [(null)] 
+RightService.GetRightsList(1,10,BusinessObject.AdminBo.RightBO)异常 
+ MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown database 'huatongdb'
+   在 MySql.Data.MySqlClient.MySqlStream.OpenPacket()
+   在 MySql.Data.MySqlClient.NativeDriver.Authenticate411()
+   在 MySql.Data.MySqlClient.NativeDriver.Authenticate()
+   在 MySql.Data.MySqlClient.NativeDriver.Open()
+   在 MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   在 MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   在 MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   在 MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   在 MySql.Data.MySqlClient.MySqlConnection.Open()
+   在 NHibernate.Connection.DriverConnectionProvider.GetConnection()
+   在 NHibernate.Tool.hbm2ddl.SuppliedConnectionProviderConnectionHelper.Prepare()
+   在 NHibernate.Tool.hbm2ddl.SchemaMetadataUpdater.GetReservedWords(Dialect dialect, IConnectionHelper connectionHelper)
+   在 NHibernate.Tool.hbm2ddl.SchemaMetadataUpdater.Update(ISessionFactory sessionFactory)
+   在 NHibernate.Impl.SessionFactoryImpl..ctor(Configuration cfg, IMapping mapping, Settings settings, EventListeners listeners)
+   在 NHibernate.Cfg.Configuration.BuildSessionFactory()
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.CreateSessionFactory(String databaseName, String assemblyName, String dialect, String connectionDriver)
+   在 Data.MiniSysDataContext.get_SessionFactory() 位置 C:\Users\Administrator\Desktop\HuaTongBusinessWeb_20130514\CYSBasicSystem.Data\MiniSysDataContext.generated.cs:行号 39
+   在 Data.MiniSysDataContext.CreateSession() 位置 C:\Users\Administrator\Desktop\HuaTongBusinessWeb_20130514\CYSBasicSystem.Data\MiniSysDataContext.generated.cs:行号 50
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.NHibernateDataContextAdvanced.get_StateSession()
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.NHibernateDataContextAdvanced.get_Session()
+   在 CodeSmith.Data.NHibernate.Table`1.GetQueryable()
+   在 CodeSmith.Data.NHibernate.Table`1.get_Provider()
+   在 System.Linq.Queryable.Count[TSource](IQueryable`1 source)
+   在 Domain.common.LinqExtensions.GetPagedListQuery[TEntity,TOrderBy,TResult](IQueryable`1 query, Int32 index, Int32 pageSize, List`1 wheres, Expression`1 orderBy, Func`2 selector, Boolean isAsc) 位置 C:\Users\Administrator\Desktop\HuaTongBusinessWeb_20130514\Domain\common\LinqExtensions.cs:行号 122
+   在 Services.Admin.RightControl.RightService.GetRightsList(Int32 pageIndex, Int32 pageSize, RightBO rightBo) 位置 C:\Users\Administrator\Desktop\HuaTongBusinessWeb_20130514\Services\Admin\RightControl\RightService.cs:行号 144
+
+异常时间：2013-12-13 00:38:10,445 [11] 
+异常级别：ERROR 
+异 常 类：logerror [(null)] 
+OrganizationService.GetOrgList(1,10,desc,CreatedOn,)异常 
+ MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown database 'huatongdb'
+   在 MySql.Data.MySqlClient.MySqlStream.OpenPacket()
+   在 MySql.Data.MySqlClient.NativeDriver.Authenticate411()
+   在 MySql.Data.MySqlClient.NativeDriver.Authenticate()
+   在 MySql.Data.MySqlClient.NativeDriver.Open()
+   在 MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   在 MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   在 MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   在 MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   在 MySql.Data.MySqlClient.MySqlConnection.Open()
+   在 NHibernate.Connection.DriverConnectionProvider.GetConnection()
+   在 NHibernate.Tool.hbm2ddl.SuppliedConnectionProviderConnectionHelper.Prepare()
+   在 NHibernate.Tool.hbm2ddl.SchemaMetadataUpdater.GetReservedWords(Dialect dialect, IConnectionHelper connectionHelper)
+   在 NHibernate.Tool.hbm2ddl.SchemaMetadataUpdater.Update(ISessionFactory sessionFactory)
+   在 NHibernate.Impl.SessionFactoryImpl..ctor(Configuration cfg, IMapping mapping, Settings settings, EventListeners listeners)
+   在 NHibernate.Cfg.Configuration.BuildSessionFactory()
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.CreateSessionFactory(String databaseName, String assemblyName, String dialect, String connectionDriver)
+   在 Data.MiniSysDataContext.get_SessionFactory() 位置 C:\Users\Administrator\Desktop\HuaTongBusinessWeb_20130514\CYSBasicSystem.Data\MiniSysDataContext.generated.cs:行号 39
+   在 Data.MiniSysDataContext.CreateSession() 位置 C:\Users\Administrator\Desktop\HuaTongBusinessWeb_20130514\CYSBasicSystem.Data\MiniSysDataContext.generated.cs:行号 50
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.NHibernateDataContextAdvanced.get_StateSession()
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.NHibernateDataContextAdvanced.get_Session()
+   在 CodeSmith.Data.NHibernate.Table`1.GetQueryable()
+   在 CodeSmith.Data.NHibernate.Table`1.get_Provider()
+   在 System.Linq.Queryable.Count[TSource](IQueryable`1 source)
+   在 Domain.common.LinqExtensions.GetPagedListQuery[TEntity,TOrderBy,TResult](IQueryable`1 query, Int32 index, Int32 pageSize, List`1 wheres, Expression`1 orderBy, Func`2 selector, Boolean isAsc) 位置 C:\Users\Administrator\Desktop\HuaTongBusinessWeb_20130514\Domain\common\LinqExtensions.cs:行号 122
+   在 Services.Admin.OrganizationControl.OrganizationService.GetOrgList(Int32 pageIndex, Int32 pageSize, String sort, String order, OrganizationBO organizationBo) 位置 C:\Users\Administrator\Desktop\HuaTongBusinessWeb_20130514\Services\Admin\OrganizationControl\OrganizationService.cs:行号 220
+
+异常时间：2013-12-13 20:35:51,474 [16] 
+异常级别：ERROR 
+异 常 类：logerror [(null)] 
+ReimbursementService.GetApplyitems(1,10,desc,CreatedOn,BusinessObject.CostBo.ApplyitemBO)异常 
+ System.ApplicationException: Connection String Not Found
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.GetConnectionString(String databaseName)
+   在 HuatongApply.Data.HuatongApplyContext.GetConnectionString(String databaseName) 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\HuatongApply.Data\HuatongApplyContext.cs:行号 18
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.CreateSessionFactory(String databaseName, String assemblyName, String dialect, String connectionDriver)
+   在 HuatongApply.Data.HuatongApplyContext.get_SessionFactory() 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\HuatongApply.Data\HuatongApplyContext.generated.cs:行号 39
+   在 HuatongApply.Data.HuatongApplyContext.CreateSession() 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\HuatongApply.Data\HuatongApplyContext.generated.cs:行号 50
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.NHibernateDataContextAdvanced.get_StateSession()
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.NHibernateDataContextAdvanced.get_DefaultSession()
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.BeginTransaction()
+   在 Service.Cost.ReimbursementControl.ReimbursementService.GetApplyitems(Int32 pageIndex, Int32 pageSize, String order, String sort, ApplyitemBO applyitemBo) 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\Service\Cost\ReimbursementControl\ReimbursementService.cs:行号 239
+
+异常时间：2013-12-13 20:36:08,758 [11] 
+异常级别：ERROR 
+异 常 类：logerror [(null)] 
+ReimbursementService.GetApplyitems(1,10,desc,CreatedOn,BusinessObject.CostBo.ApplyitemBO)异常 
+ System.ApplicationException: Connection String Not Found
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.GetConnectionString(String databaseName)
+   在 HuatongApply.Data.HuatongApplyContext.GetConnectionString(String databaseName) 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\HuatongApply.Data\HuatongApplyContext.cs:行号 18
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.CreateSessionFactory(String databaseName, String assemblyName, String dialect, String connectionDriver)
+   在 HuatongApply.Data.HuatongApplyContext.get_SessionFactory() 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\HuatongApply.Data\HuatongApplyContext.generated.cs:行号 39
+   在 HuatongApply.Data.HuatongApplyContext.CreateSession() 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\HuatongApply.Data\HuatongApplyContext.generated.cs:行号 50
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.NHibernateDataContextAdvanced.get_StateSession()
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.NHibernateDataContextAdvanced.get_DefaultSession()
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.BeginTransaction()
+   在 Service.Cost.ReimbursementControl.ReimbursementService.GetApplyitems(Int32 pageIndex, Int32 pageSize, String order, String sort, ApplyitemBO applyitemBo) 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\Service\Cost\ReimbursementControl\ReimbursementService.cs:行号 239
+
+异常时间：2013-12-13 20:36:10,696 [15] 
+异常级别：ERROR 
+异 常 类：logerror [(null)] 
+ReimbursementService.GetAllApplyItems() 
+ System.ApplicationException: Connection String Not Found
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.GetConnectionString(String databaseName)
+   在 HuatongApply.Data.HuatongApplyContext.GetConnectionString(String databaseName) 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\HuatongApply.Data\HuatongApplyContext.cs:行号 18
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.CreateSessionFactory(String databaseName, String assemblyName, String dialect, String connectionDriver)
+   在 HuatongApply.Data.HuatongApplyContext.get_SessionFactory() 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\HuatongApply.Data\HuatongApplyContext.generated.cs:行号 39
+   在 HuatongApply.Data.HuatongApplyContext.CreateSession() 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\HuatongApply.Data\HuatongApplyContext.generated.cs:行号 50
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.NHibernateDataContextAdvanced.get_StateSession()
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.NHibernateDataContextAdvanced.get_Session()
+   在 CodeSmith.Data.NHibernate.Table`1.GetQueryable()
+   在 CodeSmith.Data.NHibernate.Table`1.get_Provider()
+   在 System.Linq.Queryable.Where[TSource](IQueryable`1 source, Expression`1 predicate)
+   在 Service.Cost.ReimbursementControl.ReimbursementService.GetAllApplyItems() 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\Service\Cost\ReimbursementControl\ReimbursementService.cs:行号 268
+
+异常时间：2013-12-13 20:36:10,813 [16] 
+异常级别：ERROR 
+异 常 类：logerror [(null)] 
+ApplyRecordService.GetApplyRecords(1,10,desc,CreatedOn,BusinessObject.CostBo.ApplyRecordBO)异常 
+ System.ApplicationException: Connection String Not Found
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.GetConnectionString(String databaseName)
+   在 HuatongApply.Data.HuatongApplyContext.GetConnectionString(String databaseName) 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\HuatongApply.Data\HuatongApplyContext.cs:行号 18
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.CreateSessionFactory(String databaseName, String assemblyName, String dialect, String connectionDriver)
+   在 HuatongApply.Data.HuatongApplyContext.get_SessionFactory() 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\HuatongApply.Data\HuatongApplyContext.generated.cs:行号 39
+   在 HuatongApply.Data.HuatongApplyContext.CreateSession() 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\HuatongApply.Data\HuatongApplyContext.generated.cs:行号 50
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.NHibernateDataContextAdvanced.get_StateSession()
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.NHibernateDataContextAdvanced.get_DefaultSession()
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.BeginTransaction()
+   在 Service.Cost.ReimbursementControl.ApplyRecordService.GetApplyRecords(Int32 pageIndex, Int32 pageSize, String order, String sort, ApplyRecordBO applyRecordBo) 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\Service\Cost\ReimbursementControl\ApplyRecordService.cs:行号 316
+
+异常时间：2013-12-13 20:36:16,445 [16] 
+异常级别：ERROR 
+异 常 类：logerror [(null)] 
+ApplyRecordService.GetApplyRecords(1,10,desc,CreatedOn,BusinessObject.CostBo.ApplyRecordBO)异常 
+ System.ApplicationException: Connection String Not Found
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.GetConnectionString(String databaseName)
+   在 HuatongApply.Data.HuatongApplyContext.GetConnectionString(String databaseName) 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\HuatongApply.Data\HuatongApplyContext.cs:行号 18
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.CreateSessionFactory(String databaseName, String assemblyName, String dialect, String connectionDriver)
+   在 HuatongApply.Data.HuatongApplyContext.get_SessionFactory() 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\HuatongApply.Data\HuatongApplyContext.generated.cs:行号 39
+   在 HuatongApply.Data.HuatongApplyContext.CreateSession() 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\HuatongApply.Data\HuatongApplyContext.generated.cs:行号 50
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.NHibernateDataContextAdvanced.get_StateSession()
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.NHibernateDataContextAdvanced.get_DefaultSession()
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.BeginTransaction()
+   在 Service.Cost.ReimbursementControl.ApplyRecordService.GetApplyRecords(Int32 pageIndex, Int32 pageSize, String order, String sort, ApplyRecordBO applyRecordBo) 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\Service\Cost\ReimbursementControl\ApplyRecordService.cs:行号 316
+
+异常时间：2013-12-13 20:36:16,465 [15] 
+异常级别：ERROR 
+异 常 类：logerror [(null)] 
+ReimbursementService.GetAllApplyItems() 
+ System.ApplicationException: Connection String Not Found
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.GetConnectionString(String databaseName)
+   在 HuatongApply.Data.HuatongApplyContext.GetConnectionString(String databaseName) 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\HuatongApply.Data\HuatongApplyContext.cs:行号 18
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.CreateSessionFactory(String databaseName, String assemblyName, String dialect, String connectionDriver)
+   在 HuatongApply.Data.HuatongApplyContext.get_SessionFactory() 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\HuatongApply.Data\HuatongApplyContext.generated.cs:行号 39
+   在 HuatongApply.Data.HuatongApplyContext.CreateSession() 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\HuatongApply.Data\HuatongApplyContext.generated.cs:行号 50
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.NHibernateDataContextAdvanced.get_StateSession()
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.NHibernateDataContextAdvanced.get_Session()
+   在 CodeSmith.Data.NHibernate.Table`1.GetQueryable()
+   在 CodeSmith.Data.NHibernate.Table`1.get_Provider()
+   在 System.Linq.Queryable.Where[TSource](IQueryable`1 source, Expression`1 predicate)
+   在 Service.Cost.ReimbursementControl.ReimbursementService.GetAllApplyItems() 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\Service\Cost\ReimbursementControl\ReimbursementService.cs:行号 268
+
+异常时间：2013-12-13 20:40:07,667 [15] 
+异常级别：ERROR 
+异 常 类：logerror [(null)] 
+ReimbursementService.GetApplyitems(1,10,desc,CreatedOn,BusinessObject.CostBo.ApplyitemBO)异常 
+ System.ApplicationException: Connection String Not Found
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.GetConnectionString(String databaseName)
+   在 HuatongApply.Data.HuatongApplyContext.GetConnectionString(String databaseName) 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\HuatongApply.Data\HuatongApplyContext.cs:行号 18
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.CreateSessionFactory(String databaseName, String assemblyName, String dialect, String connectionDriver)
+   在 HuatongApply.Data.HuatongApplyContext.get_SessionFactory() 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\HuatongApply.Data\HuatongApplyContext.generated.cs:行号 39
+   在 HuatongApply.Data.HuatongApplyContext.CreateSession() 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\HuatongApply.Data\HuatongApplyContext.generated.cs:行号 50
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.NHibernateDataContextAdvanced.get_StateSession()
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.NHibernateDataContextAdvanced.get_DefaultSession()
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.BeginTransaction()
+   在 Service.Cost.ReimbursementControl.ReimbursementService.GetApplyitems(Int32 pageIndex, Int32 pageSize, String order, String sort, ApplyitemBO applyitemBo) 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\Service\Cost\ReimbursementControl\ReimbursementService.cs:行号 239
+
+异常时间：2013-12-13 20:40:10,759 [12] 
+异常级别：ERROR 
+异 常 类：logerror [(null)] 
+ReimbursementService.GetAllApplyItems() 
+ System.ApplicationException: Connection String Not Found
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.GetConnectionString(String databaseName)
+   在 HuatongApply.Data.HuatongApplyContext.GetConnectionString(String databaseName) 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\HuatongApply.Data\HuatongApplyContext.cs:行号 18
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.CreateSessionFactory(String databaseName, String assemblyName, String dialect, String connectionDriver)
+   在 HuatongApply.Data.HuatongApplyContext.get_SessionFactory() 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\HuatongApply.Data\HuatongApplyContext.generated.cs:行号 39
+   在 HuatongApply.Data.HuatongApplyContext.CreateSession() 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\HuatongApply.Data\HuatongApplyContext.generated.cs:行号 50
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.NHibernateDataContextAdvanced.get_StateSession()
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.NHibernateDataContextAdvanced.get_Session()
+   在 CodeSmith.Data.NHibernate.Table`1.GetQueryable()
+   在 CodeSmith.Data.NHibernate.Table`1.get_Provider()
+   在 System.Linq.Queryable.Where[TSource](IQueryable`1 source, Expression`1 predicate)
+   在 Service.Cost.ReimbursementControl.ReimbursementService.GetAllApplyItems() 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\Service\Cost\ReimbursementControl\ReimbursementService.cs:行号 268
+
+异常时间：2013-12-13 20:40:10,862 [10] 
+异常级别：ERROR 
+异 常 类：logerror [(null)] 
+ApplyRecordService.GetApplyRecords(1,10,desc,CreatedOn,BusinessObject.CostBo.ApplyRecordBO)异常 
+ System.ApplicationException: Connection String Not Found
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.GetConnectionString(String databaseName)
+   在 HuatongApply.Data.HuatongApplyContext.GetConnectionString(String databaseName) 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\HuatongApply.Data\HuatongApplyContext.cs:行号 18
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.CreateSessionFactory(String databaseName, String assemblyName, String dialect, String connectionDriver)
+   在 HuatongApply.Data.HuatongApplyContext.get_SessionFactory() 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\HuatongApply.Data\HuatongApplyContext.generated.cs:行号 39
+   在 HuatongApply.Data.HuatongApplyContext.CreateSession() 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\HuatongApply.Data\HuatongApplyContext.generated.cs:行号 50
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.NHibernateDataContextAdvanced.get_StateSession()
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.NHibernateDataContextAdvanced.get_DefaultSession()
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.BeginTransaction()
+   在 Service.Cost.ReimbursementControl.ApplyRecordService.GetApplyRecords(Int32 pageIndex, Int32 pageSize, String order, String sort, ApplyRecordBO applyRecordBo) 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\Service\Cost\ReimbursementControl\ApplyRecordService.cs:行号 316
+
+异常时间：2013-12-13 20:40:13,484 [10] 
+异常级别：ERROR 
+异 常 类：logerror [(null)] 
+ApplyRecordService.GetApplyRecords(1,10,desc,CreatedOn,BusinessObject.CostBo.ApplyRecordBO)异常 
+ System.ApplicationException: Connection String Not Found
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.GetConnectionString(String databaseName)
+   在 HuatongApply.Data.HuatongApplyContext.GetConnectionString(String databaseName) 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\HuatongApply.Data\HuatongApplyContext.cs:行号 18
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.CreateSessionFactory(String databaseName, String assemblyName, String dialect, String connectionDriver)
+   在 HuatongApply.Data.HuatongApplyContext.get_SessionFactory() 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\HuatongApply.Data\HuatongApplyContext.generated.cs:行号 39
+   在 HuatongApply.Data.HuatongApplyContext.CreateSession() 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\HuatongApply.Data\HuatongApplyContext.generated.cs:行号 50
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.NHibernateDataContextAdvanced.get_StateSession()
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.NHibernateDataContextAdvanced.get_DefaultSession()
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.BeginTransaction()
+   在 Service.Cost.ReimbursementControl.ApplyRecordService.GetApplyRecords(Int32 pageIndex, Int32 pageSize, String order, String sort, ApplyRecordBO applyRecordBo) 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\Service\Cost\ReimbursementControl\ApplyRecordService.cs:行号 316
+
+异常时间：2013-12-13 20:40:13,501 [15] 
+异常级别：ERROR 
+异 常 类：logerror [(null)] 
+ReimbursementService.GetAllApplyItems() 
+ System.ApplicationException: Connection String Not Found
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.GetConnectionString(String databaseName)
+   在 HuatongApply.Data.HuatongApplyContext.GetConnectionString(String databaseName) 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\HuatongApply.Data\HuatongApplyContext.cs:行号 18
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.CreateSessionFactory(String databaseName, String assemblyName, String dialect, String connectionDriver)
+   在 HuatongApply.Data.HuatongApplyContext.get_SessionFactory() 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\HuatongApply.Data\HuatongApplyContext.generated.cs:行号 39
+   在 HuatongApply.Data.HuatongApplyContext.CreateSession() 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\HuatongApply.Data\HuatongApplyContext.generated.cs:行号 50
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.NHibernateDataContextAdvanced.get_StateSession()
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.NHibernateDataContextAdvanced.get_Session()
+   在 CodeSmith.Data.NHibernate.Table`1.GetQueryable()
+   在 CodeSmith.Data.NHibernate.Table`1.get_Provider()
+   在 System.Linq.Queryable.Where[TSource](IQueryable`1 source, Expression`1 predicate)
+   在 Service.Cost.ReimbursementControl.ReimbursementService.GetAllApplyItems() 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\Service\Cost\ReimbursementControl\ReimbursementService.cs:行号 268
+
+异常时间：2013-12-13 20:40:17,647 [10] 
+异常级别：ERROR 
+异 常 类：logerror [(null)] 
+ReimbursementService.GetApplyitems(1,10,desc,CreatedOn,BusinessObject.CostBo.ApplyitemBO)异常 
+ System.ApplicationException: Connection String Not Found
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.GetConnectionString(String databaseName)
+   在 HuatongApply.Data.HuatongApplyContext.GetConnectionString(String databaseName) 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\HuatongApply.Data\HuatongApplyContext.cs:行号 18
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.CreateSessionFactory(String databaseName, String assemblyName, String dialect, String connectionDriver)
+   在 HuatongApply.Data.HuatongApplyContext.get_SessionFactory() 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\HuatongApply.Data\HuatongApplyContext.generated.cs:行号 39
+   在 HuatongApply.Data.HuatongApplyContext.CreateSession() 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\HuatongApply.Data\HuatongApplyContext.generated.cs:行号 50
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.NHibernateDataContextAdvanced.get_StateSession()
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.NHibernateDataContextAdvanced.get_DefaultSession()
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.BeginTransaction()
+   在 Service.Cost.ReimbursementControl.ReimbursementService.GetApplyitems(Int32 pageIndex, Int32 pageSize, String order, String sort, ApplyitemBO applyitemBo) 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\Service\Cost\ReimbursementControl\ReimbursementService.cs:行号 239
+
+异常时间：2013-12-13 20:40:23,334 [10] 
+异常级别：ERROR 
+异 常 类：logerror [(null)] 
+ReimbursementService.GetApplyitems(1,10,desc,CreatedOn,BusinessObject.CostBo.ApplyitemBO)异常 
+ System.ApplicationException: Connection String Not Found
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.GetConnectionString(String databaseName)
+   在 HuatongApply.Data.HuatongApplyContext.GetConnectionString(String databaseName) 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\HuatongApply.Data\HuatongApplyContext.cs:行号 18
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.CreateSessionFactory(String databaseName, String assemblyName, String dialect, String connectionDriver)
+   在 HuatongApply.Data.HuatongApplyContext.get_SessionFactory() 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\HuatongApply.Data\HuatongApplyContext.generated.cs:行号 39
+   在 HuatongApply.Data.HuatongApplyContext.CreateSession() 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\HuatongApply.Data\HuatongApplyContext.generated.cs:行号 50
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.NHibernateDataContextAdvanced.get_StateSession()
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.NHibernateDataContextAdvanced.get_DefaultSession()
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.BeginTransaction()
+   在 Service.Cost.ReimbursementControl.ReimbursementService.GetApplyitems(Int32 pageIndex, Int32 pageSize, String order, String sort, ApplyitemBO applyitemBo) 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\Service\Cost\ReimbursementControl\ReimbursementService.cs:行号 239
+
+异常时间：2013-12-13 20:40:29,260 [12] 
+异常级别：ERROR 
+异 常 类：logerror [(null)] 
+ApplyRecordService.GetApplyRecords(1,10,desc,CreatedOn,BusinessObject.CostBo.ApplyRecordBO)异常 
+ System.ApplicationException: Connection String Not Found
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.GetConnectionString(String databaseName)
+   在 HuatongApply.Data.HuatongApplyContext.GetConnectionString(String databaseName) 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\HuatongApply.Data\HuatongApplyContext.cs:行号 18
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.CreateSessionFactory(String databaseName, String assemblyName, String dialect, String connectionDriver)
+   在 HuatongApply.Data.HuatongApplyContext.get_SessionFactory() 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\HuatongApply.Data\HuatongApplyContext.generated.cs:行号 39
+   在 HuatongApply.Data.HuatongApplyContext.CreateSession() 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\HuatongApply.Data\HuatongApplyContext.generated.cs:行号 50
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.NHibernateDataContextAdvanced.get_StateSession()
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.NHibernateDataContextAdvanced.get_DefaultSession()
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.BeginTransaction()
+   在 Service.Cost.ReimbursementControl.ApplyRecordService.GetApplyRecords(Int32 pageIndex, Int32 pageSize, String order, String sort, ApplyRecordBO applyRecordBo) 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\Service\Cost\ReimbursementControl\ApplyRecordService.cs:行号 316
+
+异常时间：2013-12-13 20:40:29,283 [12] 
+异常级别：ERROR 
+异 常 类：logerror [(null)] 
+ReimbursementService.GetAllApplyItems() 
+ System.ApplicationException: Connection String Not Found
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.GetConnectionString(String databaseName)
+   在 HuatongApply.Data.HuatongApplyContext.GetConnectionString(String databaseName) 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\HuatongApply.Data\HuatongApplyContext.cs:行号 18
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.CreateSessionFactory(String databaseName, String assemblyName, String dialect, String connectionDriver)
+   在 HuatongApply.Data.HuatongApplyContext.get_SessionFactory() 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\HuatongApply.Data\HuatongApplyContext.generated.cs:行号 39
+   在 HuatongApply.Data.HuatongApplyContext.CreateSession() 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\HuatongApply.Data\HuatongApplyContext.generated.cs:行号 50
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.NHibernateDataContextAdvanced.get_StateSession()
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.NHibernateDataContextAdvanced.get_Session()
+   在 CodeSmith.Data.NHibernate.Table`1.GetQueryable()
+   在 CodeSmith.Data.NHibernate.Table`1.get_Provider()
+   在 System.Linq.Queryable.Where[TSource](IQueryable`1 source, Expression`1 predicate)
+   在 Service.Cost.ReimbursementControl.ReimbursementService.GetAllApplyItems() 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\Service\Cost\ReimbursementControl\ReimbursementService.cs:行号 268
+
+异常时间：2013-12-13 20:44:22,716 [20] 
+异常级别：ERROR 
+异 常 类：logerror [(null)] 
+ReimbursementService.GetApplyitems(1,10,desc,CreatedOn,BusinessObject.CostBo.ApplyitemBO)异常 
+ System.ApplicationException: Connection String Not Found
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.GetConnectionString(String databaseName)
+   在 HuatongApply.Data.HuatongApplyContext.GetConnectionString(String databaseName) 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\HuatongApply.Data\HuatongApplyContext.cs:行号 18
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.CreateSessionFactory(String databaseName, String assemblyName, String dialect, String connectionDriver)
+   在 HuatongApply.Data.HuatongApplyContext.get_SessionFactory() 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\HuatongApply.Data\HuatongApplyContext.generated.cs:行号 39
+   在 HuatongApply.Data.HuatongApplyContext.CreateSession() 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\HuatongApply.Data\HuatongApplyContext.generated.cs:行号 50
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.NHibernateDataContextAdvanced.get_StateSession()
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.NHibernateDataContextAdvanced.get_DefaultSession()
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.BeginTransaction()
+   在 Service.Cost.ReimbursementControl.ReimbursementService.GetApplyitems(Int32 pageIndex, Int32 pageSize, String order, String sort, ApplyitemBO applyitemBo) 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\Service\Cost\ReimbursementControl\ReimbursementService.cs:行号 239
+
+异常时间：2013-12-13 20:45:01,191 [16] 
+异常级别：ERROR 
+异 常 类：logerror [(null)] 
+ReimbursementService.GetApplyitems(1,10,desc,CreatedOn,BusinessObject.CostBo.ApplyitemBO)异常 
+ System.ApplicationException: Connection String Not Found
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.GetConnectionString(String databaseName)
+   在 HuatongApply.Data.HuatongApplyContext.GetConnectionString(String databaseName) 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\HuatongApply.Data\HuatongApplyContext.cs:行号 18
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.CreateSessionFactory(String databaseName, String assemblyName, String dialect, String connectionDriver)
+   在 HuatongApply.Data.HuatongApplyContext.get_SessionFactory() 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\HuatongApply.Data\HuatongApplyContext.generated.cs:行号 39
+   在 HuatongApply.Data.HuatongApplyContext.CreateSession() 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\HuatongApply.Data\HuatongApplyContext.generated.cs:行号 50
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.NHibernateDataContextAdvanced.get_StateSession()
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.NHibernateDataContextAdvanced.get_DefaultSession()
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.BeginTransaction()
+   在 Service.Cost.ReimbursementControl.ReimbursementService.GetApplyitems(Int32 pageIndex, Int32 pageSize, String order, String sort, ApplyitemBO applyitemBo) 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\Service\Cost\ReimbursementControl\ReimbursementService.cs:行号 239
+
+异常时间：2013-12-13 20:45:04,512 [22] 
+异常级别：ERROR 
+异 常 类：logerror [(null)] 
+ReimbursementService.GetAllApplyItems() 
+ System.ApplicationException: Connection String Not Found
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.GetConnectionString(String databaseName)
+   在 HuatongApply.Data.HuatongApplyContext.GetConnectionString(String databaseName) 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\HuatongApply.Data\HuatongApplyContext.cs:行号 18
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.CreateSessionFactory(String databaseName, String assemblyName, String dialect, String connectionDriver)
+   在 HuatongApply.Data.HuatongApplyContext.get_SessionFactory() 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\HuatongApply.Data\HuatongApplyContext.generated.cs:行号 39
+   在 HuatongApply.Data.HuatongApplyContext.CreateSession() 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\HuatongApply.Data\HuatongApplyContext.generated.cs:行号 50
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.NHibernateDataContextAdvanced.get_StateSession()
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.NHibernateDataContextAdvanced.get_Session()
+   在 CodeSmith.Data.NHibernate.Table`1.GetQueryable()
+   在 CodeSmith.Data.NHibernate.Table`1.get_Provider()
+   在 System.Linq.Queryable.Where[TSource](IQueryable`1 source, Expression`1 predicate)
+   在 Service.Cost.ReimbursementControl.ReimbursementService.GetAllApplyItems() 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\Service\Cost\ReimbursementControl\ReimbursementService.cs:行号 268
+
+异常时间：2013-12-13 20:45:04,624 [10] 
+异常级别：ERROR 
+异 常 类：logerror [(null)] 
+ApplyRecordService.GetApplyRecords(1,10,desc,CreatedOn,BusinessObject.CostBo.ApplyRecordBO)异常 
+ System.ApplicationException: Connection String Not Found
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.GetConnectionString(String databaseName)
+   在 HuatongApply.Data.HuatongApplyContext.GetConnectionString(String databaseName) 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\HuatongApply.Data\HuatongApplyContext.cs:行号 18
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.CreateSessionFactory(String databaseName, String assemblyName, String dialect, String connectionDriver)
+   在 HuatongApply.Data.HuatongApplyContext.get_SessionFactory() 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\HuatongApply.Data\HuatongApplyContext.generated.cs:行号 39
+   在 HuatongApply.Data.HuatongApplyContext.CreateSession() 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\HuatongApply.Data\HuatongApplyContext.generated.cs:行号 50
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.NHibernateDataContextAdvanced.get_StateSession()
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.NHibernateDataContextAdvanced.get_DefaultSession()
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.BeginTransaction()
+   在 Service.Cost.ReimbursementControl.ApplyRecordService.GetApplyRecords(Int32 pageIndex, Int32 pageSize, String order, String sort, ApplyRecordBO applyRecordBo) 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\Service\Cost\ReimbursementControl\ApplyRecordService.cs:行号 316
+
+异常时间：2013-12-13 20:45:08,410 [18] 
+异常级别：ERROR 
+异 常 类：logerror [(null)] 
+ApplyRecordService.GetApplyRecords(1,10,desc,CreatedOn,BusinessObject.CostBo.ApplyRecordBO)异常 
+ System.ApplicationException: Connection String Not Found
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.GetConnectionString(String databaseName)
+   在 HuatongApply.Data.HuatongApplyContext.GetConnectionString(String databaseName) 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\HuatongApply.Data\HuatongApplyContext.cs:行号 18
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.CreateSessionFactory(String databaseName, String assemblyName, String dialect, String connectionDriver)
+   在 HuatongApply.Data.HuatongApplyContext.get_SessionFactory() 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\HuatongApply.Data\HuatongApplyContext.generated.cs:行号 39
+   在 HuatongApply.Data.HuatongApplyContext.CreateSession() 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\HuatongApply.Data\HuatongApplyContext.generated.cs:行号 50
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.NHibernateDataContextAdvanced.get_StateSession()
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.NHibernateDataContextAdvanced.get_DefaultSession()
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.BeginTransaction()
+   在 Service.Cost.ReimbursementControl.ApplyRecordService.GetApplyRecords(Int32 pageIndex, Int32 pageSize, String order, String sort, ApplyRecordBO applyRecordBo) 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\Service\Cost\ReimbursementControl\ApplyRecordService.cs:行号 316
+
+异常时间：2013-12-13 20:45:08,413 [18] 
+异常级别：ERROR 
+异 常 类：logerror [(null)] 
+ReimbursementService.GetAllApplyItems() 
+ System.ApplicationException: Connection String Not Found
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.GetConnectionString(String databaseName)
+   在 HuatongApply.Data.HuatongApplyContext.GetConnectionString(String databaseName) 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\HuatongApply.Data\HuatongApplyContext.cs:行号 18
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.CreateSessionFactory(String databaseName, String assemblyName, String dialect, String connectionDriver)
+   在 HuatongApply.Data.HuatongApplyContext.get_SessionFactory() 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\HuatongApply.Data\HuatongApplyContext.generated.cs:行号 39
+   在 HuatongApply.Data.HuatongApplyContext.CreateSession() 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\HuatongApply.Data\HuatongApplyContext.generated.cs:行号 50
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.NHibernateDataContextAdvanced.get_StateSession()
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.NHibernateDataContextAdvanced.get_Session()
+   在 CodeSmith.Data.NHibernate.Table`1.GetQueryable()
+   在 CodeSmith.Data.NHibernate.Table`1.get_Provider()
+   在 System.Linq.Queryable.Where[TSource](IQueryable`1 source, Expression`1 predicate)
+   在 Service.Cost.ReimbursementControl.ReimbursementService.GetAllApplyItems() 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\Service\Cost\ReimbursementControl\ReimbursementService.cs:行号 268
+
+异常时间：2013-12-13 20:53:56,020 [11] 
+异常级别：ERROR 
+异 常 类：logerror [(null)] 
+ReimbursementService.GetApplyitems(1,10,desc,CreatedOn,BusinessObject.CostBo.ApplyitemBO)异常 
+ System.ApplicationException: Connection String Not Found
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.GetConnectionString(String databaseName)
+   在 HuatongApply.Data.HuatongApplyContext.GetConnectionString(String databaseName) 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\HuatongApply.Data\HuatongApplyContext.cs:行号 18
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.CreateSessionFactory(String databaseName, String assemblyName, String dialect, String connectionDriver)
+   在 HuatongApply.Data.HuatongApplyContext.get_SessionFactory() 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\HuatongApply.Data\HuatongApplyContext.generated.cs:行号 39
+   在 HuatongApply.Data.HuatongApplyContext.CreateSession() 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\HuatongApply.Data\HuatongApplyContext.generated.cs:行号 50
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.NHibernateDataContextAdvanced.get_StateSession()
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.NHibernateDataContextAdvanced.get_DefaultSession()
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.BeginTransaction()
+   在 Service.Cost.ReimbursementControl.ReimbursementService.GetApplyitems(Int32 pageIndex, Int32 pageSize, String order, String sort, ApplyitemBO applyitemBo) 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\Service\Cost\ReimbursementControl\ReimbursementService.cs:行号 239
+
+异常时间：2013-12-13 20:53:58,482 [12] 
+异常级别：ERROR 
+异 常 类：logerror [(null)] 
+ReimbursementService.GetApplyitems(1,10,desc,CreatedOn,BusinessObject.CostBo.ApplyitemBO)异常 
+ System.ApplicationException: Connection String Not Found
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.GetConnectionString(String databaseName)
+   在 HuatongApply.Data.HuatongApplyContext.GetConnectionString(String databaseName) 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\HuatongApply.Data\HuatongApplyContext.cs:行号 18
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.CreateSessionFactory(String databaseName, String assemblyName, String dialect, String connectionDriver)
+   在 HuatongApply.Data.HuatongApplyContext.get_SessionFactory() 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\HuatongApply.Data\HuatongApplyContext.generated.cs:行号 39
+   在 HuatongApply.Data.HuatongApplyContext.CreateSession() 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\HuatongApply.Data\HuatongApplyContext.generated.cs:行号 50
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.NHibernateDataContextAdvanced.get_StateSession()
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.NHibernateDataContextAdvanced.get_DefaultSession()
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.BeginTransaction()
+   在 Service.Cost.ReimbursementControl.ReimbursementService.GetApplyitems(Int32 pageIndex, Int32 pageSize, String order, String sort, ApplyitemBO applyitemBo) 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\Service\Cost\ReimbursementControl\ReimbursementService.cs:行号 239
+
+异常时间：2013-12-13 20:53:59,342 [19] 
+异常级别：ERROR 
+异 常 类：logerror [(null)] 
+ReimbursementService.GetAllApplyItems() 
+ System.ApplicationException: Connection String Not Found
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.GetConnectionString(String databaseName)
+   在 HuatongApply.Data.HuatongApplyContext.GetConnectionString(String databaseName) 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\HuatongApply.Data\HuatongApplyContext.cs:行号 18
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.CreateSessionFactory(String databaseName, String assemblyName, String dialect, String connectionDriver)
+   在 HuatongApply.Data.HuatongApplyContext.get_SessionFactory() 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\HuatongApply.Data\HuatongApplyContext.generated.cs:行号 39
+   在 HuatongApply.Data.HuatongApplyContext.CreateSession() 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\HuatongApply.Data\HuatongApplyContext.generated.cs:行号 50
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.NHibernateDataContextAdvanced.get_StateSession()
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.NHibernateDataContextAdvanced.get_Session()
+   在 CodeSmith.Data.NHibernate.Table`1.GetQueryable()
+   在 CodeSmith.Data.NHibernate.Table`1.get_Provider()
+   在 System.Linq.Queryable.Where[TSource](IQueryable`1 source, Expression`1 predicate)
+   在 Service.Cost.ReimbursementControl.ReimbursementService.GetAllApplyItems() 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\Service\Cost\ReimbursementControl\ReimbursementService.cs:行号 268
+
+异常时间：2013-12-13 20:53:59,446 [19] 
+异常级别：ERROR 
+异 常 类：logerror [(null)] 
+ApplyRecordService.GetApplyRecords(1,10,desc,CreatedOn,BusinessObject.CostBo.ApplyRecordBO)异常 
+ System.ApplicationException: Connection String Not Found
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.GetConnectionString(String databaseName)
+   在 HuatongApply.Data.HuatongApplyContext.GetConnectionString(String databaseName) 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\HuatongApply.Data\HuatongApplyContext.cs:行号 18
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.CreateSessionFactory(String databaseName, String assemblyName, String dialect, String connectionDriver)
+   在 HuatongApply.Data.HuatongApplyContext.get_SessionFactory() 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\HuatongApply.Data\HuatongApplyContext.generated.cs:行号 39
+   在 HuatongApply.Data.HuatongApplyContext.CreateSession() 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\HuatongApply.Data\HuatongApplyContext.generated.cs:行号 50
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.NHibernateDataContextAdvanced.get_StateSession()
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.NHibernateDataContextAdvanced.get_DefaultSession()
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.BeginTransaction()
+   在 Service.Cost.ReimbursementControl.ApplyRecordService.GetApplyRecords(Int32 pageIndex, Int32 pageSize, String order, String sort, ApplyRecordBO applyRecordBo) 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\Service\Cost\ReimbursementControl\ApplyRecordService.cs:行号 316
+
+异常时间：2013-12-13 20:54:01,072 [18] 
+异常级别：ERROR 
+异 常 类：logerror [(null)] 
+ApplyRecordService.GetApplyRecords(1,10,desc,CreatedOn,BusinessObject.CostBo.ApplyRecordBO)异常 
+ System.ApplicationException: Connection String Not Found
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.GetConnectionString(String databaseName)
+   在 HuatongApply.Data.HuatongApplyContext.GetConnectionString(String databaseName) 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\HuatongApply.Data\HuatongApplyContext.cs:行号 18
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.CreateSessionFactory(String databaseName, String assemblyName, String dialect, String connectionDriver)
+   在 HuatongApply.Data.HuatongApplyContext.get_SessionFactory() 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\HuatongApply.Data\HuatongApplyContext.generated.cs:行号 39
+   在 HuatongApply.Data.HuatongApplyContext.CreateSession() 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\HuatongApply.Data\HuatongApplyContext.generated.cs:行号 50
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.NHibernateDataContextAdvanced.get_StateSession()
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.NHibernateDataContextAdvanced.get_DefaultSession()
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.BeginTransaction()
+   在 Service.Cost.ReimbursementControl.ApplyRecordService.GetApplyRecords(Int32 pageIndex, Int32 pageSize, String order, String sort, ApplyRecordBO applyRecordBo) 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\Service\Cost\ReimbursementControl\ApplyRecordService.cs:行号 316
+
+异常时间：2013-12-13 20:54:01,096 [15] 
+异常级别：ERROR 
+异 常 类：logerror [(null)] 
+ReimbursementService.GetAllApplyItems() 
+ System.ApplicationException: Connection String Not Found
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.GetConnectionString(String databaseName)
+   在 HuatongApply.Data.HuatongApplyContext.GetConnectionString(String databaseName) 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\HuatongApply.Data\HuatongApplyContext.cs:行号 18
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.CreateSessionFactory(String databaseName, String assemblyName, String dialect, String connectionDriver)
+   在 HuatongApply.Data.HuatongApplyContext.get_SessionFactory() 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\HuatongApply.Data\HuatongApplyContext.generated.cs:行号 39
+   在 HuatongApply.Data.HuatongApplyContext.CreateSession() 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\HuatongApply.Data\HuatongApplyContext.generated.cs:行号 50
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.NHibernateDataContextAdvanced.get_StateSession()
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.NHibernateDataContextAdvanced.get_Session()
+   在 CodeSmith.Data.NHibernate.Table`1.GetQueryable()
+   在 CodeSmith.Data.NHibernate.Table`1.get_Provider()
+   在 System.Linq.Queryable.Where[TSource](IQueryable`1 source, Expression`1 predicate)
+   在 Service.Cost.ReimbursementControl.ReimbursementService.GetAllApplyItems() 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\Service\Cost\ReimbursementControl\ReimbursementService.cs:行号 268
+
+异常时间：2013-12-13 21:18:23,311 [25] 
+异常级别：ERROR 
+异 常 类：logerror [(null)] 
+ReimbursementService.GetApplyitems(1,100,desc,CreatedOn,BusinessObject.CostBo.ApplyitemBO)异常 
+ System.ApplicationException: Connection String Not Found
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.GetConnectionString(String databaseName)
+   在 HuatongApply.Data.HuatongApplyContext.GetConnectionString(String databaseName) 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\HuatongApply.Data\HuatongApplyContext.cs:行号 18
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.CreateSessionFactory(String databaseName, String assemblyName, String dialect, String connectionDriver)
+   在 HuatongApply.Data.HuatongApplyContext.get_SessionFactory() 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\HuatongApply.Data\HuatongApplyContext.generated.cs:行号 39
+   在 HuatongApply.Data.HuatongApplyContext.CreateSession() 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\HuatongApply.Data\HuatongApplyContext.generated.cs:行号 50
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.NHibernateDataContextAdvanced.get_StateSession()
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.NHibernateDataContextAdvanced.get_DefaultSession()
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.BeginTransaction()
+   在 Service.Cost.ReimbursementControl.ReimbursementService.GetApplyitems(Int32 pageIndex, Int32 pageSize, String order, String sort, ApplyitemBO applyitemBo) 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\Service\Cost\ReimbursementControl\ReimbursementService.cs:行号 239
+
+异常时间：2013-12-13 21:24:44,463 [16] 
+异常级别：ERROR 
+异 常 类：logerror [(null)] 
+ReimbursementService.GetApplyitems(1,100,desc,CreatedOn,BusinessObject.CostBo.ApplyitemBO)异常 
+ System.ApplicationException: Connection String Not Found
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.GetConnectionString(String databaseName)
+   在 HuatongApply.Data.HuatongApplyContext.GetConnectionString(String databaseName) 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\HuatongApply.Data\HuatongApplyContext.cs:行号 18
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.CreateSessionFactory(String databaseName, String assemblyName, String dialect, String connectionDriver)
+   在 HuatongApply.Data.HuatongApplyContext.get_SessionFactory() 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\HuatongApply.Data\HuatongApplyContext.generated.cs:行号 39
+   在 HuatongApply.Data.HuatongApplyContext.CreateSession() 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\HuatongApply.Data\HuatongApplyContext.generated.cs:行号 50
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.NHibernateDataContextAdvanced.get_StateSession()
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.NHibernateDataContextAdvanced.get_DefaultSession()
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.BeginTransaction()
+   在 Service.Cost.ReimbursementControl.ReimbursementService.GetApplyitems(Int32 pageIndex, Int32 pageSize, String order, String sort, ApplyitemBO applyitemBo) 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\Service\Cost\ReimbursementControl\ReimbursementService.cs:行号 239
+
+异常时间：2013-12-13 21:27:30,092 [21] 
+异常级别：ERROR 
+异 常 类：logerror [(null)] 
+ReimbursementService.GetApplyitems(1,10,desc,CreatedOn,BusinessObject.CostBo.ApplyitemBO)异常 
+ System.ApplicationException: Connection String Not Found
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.GetConnectionString(String databaseName)
+   在 HuatongApply.Data.HuatongApplyContext.GetConnectionString(String databaseName) 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\HuatongApply.Data\HuatongApplyContext.cs:行号 18
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.CreateSessionFactory(String databaseName, String assemblyName, String dialect, String connectionDriver)
+   在 HuatongApply.Data.HuatongApplyContext.get_SessionFactory() 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\HuatongApply.Data\HuatongApplyContext.generated.cs:行号 39
+   在 HuatongApply.Data.HuatongApplyContext.CreateSession() 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\HuatongApply.Data\HuatongApplyContext.generated.cs:行号 50
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.NHibernateDataContextAdvanced.get_StateSession()
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.NHibernateDataContextAdvanced.get_DefaultSession()
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.BeginTransaction()
+   在 Service.Cost.ReimbursementControl.ReimbursementService.GetApplyitems(Int32 pageIndex, Int32 pageSize, String order, String sort, ApplyitemBO applyitemBo) 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\Service\Cost\ReimbursementControl\ReimbursementService.cs:行号 239
+
+异常时间：2013-12-13 21:27:54,876 [11] 
+异常级别：ERROR 
+异 常 类：logerror [(null)] 
+ReimbursementService.GetAllApplyItems() 
+ System.ApplicationException: Connection String Not Found
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.GetConnectionString(String databaseName)
+   在 HuatongApply.Data.HuatongApplyContext.GetConnectionString(String databaseName) 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\HuatongApply.Data\HuatongApplyContext.cs:行号 18
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.CreateSessionFactory(String databaseName, String assemblyName, String dialect, String connectionDriver)
+   在 HuatongApply.Data.HuatongApplyContext.get_SessionFactory() 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\HuatongApply.Data\HuatongApplyContext.generated.cs:行号 39
+   在 HuatongApply.Data.HuatongApplyContext.CreateSession() 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\HuatongApply.Data\HuatongApplyContext.generated.cs:行号 50
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.NHibernateDataContextAdvanced.get_StateSession()
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.NHibernateDataContextAdvanced.get_Session()
+   在 CodeSmith.Data.NHibernate.Table`1.GetQueryable()
+   在 CodeSmith.Data.NHibernate.Table`1.get_Provider()
+   在 System.Linq.Queryable.Where[TSource](IQueryable`1 source, Expression`1 predicate)
+   在 Service.Cost.ReimbursementControl.ReimbursementService.GetAllApplyItems() 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\Service\Cost\ReimbursementControl\ReimbursementService.cs:行号 268
+
+异常时间：2013-12-13 21:27:54,948 [21] 
+异常级别：ERROR 
+异 常 类：logerror [(null)] 
+ApplyRecordService.GetApplyRecords(1,10,desc,CreatedOn,BusinessObject.CostBo.ApplyRecordBO)异常 
+ System.ApplicationException: Connection String Not Found
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.GetConnectionString(String databaseName)
+   在 HuatongApply.Data.HuatongApplyContext.GetConnectionString(String databaseName) 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\HuatongApply.Data\HuatongApplyContext.cs:行号 18
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.CreateSessionFactory(String databaseName, String assemblyName, String dialect, String connectionDriver)
+   在 HuatongApply.Data.HuatongApplyContext.get_SessionFactory() 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\HuatongApply.Data\HuatongApplyContext.generated.cs:行号 39
+   在 HuatongApply.Data.HuatongApplyContext.CreateSession() 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\HuatongApply.Data\HuatongApplyContext.generated.cs:行号 50
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.NHibernateDataContextAdvanced.get_StateSession()
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.NHibernateDataContextAdvanced.get_DefaultSession()
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.BeginTransaction()
+   在 Service.Cost.ReimbursementControl.ApplyRecordService.GetApplyRecords(Int32 pageIndex, Int32 pageSize, String order, String sort, ApplyRecordBO applyRecordBo) 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\Service\Cost\ReimbursementControl\ApplyRecordService.cs:行号 316
+
+异常时间：2013-12-13 21:27:56,536 [15] 
+异常级别：ERROR 
+异 常 类：logerror [(null)] 
+ReimbursementService.GetApplyitems(1,10,desc,CreatedOn,BusinessObject.CostBo.ApplyitemBO)异常 
+ System.ApplicationException: Connection String Not Found
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.GetConnectionString(String databaseName)
+   在 HuatongApply.Data.HuatongApplyContext.GetConnectionString(String databaseName) 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\HuatongApply.Data\HuatongApplyContext.cs:行号 18
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.CreateSessionFactory(String databaseName, String assemblyName, String dialect, String connectionDriver)
+   在 HuatongApply.Data.HuatongApplyContext.get_SessionFactory() 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\HuatongApply.Data\HuatongApplyContext.generated.cs:行号 39
+   在 HuatongApply.Data.HuatongApplyContext.CreateSession() 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\HuatongApply.Data\HuatongApplyContext.generated.cs:行号 50
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.NHibernateDataContextAdvanced.get_StateSession()
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.NHibernateDataContextAdvanced.get_DefaultSession()
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.BeginTransaction()
+   在 Service.Cost.ReimbursementControl.ReimbursementService.GetApplyitems(Int32 pageIndex, Int32 pageSize, String order, String sort, ApplyitemBO applyitemBo) 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\Service\Cost\ReimbursementControl\ReimbursementService.cs:行号 239
+
+异常时间：2013-12-13 21:27:57,639 [16] 
+异常级别：ERROR 
+异 常 类：logerror [(null)] 
+ApplyRecordService.GetApplyRecords(1,10,desc,CreatedOn,BusinessObject.CostBo.ApplyRecordBO)异常 
+ System.ApplicationException: Connection String Not Found
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.GetConnectionString(String databaseName)
+   在 HuatongApply.Data.HuatongApplyContext.GetConnectionString(String databaseName) 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\HuatongApply.Data\HuatongApplyContext.cs:行号 18
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.CreateSessionFactory(String databaseName, String assemblyName, String dialect, String connectionDriver)
+   在 HuatongApply.Data.HuatongApplyContext.get_SessionFactory() 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\HuatongApply.Data\HuatongApplyContext.generated.cs:行号 39
+   在 HuatongApply.Data.HuatongApplyContext.CreateSession() 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\HuatongApply.Data\HuatongApplyContext.generated.cs:行号 50
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.NHibernateDataContextAdvanced.get_StateSession()
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.NHibernateDataContextAdvanced.get_DefaultSession()
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.BeginTransaction()
+   在 Service.Cost.ReimbursementControl.ApplyRecordService.GetApplyRecords(Int32 pageIndex, Int32 pageSize, String order, String sort, ApplyRecordBO applyRecordBo) 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\Service\Cost\ReimbursementControl\ApplyRecordService.cs:行号 316
+
+异常时间：2013-12-13 21:27:57,658 [13] 
+异常级别：ERROR 
+异 常 类：logerror [(null)] 
+ReimbursementService.GetAllApplyItems() 
+ System.ApplicationException: Connection String Not Found
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.GetConnectionString(String databaseName)
+   在 HuatongApply.Data.HuatongApplyContext.GetConnectionString(String databaseName) 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\HuatongApply.Data\HuatongApplyContext.cs:行号 18
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.CreateSessionFactory(String databaseName, String assemblyName, String dialect, String connectionDriver)
+   在 HuatongApply.Data.HuatongApplyContext.get_SessionFactory() 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\HuatongApply.Data\HuatongApplyContext.generated.cs:行号 39
+   在 HuatongApply.Data.HuatongApplyContext.CreateSession() 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\HuatongApply.Data\HuatongApplyContext.generated.cs:行号 50
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.NHibernateDataContextAdvanced.get_StateSession()
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.NHibernateDataContextAdvanced.get_Session()
+   在 CodeSmith.Data.NHibernate.Table`1.GetQueryable()
+   在 CodeSmith.Data.NHibernate.Table`1.get_Provider()
+   在 System.Linq.Queryable.Where[TSource](IQueryable`1 source, Expression`1 predicate)
+   在 Service.Cost.ReimbursementControl.ReimbursementService.GetAllApplyItems() 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\Service\Cost\ReimbursementControl\ReimbursementService.cs:行号 268
+
+异常时间：2013-12-13 21:27:58,723 [15] 
+异常级别：ERROR 
+异 常 类：logerror [(null)] 
+ApplyRecordService.GetApplyRecords(1,10,desc,CreatedOn,BusinessObject.CostBo.ApplyRecordBO)异常 
+ System.ApplicationException: Connection String Not Found
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.GetConnectionString(String databaseName)
+   在 HuatongApply.Data.HuatongApplyContext.GetConnectionString(String databaseName) 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\HuatongApply.Data\HuatongApplyContext.cs:行号 18
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.CreateSessionFactory(String databaseName, String assemblyName, String dialect, String connectionDriver)
+   在 HuatongApply.Data.HuatongApplyContext.get_SessionFactory() 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\HuatongApply.Data\HuatongApplyContext.generated.cs:行号 39
+   在 HuatongApply.Data.HuatongApplyContext.CreateSession() 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\HuatongApply.Data\HuatongApplyContext.generated.cs:行号 50
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.NHibernateDataContextAdvanced.get_StateSession()
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.NHibernateDataContextAdvanced.get_DefaultSession()
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.BeginTransaction()
+   在 Service.Cost.ReimbursementControl.ApplyRecordService.GetApplyRecords(Int32 pageIndex, Int32 pageSize, String order, String sort, ApplyRecordBO applyRecordBo) 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\Service\Cost\ReimbursementControl\ApplyRecordService.cs:行号 316
+
+异常时间：2013-12-13 21:27:58,754 [11] 
+异常级别：ERROR 
+异 常 类：logerror [(null)] 
+ReimbursementService.GetAllApplyItems() 
+ System.ApplicationException: Connection String Not Found
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.GetConnectionString(String databaseName)
+   在 HuatongApply.Data.HuatongApplyContext.GetConnectionString(String databaseName) 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\HuatongApply.Data\HuatongApplyContext.cs:行号 18
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.CreateSessionFactory(String databaseName, String assemblyName, String dialect, String connectionDriver)
+   在 HuatongApply.Data.HuatongApplyContext.get_SessionFactory() 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\HuatongApply.Data\HuatongApplyContext.generated.cs:行号 39
+   在 HuatongApply.Data.HuatongApplyContext.CreateSession() 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\HuatongApply.Data\HuatongApplyContext.generated.cs:行号 50
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.NHibernateDataContextAdvanced.get_StateSession()
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.NHibernateDataContextAdvanced.get_Session()
+   在 CodeSmith.Data.NHibernate.Table`1.GetQueryable()
+   在 CodeSmith.Data.NHibernate.Table`1.get_Provider()
+   在 System.Linq.Queryable.Where[TSource](IQueryable`1 source, Expression`1 predicate)
+   在 Service.Cost.ReimbursementControl.ReimbursementService.GetAllApplyItems() 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\Service\Cost\ReimbursementControl\ReimbursementService.cs:行号 268
+
+异常时间：2013-12-13 21:30:14,209 [22] 
+异常级别：ERROR 
+异 常 类：logerror [(null)] 
+ReimbursementService.GetApplyitems(1,10,desc,CreatedOn,BusinessObject.CostBo.ApplyitemBO)异常 
+ System.ApplicationException: Connection String Not Found
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.GetConnectionString(String databaseName)
+   在 HuatongApply.Data.HuatongApplyContext.GetConnectionString(String databaseName) 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\HuatongApply.Data\HuatongApplyContext.cs:行号 18
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.CreateSessionFactory(String databaseName, String assemblyName, String dialect, String connectionDriver)
+   在 HuatongApply.Data.HuatongApplyContext.get_SessionFactory() 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\HuatongApply.Data\HuatongApplyContext.generated.cs:行号 39
+   在 HuatongApply.Data.HuatongApplyContext.CreateSession() 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\HuatongApply.Data\HuatongApplyContext.generated.cs:行号 50
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.NHibernateDataContextAdvanced.get_StateSession()
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.NHibernateDataContextAdvanced.get_DefaultSession()
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.BeginTransaction()
+   在 Service.Cost.ReimbursementControl.ReimbursementService.GetApplyitems(Int32 pageIndex, Int32 pageSize, String order, String sort, ApplyitemBO applyitemBo) 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\Service\Cost\ReimbursementControl\ReimbursementService.cs:行号 239
+
+异常时间：2013-12-13 21:30:16,731 [14] 
+异常级别：ERROR 
+异 常 类：logerror [(null)] 
+ReimbursementService.GetApplyitems(1,10,desc,CreatedOn,BusinessObject.CostBo.ApplyitemBO)异常 
+ System.ApplicationException: Connection String Not Found
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.GetConnectionString(String databaseName)
+   在 HuatongApply.Data.HuatongApplyContext.GetConnectionString(String databaseName) 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\HuatongApply.Data\HuatongApplyContext.cs:行号 18
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.CreateSessionFactory(String databaseName, String assemblyName, String dialect, String connectionDriver)
+   在 HuatongApply.Data.HuatongApplyContext.get_SessionFactory() 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\HuatongApply.Data\HuatongApplyContext.generated.cs:行号 39
+   在 HuatongApply.Data.HuatongApplyContext.CreateSession() 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\HuatongApply.Data\HuatongApplyContext.generated.cs:行号 50
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.NHibernateDataContextAdvanced.get_StateSession()
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.NHibernateDataContextAdvanced.get_DefaultSession()
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.BeginTransaction()
+   在 Service.Cost.ReimbursementControl.ReimbursementService.GetApplyitems(Int32 pageIndex, Int32 pageSize, String order, String sort, ApplyitemBO applyitemBo) 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\Service\Cost\ReimbursementControl\ReimbursementService.cs:行号 239
+
+异常时间：2013-12-13 21:30:17,392 [24] 
+异常级别：ERROR 
+异 常 类：logerror [(null)] 
+ReimbursementService.GetAllApplyItems() 
+ System.ApplicationException: Connection String Not Found
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.GetConnectionString(String databaseName)
+   在 HuatongApply.Data.HuatongApplyContext.GetConnectionString(String databaseName) 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\HuatongApply.Data\HuatongApplyContext.cs:行号 18
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.CreateSessionFactory(String databaseName, String assemblyName, String dialect, String connectionDriver)
+   在 HuatongApply.Data.HuatongApplyContext.get_SessionFactory() 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\HuatongApply.Data\HuatongApplyContext.generated.cs:行号 39
+   在 HuatongApply.Data.HuatongApplyContext.CreateSession() 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\HuatongApply.Data\HuatongApplyContext.generated.cs:行号 50
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.NHibernateDataContextAdvanced.get_StateSession()
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.NHibernateDataContextAdvanced.get_Session()
+   在 CodeSmith.Data.NHibernate.Table`1.GetQueryable()
+   在 CodeSmith.Data.NHibernate.Table`1.get_Provider()
+   在 System.Linq.Queryable.Where[TSource](IQueryable`1 source, Expression`1 predicate)
+   在 Service.Cost.ReimbursementControl.ReimbursementService.GetAllApplyItems() 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\Service\Cost\ReimbursementControl\ReimbursementService.cs:行号 268
+
+异常时间：2013-12-13 21:30:17,489 [9] 
+异常级别：ERROR 
+异 常 类：logerror [(null)] 
+ApplyRecordService.GetApplyRecords(1,10,desc,CreatedOn,BusinessObject.CostBo.ApplyRecordBO)异常 
+ System.ApplicationException: Connection String Not Found
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.GetConnectionString(String databaseName)
+   在 HuatongApply.Data.HuatongApplyContext.GetConnectionString(String databaseName) 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\HuatongApply.Data\HuatongApplyContext.cs:行号 18
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.CreateSessionFactory(String databaseName, String assemblyName, String dialect, String connectionDriver)
+   在 HuatongApply.Data.HuatongApplyContext.get_SessionFactory() 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\HuatongApply.Data\HuatongApplyContext.generated.cs:行号 39
+   在 HuatongApply.Data.HuatongApplyContext.CreateSession() 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\HuatongApply.Data\HuatongApplyContext.generated.cs:行号 50
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.NHibernateDataContextAdvanced.get_StateSession()
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.NHibernateDataContextAdvanced.get_DefaultSession()
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.BeginTransaction()
+   在 Service.Cost.ReimbursementControl.ApplyRecordService.GetApplyRecords(Int32 pageIndex, Int32 pageSize, String order, String sort, ApplyRecordBO applyRecordBo) 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\Service\Cost\ReimbursementControl\ApplyRecordService.cs:行号 316
+
+异常时间：2013-12-13 21:32:52,282 [22] 
+异常级别：ERROR 
+异 常 类：logerror [(null)] 
+ApplyRecordService.GetApplyRecords(1,10,desc,CreatedOn,BusinessObject.CostBo.ApplyRecordBO)异常 
+ System.ApplicationException: Connection String Not Found
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.GetConnectionString(String databaseName)
+   在 HuatongApply.Data.HuatongApplyContext.GetConnectionString(String databaseName) 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\HuatongApply.Data\HuatongApplyContext.cs:行号 18
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.CreateSessionFactory(String databaseName, String assemblyName, String dialect, String connectionDriver)
+   在 HuatongApply.Data.HuatongApplyContext.get_SessionFactory() 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\HuatongApply.Data\HuatongApplyContext.generated.cs:行号 39
+   在 HuatongApply.Data.HuatongApplyContext.CreateSession() 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\HuatongApply.Data\HuatongApplyContext.generated.cs:行号 50
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.NHibernateDataContextAdvanced.get_StateSession()
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.NHibernateDataContextAdvanced.get_DefaultSession()
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.BeginTransaction()
+   在 Service.Cost.ReimbursementControl.ApplyRecordService.GetApplyRecords(Int32 pageIndex, Int32 pageSize, String order, String sort, ApplyRecordBO applyRecordBo) 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\Service\Cost\ReimbursementControl\ApplyRecordService.cs:行号 316
+
+异常时间：2013-12-13 21:32:52,285 [14] 
+异常级别：ERROR 
+异 常 类：logerror [(null)] 
+ReimbursementService.GetAllApplyItems() 
+ System.ApplicationException: Connection String Not Found
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.GetConnectionString(String databaseName)
+   在 HuatongApply.Data.HuatongApplyContext.GetConnectionString(String databaseName) 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\HuatongApply.Data\HuatongApplyContext.cs:行号 18
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.CreateSessionFactory(String databaseName, String assemblyName, String dialect, String connectionDriver)
+   在 HuatongApply.Data.HuatongApplyContext.get_SessionFactory() 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\HuatongApply.Data\HuatongApplyContext.generated.cs:行号 39
+   在 HuatongApply.Data.HuatongApplyContext.CreateSession() 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\HuatongApply.Data\HuatongApplyContext.generated.cs:行号 50
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.NHibernateDataContextAdvanced.get_StateSession()
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.NHibernateDataContextAdvanced.get_Session()
+   在 CodeSmith.Data.NHibernate.Table`1.GetQueryable()
+   在 CodeSmith.Data.NHibernate.Table`1.get_Provider()
+   在 System.Linq.Queryable.Where[TSource](IQueryable`1 source, Expression`1 predicate)
+   在 Service.Cost.ReimbursementControl.ReimbursementService.GetAllApplyItems() 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\Service\Cost\ReimbursementControl\ReimbursementService.cs:行号 268
+
+异常时间：2013-12-13 21:54:14,872 [9] 
+异常级别：ERROR 
+异 常 类：logerror [(null)] 
+ReimbursementService.GetApplyitems(1,10,desc,CreatedOn,BusinessObject.CostBo.ApplyitemBO)异常 
+ System.ApplicationException: Connection String Not Found
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.GetConnectionString(String databaseName)
+   在 HuatongApply.Data.HuatongApplyContext.GetConnectionString(String databaseName) 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\HuatongApply.Data\HuatongApplyContext.cs:行号 18
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.CreateSessionFactory(String databaseName, String assemblyName, String dialect, String connectionDriver)
+   在 HuatongApply.Data.HuatongApplyContext.get_SessionFactory() 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\HuatongApply.Data\HuatongApplyContext.generated.cs:行号 39
+   在 HuatongApply.Data.HuatongApplyContext.CreateSession() 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\HuatongApply.Data\HuatongApplyContext.generated.cs:行号 50
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.NHibernateDataContextAdvanced.get_StateSession()
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.NHibernateDataContextAdvanced.get_DefaultSession()
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.BeginTransaction()
+   在 Service.Cost.ReimbursementControl.ReimbursementService.GetApplyitems(Int32 pageIndex, Int32 pageSize, String order, String sort, ApplyitemBO applyitemBo) 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\Service\Cost\ReimbursementControl\ReimbursementService.cs:行号 239
+
+异常时间：2013-12-13 21:56:29,679 [12] 
+异常级别：ERROR 
+异 常 类：logerror [(null)] 
+ReimbursementService.GetApplyitems(1,10,desc,CreatedOn,BusinessObject.CostBo.ApplyitemBO)异常 
+ System.ApplicationException: Connection String Not Found
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.GetConnectionString(String databaseName)
+   在 HuatongApply.Data.HuatongApplyContext.GetConnectionString(String databaseName) 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\HuatongApply.Data\HuatongApplyContext.cs:行号 18
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.CreateSessionFactory(String databaseName, String assemblyName, String dialect, String connectionDriver)
+   在 HuatongApply.Data.HuatongApplyContext.get_SessionFactory() 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\HuatongApply.Data\HuatongApplyContext.generated.cs:行号 39
+   在 HuatongApply.Data.HuatongApplyContext.CreateSession() 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\HuatongApply.Data\HuatongApplyContext.generated.cs:行号 50
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.NHibernateDataContextAdvanced.get_StateSession()
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.NHibernateDataContextAdvanced.get_DefaultSession()
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.BeginTransaction()
+   在 Service.Cost.ReimbursementControl.ReimbursementService.GetApplyitems(Int32 pageIndex, Int32 pageSize, String order, String sort, ApplyitemBO applyitemBo) 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\Service\Cost\ReimbursementControl\ReimbursementService.cs:行号 240
+
+异常时间：2013-12-13 22:04:53,972 [9] 
+异常级别：ERROR 
+异 常 类：logerror [(null)] 
+ReimbursementService.GetApplyitems(1,10,desc,CreatedOn,BusinessObject.CostBo.ApplyitemBO)异常 
+ System.ArgumentException: 不支持关键字: “id”。
+   在 System.Data.Common.DbConnectionOptions.ParseInternal(Hashtable parsetable, String connectionString, Boolean buildChain, Hashtable synonyms, Boolean firstKey)
+   在 System.Data.Common.DbConnectionOptions..ctor(String connectionString, Hashtable synonyms, Boolean useOdbcRules)
+   在 System.Data.SqlClient.SqlConnectionString..ctor(String connectionString)
+   在 System.Data.SqlClient.SqlConnectionFactory.CreateConnectionOptions(String connectionString, DbConnectionOptions previous)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnectionPoolGroup(String connectionString, DbConnectionPoolGroupOptions poolOptions, DbConnectionOptions& userConnectionOptions)
+   在 System.Data.SqlClient.SqlConnection.ConnectionString_Set(String value)
+   在 System.Data.SqlClient.SqlConnection.set_ConnectionString(String value)
+   在 NHibernate.Connection.DriverConnectionProvider.GetConnection()
+   在 NHibernate.Tool.hbm2ddl.SuppliedConnectionProviderConnectionHelper.Prepare()
+   在 NHibernate.Tool.hbm2ddl.SchemaMetadataUpdater.GetReservedWords(Dialect dialect, IConnectionHelper connectionHelper)
+   在 NHibernate.Tool.hbm2ddl.SchemaMetadataUpdater.Update(ISessionFactory sessionFactory)
+   在 NHibernate.Impl.SessionFactoryImpl..ctor(Configuration cfg, IMapping mapping, Settings settings, EventListeners listeners)
+   在 NHibernate.Cfg.Configuration.BuildSessionFactory()
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.CreateSessionFactory(String databaseName, String assemblyName, String dialect, String connectionDriver)
+   在 HuatongApply.Data.HuatongApplyContext.get_SessionFactory() 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\HuatongApply.Data\HuatongApplyContext.generated.cs:行号 39
+   在 HuatongApply.Data.HuatongApplyContext.CreateSession() 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\HuatongApply.Data\HuatongApplyContext.generated.cs:行号 50
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.NHibernateDataContextAdvanced.get_StateSession()
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.NHibernateDataContextAdvanced.get_DefaultSession()
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.BeginTransaction()
+   在 Service.Cost.ReimbursementControl.ReimbursementService.GetApplyitems(Int32 pageIndex, Int32 pageSize, String order, String sort, ApplyitemBO applyitemBo) 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\Service\Cost\ReimbursementControl\ReimbursementService.cs:行号 240
+
+异常时间：2013-12-13 22:06:09,384 [9] 
+异常级别：ERROR 
+异 常 类：logerror [(null)] 
+ReimbursementService.GetApplyitems(1,10,desc,CreatedOn,BusinessObject.CostBo.ApplyitemBO)异常 
+ System.ArgumentException: 不支持关键字: “id”。
+   在 System.Data.Common.DbConnectionOptions.ParseInternal(Hashtable parsetable, String connectionString, Boolean buildChain, Hashtable synonyms, Boolean firstKey)
+   在 System.Data.Common.DbConnectionOptions..ctor(String connectionString, Hashtable synonyms, Boolean useOdbcRules)
+   在 System.Data.SqlClient.SqlConnectionString..ctor(String connectionString)
+   在 System.Data.SqlClient.SqlConnectionFactory.CreateConnectionOptions(String connectionString, DbConnectionOptions previous)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnectionPoolGroup(String connectionString, DbConnectionPoolGroupOptions poolOptions, DbConnectionOptions& userConnectionOptions)
+   在 System.Data.SqlClient.SqlConnection.ConnectionString_Set(String value)
+   在 System.Data.SqlClient.SqlConnection.set_ConnectionString(String value)
+   在 NHibernate.Connection.DriverConnectionProvider.GetConnection()
+   在 NHibernate.Tool.hbm2ddl.SuppliedConnectionProviderConnectionHelper.Prepare()
+   在 NHibernate.Tool.hbm2ddl.SchemaMetadataUpdater.GetReservedWords(Dialect dialect, IConnectionHelper connectionHelper)
+   在 NHibernate.Tool.hbm2ddl.SchemaMetadataUpdater.Update(ISessionFactory sessionFactory)
+   在 NHibernate.Impl.SessionFactoryImpl..ctor(Configuration cfg, IMapping mapping, Settings settings, EventListeners listeners)
+   在 NHibernate.Cfg.Configuration.BuildSessionFactory()
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.CreateSessionFactory(String databaseName, String assemblyName, String dialect, String connectionDriver)
+   在 HuatongApply.Data.HuatongApplyContext.get_SessionFactory() 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\HuatongApply.Data\HuatongApplyContext.generated.cs:行号 39
+   在 HuatongApply.Data.HuatongApplyContext.CreateSession() 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\HuatongApply.Data\HuatongApplyContext.generated.cs:行号 50
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.NHibernateDataContextAdvanced.get_StateSession()
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.NHibernateDataContextAdvanced.get_DefaultSession()
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.BeginTransaction()
+   在 Service.Cost.ReimbursementControl.ReimbursementService.GetApplyitems(Int32 pageIndex, Int32 pageSize, String order, String sort, ApplyitemBO applyitemBo) 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\Service\Cost\ReimbursementControl\ReimbursementService.cs:行号 240
+
+异常时间：2013-12-13 22:07:55,828 [22] 
+异常级别：ERROR 
+异 常 类：logerror [(null)] 
+ReimbursementService.GetApplyitems(1,10,desc,CreatedOn,BusinessObject.CostBo.ApplyitemBO)异常 
+ System.Data.SqlClient.SqlException (0x80131904): 在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: Named Pipes Provider, error: 40 - 无法打开到 SQL Server 的连接)
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   在 System.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, Boolean encrypt, Boolean trustServerCert, Boolean integratedSecurity)
+   在 System.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, SqlConnection owningObject)
+   在 System.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, Boolean redirectedUserInstance, SqlConnection owningObject, SqlConnectionString connectionOptions, TimeoutTimer timeout)
+   在 System.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(SqlConnection owningObject, TimeoutTimer timeout, SqlConnectionString connectionOptions, String newPassword, Boolean redirectedUserInstance)
+   在 System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, Object providerInfo, String newPassword, SqlConnection owningObject, Boolean redirectedUserInstance)
+   在 System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnection owningConnection, DbConnectionPool pool, DbConnectionOptions options)
+   在 System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.SqlClient.SqlConnection.Open()
+   在 NHibernate.Connection.DriverConnectionProvider.GetConnection()
+   在 NHibernate.Tool.hbm2ddl.SuppliedConnectionProviderConnectionHelper.Prepare()
+   在 NHibernate.Tool.hbm2ddl.SchemaMetadataUpdater.GetReservedWords(Dialect dialect, IConnectionHelper connectionHelper)
+   在 NHibernate.Tool.hbm2ddl.SchemaMetadataUpdater.Update(ISessionFactory sessionFactory)
+   在 NHibernate.Impl.SessionFactoryImpl..ctor(Configuration cfg, IMapping mapping, Settings settings, EventListeners listeners)
+   在 NHibernate.Cfg.Configuration.BuildSessionFactory()
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.CreateSessionFactory(String databaseName, String assemblyName, String dialect, String connectionDriver)
+   在 HuatongApply.Data.HuatongApplyContext.get_SessionFactory() 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\HuatongApply.Data\HuatongApplyContext.generated.cs:行号 39
+   在 HuatongApply.Data.HuatongApplyContext.CreateSession() 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\HuatongApply.Data\HuatongApplyContext.generated.cs:行号 50
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.NHibernateDataContextAdvanced.get_StateSession()
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.NHibernateDataContextAdvanced.get_DefaultSession()
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.BeginTransaction()
+   在 Service.Cost.ReimbursementControl.ReimbursementService.GetApplyitems(Int32 pageIndex, Int32 pageSize, String order, String sort, ApplyitemBO applyitemBo) 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\Service\Cost\ReimbursementControl\ReimbursementService.cs:行号 240
+
+异常时间：2013-12-13 22:08:32,602 [15] 
+异常级别：ERROR 
+异 常 类：logerror [(null)] 
+ReimbursementService.GetApplyitems(1,10,desc,CreatedOn,BusinessObject.CostBo.ApplyitemBO)异常 
+ System.IO.FileNotFoundException: 未能加载文件或程序集“Remotion.Linq, Version=1.13.100.1, Culture=neutral, PublicKeyToken=fee00910d6e5f53b”或它的某一个依赖项。系统找不到指定的文件。
+文件名:“Remotion.Linq, Version=1.13.100.1, Culture=neutral, PublicKeyToken=fee00910d6e5f53b”
+   在 NHibernate.Linq.LinqExtensionMethods.Query[T](ISession session)
+   在 CodeSmith.Data.NHibernate.Table`1.GetQueryable()
+   在 CodeSmith.Data.NHibernate.Table`1.get_Provider()
+   在 System.Linq.Queryable.Count[TSource](IQueryable`1 source)
+   在 Domain.common.LinqExtensions.GetPagedListQuery[TEntity,TOrderBy,TResult](IQueryable`1 query, Int32 index, Int32 pageSize, List`1 wheres, Expression`1 orderBy, Func`2 selector, Boolean isAsc) 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\Domain\common\LinqExtensions.cs:行号 122
+   在 Service.Cost.ReimbursementControl.ReimbursementService.GetApplyitems(Int32 pageIndex, Int32 pageSize, String order, String sort, ApplyitemBO applyitemBo) 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\Service\Cost\ReimbursementControl\ReimbursementService.cs:行号 241
+
+=== 预绑定状态信息 ===
+日志: 用户 = YS\Administrator
+日志: DisplayName = Remotion.Linq, Version=1.13.100.1, Culture=neutral, PublicKeyToken=fee00910d6e5f53b
+ (Fully-specified)
+日志: Appbase = file:///C:/Users/Administrator/Documents/CodeSmith Generator/Templates/PLINQO NH/HuatongApply/HuatongApply.Web/
+日志: 初始 PrivatePath = C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\HuatongApply.Web\bin
+调用程序集: NHibernate, Version=3.2.0.2001, Culture=neutral, PublicKeyToken=null。
+===
+日志: 此绑定从 default 加载上下文开始。
+日志: 正在使用应用程序配置文件: C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\HuatongApply.Web\web.config
+日志: 使用主机配置文件: 
+日志: 使用 C:\Windows\Microsoft.NET\Framework\v4.0.30319\config\machine.config 的计算机配置文件。
+日志: 策略后引用: Remotion.Linq, Version=1.13.100.1, Culture=neutral, PublicKeyToken=fee00910d6e5f53b
+日志: 尝试下载新的 URL file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/Temporary ASP.NET Files/root/9f8fc8ff/849d9ac0/Remotion.Linq.DLL。
+日志: 尝试下载新的 URL file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/Temporary ASP.NET Files/root/9f8fc8ff/849d9ac0/Remotion.Linq/Remotion.Linq.DLL。
+日志: 尝试下载新的 URL file:///C:/Users/Administrator/Documents/CodeSmith Generator/Templates/PLINQO NH/HuatongApply/HuatongApply.Web/bin/Remotion.Linq.DLL。
+日志: 尝试下载新的 URL file:///C:/Users/Administrator/Documents/CodeSmith Generator/Templates/PLINQO NH/HuatongApply/HuatongApply.Web/bin/Remotion.Linq/Remotion.Linq.DLL。
+日志: 尝试下载新的 URL file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/Temporary ASP.NET Files/root/9f8fc8ff/849d9ac0/Remotion.Linq.EXE。
+日志: 尝试下载新的 URL file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/Temporary ASP.NET Files/root/9f8fc8ff/849d9ac0/Remotion.Linq/Remotion.Linq.EXE。
+日志: 尝试下载新的 URL file:///C:/Users/Administrator/Documents/CodeSmith Generator/Templates/PLINQO NH/HuatongApply/HuatongApply.Web/bin/Remotion.Linq.EXE。
+日志: 尝试下载新的 URL file:///C:/Users/Administrator/Documents/CodeSmith Generator/Templates/PLINQO NH/HuatongApply/HuatongApply.Web/bin/Remotion.Linq/Remotion.Linq.EXE。
+
+
+异常时间：2013-12-13 22:11:19,431 [22] 
+异常级别：ERROR 
+异 常 类：logerror [(null)] 
+ApplyRecordService.GetApplyRecords(1,10,desc,CreatedOn,BusinessObject.CostBo.ApplyRecordBO)异常 
+ System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.System.Collections.IList.get_Item(Int32 index)
+   在 NHibernate.Linq.DefaultQueryProvider.ExecuteQuery(NhLinqExpression nhLinqExpression, IQuery query, NhLinqExpression nhQuery)
+   在 NHibernate.Linq.DefaultQueryProvider.Execute(Expression expression)
+   在 NHibernate.Linq.DefaultQueryProvider.Execute[TResult](Expression expression)
+   在 System.Linq.Queryable.Count[TSource](IQueryable`1 source)
+   在 Domain.common.LinqExtensions.GetPagedListQuery[TEntity,TOrderBy,TResult](IQueryable`1 query, Int32 index, Int32 pageSize, List`1 wheres, Expression`1 orderBy, Func`2 selector, Boolean isAsc) 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\Domain\common\LinqExtensions.cs:行号 122
+   在 Service.Cost.ReimbursementControl.ApplyRecordService.GetApplyRecords(Int32 pageIndex, Int32 pageSize, String order, String sort, ApplyRecordBO applyRecordBo) 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\Service\Cost\ReimbursementControl\ApplyRecordService.cs:行号 317
+
+异常时间：2013-12-13 22:13:37,568 [16] 
+异常级别：ERROR 
+异 常 类：logerror [(null)] 
+ReimbursementService.GetApplyitems(1,10,desc,CreatedOn,BusinessObject.CostBo.ApplyitemBO)异常 
+ System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.System.Collections.IList.get_Item(Int32 index)
+   在 NHibernate.Linq.DefaultQueryProvider.ExecuteQuery(NhLinqExpression nhLinqExpression, IQuery query, NhLinqExpression nhQuery)
+   在 NHibernate.Linq.DefaultQueryProvider.Execute(Expression expression)
+   在 NHibernate.Linq.DefaultQueryProvider.Execute[TResult](Expression expression)
+   在 System.Linq.Queryable.Count[TSource](IQueryable`1 source)
+   在 Domain.common.LinqExtensions.GetPagedListQuery[TEntity,TOrderBy,TResult](IQueryable`1 query, Int32 index, Int32 pageSize, List`1 wheres, Expression`1 orderBy, Func`2 selector, Boolean isAsc) 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\Domain\common\LinqExtensions.cs:行号 122
+   在 Service.Cost.ReimbursementControl.ReimbursementService.GetApplyitems(Int32 pageIndex, Int32 pageSize, String order, String sort, ApplyitemBO applyitemBo) 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\Service\Cost\ReimbursementControl\ReimbursementService.cs:行号 241
+
+异常时间：2013-12-13 22:14:41,563 [18] 
+异常级别：ERROR 
+异 常 类：logerror [(null)] 
+ReimbursementService.GetApplyitems(1,10,desc,CreatedOn,BusinessObject.CostBo.ApplyitemBO)异常 
+ System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.System.Collections.IList.get_Item(Int32 index)
+   在 NHibernate.Linq.DefaultQueryProvider.ExecuteQuery(NhLinqExpression nhLinqExpression, IQuery query, NhLinqExpression nhQuery)
+   在 NHibernate.Linq.DefaultQueryProvider.Execute(Expression expression)
+   在 NHibernate.Linq.DefaultQueryProvider.Execute[TResult](Expression expression)
+   在 System.Linq.Queryable.Count[TSource](IQueryable`1 source)
+   在 Domain.common.LinqExtensions.GetPagedListQuery[TEntity,TOrderBy,TResult](IQueryable`1 query, Int32 index, Int32 pageSize, List`1 wheres, Expression`1 orderBy, Func`2 selector, Boolean isAsc) 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\Domain\common\LinqExtensions.cs:行号 122
+   在 Service.Cost.ReimbursementControl.ReimbursementService.GetApplyitems(Int32 pageIndex, Int32 pageSize, String order, String sort, ApplyitemBO applyitemBo) 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\Service\Cost\ReimbursementControl\ReimbursementService.cs:行号 241
+
+异常时间：2013-12-13 22:14:48,547 [22] 
+异常级别：ERROR 
+异 常 类：logerror [(null)] 
+ReimbursementService.GetApplyitems(1,10,desc,CreatedOn,BusinessObject.CostBo.ApplyitemBO)异常 
+ System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.System.Collections.IList.get_Item(Int32 index)
+   在 NHibernate.Linq.DefaultQueryProvider.ExecuteQuery(NhLinqExpression nhLinqExpression, IQuery query, NhLinqExpression nhQuery)
+   在 NHibernate.Linq.DefaultQueryProvider.Execute(Expression expression)
+   在 NHibernate.Linq.DefaultQueryProvider.Execute[TResult](Expression expression)
+   在 System.Linq.Queryable.Count[TSource](IQueryable`1 source)
+   在 Domain.common.LinqExtensions.GetPagedListQuery[TEntity,TOrderBy,TResult](IQueryable`1 query, Int32 index, Int32 pageSize, List`1 wheres, Expression`1 orderBy, Func`2 selector, Boolean isAsc) 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\Domain\common\LinqExtensions.cs:行号 122
+   在 Service.Cost.ReimbursementControl.ReimbursementService.GetApplyitems(Int32 pageIndex, Int32 pageSize, String order, String sort, ApplyitemBO applyitemBo) 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\Service\Cost\ReimbursementControl\ReimbursementService.cs:行号 241
+
+异常时间：2013-12-13 22:19:04,699 [22] 
+异常级别：ERROR 
+异 常 类：logerror [(null)] 
+ReimbursementService.GetApplyitems(1,10,desc,CreatedOn,BusinessObject.CostBo.ApplyitemBO)异常 
+ System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.System.Collections.IList.get_Item(Int32 index)
+   在 NHibernate.Linq.DefaultQueryProvider.ExecuteQuery(NhLinqExpression nhLinqExpression, IQuery query, NhLinqExpression nhQuery)
+   在 NHibernate.Linq.DefaultQueryProvider.Execute(Expression expression)
+   在 NHibernate.Linq.DefaultQueryProvider.Execute[TResult](Expression expression)
+   在 System.Linq.Queryable.Count[TSource](IQueryable`1 source)
+   在 Domain.common.LinqExtensions.GetPagedListQuery[TEntity,TOrderBy,TResult](IQueryable`1 query, Int32 index, Int32 pageSize, List`1 wheres, Expression`1 orderBy, Func`2 selector, Boolean isAsc) 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\Domain\common\LinqExtensions.cs:行号 122
+   在 Service.Cost.ReimbursementControl.ReimbursementService.GetApplyitems(Int32 pageIndex, Int32 pageSize, String order, String sort, ApplyitemBO applyitemBo) 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\Service\Cost\ReimbursementControl\ReimbursementService.cs:行号 241
+
+异常时间：2013-12-13 22:23:47,807 [10] 
+异常级别：ERROR 
+异 常 类：logerror [(null)] 
+ReimbursementService.GetApplyitems(1,10,desc,CreatedOn,BusinessObject.CostBo.ApplyitemBO)异常 
+ System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.System.Collections.IList.get_Item(Int32 index)
+   在 NHibernate.Linq.DefaultQueryProvider.ExecuteQuery(NhLinqExpression nhLinqExpression, IQuery query, NhLinqExpression nhQuery)
+   在 NHibernate.Linq.DefaultQueryProvider.Execute(Expression expression)
+   在 NHibernate.Linq.DefaultQueryProvider.Execute[TResult](Expression expression)
+   在 System.Linq.Queryable.Count[TSource](IQueryable`1 source)
+   在 Domain.common.LinqExtensions.GetPagedListQuery[TEntity,TOrderBy,TResult](IQueryable`1 query, Int32 index, Int32 pageSize, List`1 wheres, Expression`1 orderBy, Func`2 selector, Boolean isAsc) 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\Domain\common\LinqExtensions.cs:行号 122
+   在 Service.Cost.ReimbursementControl.ReimbursementService.GetApplyitems(Int32 pageIndex, Int32 pageSize, String order, String sort, ApplyitemBO applyitemBo) 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\Service\Cost\ReimbursementControl\ReimbursementService.cs:行号 241
+
+异常时间：2013-12-13 22:28:54,893 [11] 
+异常级别：ERROR 
+异 常 类：logerror [(null)] 
+ReimbursementService.GetApplyitems(1,10,desc,CreatedOn,BusinessObject.CostBo.ApplyitemBO)异常 
+ System.TypeInitializationException: “NHibernate.ByteCode.Castle.ProxyFactory”的类型初始值设定项引发异常。 ---> System.IO.FileNotFoundException: 未能加载文件或程序集“Castle.Core, Version=2.5.1.0, Culture=neutral, PublicKeyToken=407dd0808d44fbdc”或它的某一个依赖项。系统找不到指定的文件。
+   在 NHibernate.ByteCode.Castle.ProxyFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 NHibernate.ByteCode.Castle.ProxyFactory..ctor()
+   在 NHibernate.ByteCode.Castle.ProxyFactoryFactory.BuildProxyFactory()
+   在 NHibernate.Tuple.Entity.PocoEntityTuplizer.BuildProxyFactoryInternal(PersistentClass class, IGetter getter, ISetter setter)
+   在 NHibernate.Tuple.Entity.PocoEntityTuplizer.BuildProxyFactory(PersistentClass persistentClass, IGetter idGetter, ISetter idSetter)
+   在 NHibernate.Tuple.Entity.AbstractEntityTuplizer..ctor(EntityMetamodel entityMetamodel, PersistentClass mappingInfo)
+   在 NHibernate.Tuple.Entity.PocoEntityTuplizer..ctor(EntityMetamodel entityMetamodel, PersistentClass mappedEntity)
+   在 NHibernate.Tuple.Entity.EntityEntityModeToTuplizerMapping..ctor(PersistentClass mappedEntity, EntityMetamodel em)
+   在 NHibernate.Tuple.Entity.EntityMetamodel..ctor(PersistentClass persistentClass, ISessionFactoryImplementor sessionFactory)
+   在 NHibernate.Persister.Entity.AbstractEntityPersister..ctor(PersistentClass persistentClass, ICacheConcurrencyStrategy cache, ISessionFactoryImplementor factory)
+   在 NHibernate.Persister.Entity.SingleTableEntityPersister..ctor(PersistentClass persistentClass, ICacheConcurrencyStrategy cache, ISessionFactoryImplementor factory, IMapping mapping)
+   在 NHibernate.Persister.PersisterFactory.CreateClassPersister(PersistentClass model, ICacheConcurrencyStrategy cache, ISessionFactoryImplementor factory, IMapping cfg)
+   在 NHibernate.Impl.SessionFactoryImpl..ctor(Configuration cfg, IMapping mapping, Settings settings, EventListeners listeners)
+   在 NHibernate.Cfg.Configuration.BuildSessionFactory()
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.CreateSessionFactory(String databaseName, String assemblyName, String dialect, String connectionDriver)
+   在 HuatongApply.Data.HuatongApplyContext.get_SessionFactory() 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\HuatongApply.Data\HuatongApplyContext.generated.cs:行号 39
+   在 HuatongApply.Data.HuatongApplyContext.CreateSession() 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\HuatongApply.Data\HuatongApplyContext.generated.cs:行号 50
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.NHibernateDataContextAdvanced.get_StateSession()
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.NHibernateDataContextAdvanced.get_DefaultSession()
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.BeginTransaction()
+   在 Service.Cost.ReimbursementControl.ReimbursementService.GetApplyitems(Int32 pageIndex, Int32 pageSize, String order, String sort, ApplyitemBO applyitemBo) 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\Service\Cost\ReimbursementControl\ReimbursementService.cs:行号 240
+
+异常时间：2013-12-13 22:34:03,545 [29] 
+异常级别：ERROR 
+异 常 类：logerror [(null)] 
+ReimbursementService.GetApplyitems(1,10,desc,CreatedOn,BusinessObject.CostBo.ApplyitemBO)异常 
+ System.TypeInitializationException: “NHibernate.ByteCode.Castle.ProxyFactory”的类型初始值设定项引发异常。 ---> System.IO.FileNotFoundException: 未能加载文件或程序集“Castle.Core, Version=2.5.1.0, Culture=neutral, PublicKeyToken=407dd0808d44fbdc”或它的某一个依赖项。系统找不到指定的文件。
+   在 NHibernate.ByteCode.Castle.ProxyFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 NHibernate.ByteCode.Castle.ProxyFactory..ctor()
+   在 NHibernate.ByteCode.Castle.ProxyFactoryFactory.BuildProxyFactory()
+   在 NHibernate.Tuple.Entity.PocoEntityTuplizer.BuildProxyFactoryInternal(PersistentClass class, IGetter getter, ISetter setter)
+   在 NHibernate.Tuple.Entity.PocoEntityTuplizer.BuildProxyFactory(PersistentClass persistentClass, IGetter idGetter, ISetter idSetter)
+   在 NHibernate.Tuple.Entity.AbstractEntityTuplizer..ctor(EntityMetamodel entityMetamodel, PersistentClass mappingInfo)
+   在 NHibernate.Tuple.Entity.PocoEntityTuplizer..ctor(EntityMetamodel entityMetamodel, PersistentClass mappedEntity)
+   在 NHibernate.Tuple.Entity.EntityEntityModeToTuplizerMapping..ctor(PersistentClass mappedEntity, EntityMetamodel em)
+   在 NHibernate.Tuple.Entity.EntityMetamodel..ctor(PersistentClass persistentClass, ISessionFactoryImplementor sessionFactory)
+   在 NHibernate.Persister.Entity.AbstractEntityPersister..ctor(PersistentClass persistentClass, ICacheConcurrencyStrategy cache, ISessionFactoryImplementor factory)
+   在 NHibernate.Persister.Entity.SingleTableEntityPersister..ctor(PersistentClass persistentClass, ICacheConcurrencyStrategy cache, ISessionFactoryImplementor factory, IMapping mapping)
+   在 NHibernate.Persister.PersisterFactory.CreateClassPersister(PersistentClass model, ICacheConcurrencyStrategy cache, ISessionFactoryImplementor factory, IMapping cfg)
+   在 NHibernate.Impl.SessionFactoryImpl..ctor(Configuration cfg, IMapping mapping, Settings settings, EventListeners listeners)
+   在 NHibernate.Cfg.Configuration.BuildSessionFactory()
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.CreateSessionFactory(String databaseName, String assemblyName, String dialect, String connectionDriver)
+   在 HuatongApply.Data.HuatongApplyContext.get_SessionFactory() 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\HuatongApply.Data\HuatongApplyContext.generated.cs:行号 39
+   在 HuatongApply.Data.HuatongApplyContext.CreateSession() 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\HuatongApply.Data\HuatongApplyContext.generated.cs:行号 50
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.NHibernateDataContextAdvanced.get_StateSession()
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.NHibernateDataContextAdvanced.get_DefaultSession()
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.BeginTransaction()
+   在 Service.Cost.ReimbursementControl.ReimbursementService.GetApplyitems(Int32 pageIndex, Int32 pageSize, String order, String sort, ApplyitemBO applyitemBo) 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\Service\Cost\ReimbursementControl\ReimbursementService.cs:行号 240
+
+异常时间：2013-12-13 22:35:05,013 [30] 
+异常级别：ERROR 
+异 常 类：logerror [(null)] 
+ReimbursementService.GetApplyitems(1,10,desc,CreatedOn,BusinessObject.CostBo.ApplyitemBO)异常 
+ System.TypeInitializationException: “NHibernate.ByteCode.Castle.ProxyFactory”的类型初始值设定项引发异常。 ---> System.IO.FileNotFoundException: 未能加载文件或程序集“Castle.Core, Version=2.5.1.0, Culture=neutral, PublicKeyToken=407dd0808d44fbdc”或它的某一个依赖项。系统找不到指定的文件。
+   在 NHibernate.ByteCode.Castle.ProxyFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 NHibernate.ByteCode.Castle.ProxyFactory..ctor()
+   在 NHibernate.ByteCode.Castle.ProxyFactoryFactory.BuildProxyFactory()
+   在 NHibernate.Tuple.Entity.PocoEntityTuplizer.BuildProxyFactoryInternal(PersistentClass class, IGetter getter, ISetter setter)
+   在 NHibernate.Tuple.Entity.PocoEntityTuplizer.BuildProxyFactory(PersistentClass persistentClass, IGetter idGetter, ISetter idSetter)
+   在 NHibernate.Tuple.Entity.AbstractEntityTuplizer..ctor(EntityMetamodel entityMetamodel, PersistentClass mappingInfo)
+   在 NHibernate.Tuple.Entity.PocoEntityTuplizer..ctor(EntityMetamodel entityMetamodel, PersistentClass mappedEntity)
+   在 NHibernate.Tuple.Entity.EntityEntityModeToTuplizerMapping..ctor(PersistentClass mappedEntity, EntityMetamodel em)
+   在 NHibernate.Tuple.Entity.EntityMetamodel..ctor(PersistentClass persistentClass, ISessionFactoryImplementor sessionFactory)
+   在 NHibernate.Persister.Entity.AbstractEntityPersister..ctor(PersistentClass persistentClass, ICacheConcurrencyStrategy cache, ISessionFactoryImplementor factory)
+   在 NHibernate.Persister.Entity.SingleTableEntityPersister..ctor(PersistentClass persistentClass, ICacheConcurrencyStrategy cache, ISessionFactoryImplementor factory, IMapping mapping)
+   在 NHibernate.Persister.PersisterFactory.CreateClassPersister(PersistentClass model, ICacheConcurrencyStrategy cache, ISessionFactoryImplementor factory, IMapping cfg)
+   在 NHibernate.Impl.SessionFactoryImpl..ctor(Configuration cfg, IMapping mapping, Settings settings, EventListeners listeners)
+   在 NHibernate.Cfg.Configuration.BuildSessionFactory()
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.CreateSessionFactory(String databaseName, String assemblyName, String dialect, String connectionDriver)
+   在 HuatongApply.Data.HuatongApplyContext.get_SessionFactory() 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\HuatongApply.Data\HuatongApplyContext.generated.cs:行号 39
+   在 HuatongApply.Data.HuatongApplyContext.CreateSession() 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\HuatongApply.Data\HuatongApplyContext.generated.cs:行号 50
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.NHibernateDataContextAdvanced.get_StateSession()
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.NHibernateDataContextAdvanced.get_DefaultSession()
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.BeginTransaction()
+   在 Service.Cost.ReimbursementControl.ReimbursementService.GetApplyitems(Int32 pageIndex, Int32 pageSize, String order, String sort, ApplyitemBO applyitemBo) 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\Service\Cost\ReimbursementControl\ReimbursementService.cs:行号 240
+
+异常时间：2013-12-13 22:38:22,697 [11] 
+异常级别：ERROR 
+异 常 类：logerror [(null)] 
+ReimbursementService.GetApplyitems(1,10,desc,CreatedOn,BusinessObject.CostBo.ApplyitemBO)异常 
+ System.TypeInitializationException: “NHibernate.ByteCode.Castle.ProxyFactory”的类型初始值设定项引发异常。 ---> System.IO.FileNotFoundException: 未能加载文件或程序集“Castle.Core, Version=2.5.1.0, Culture=neutral, PublicKeyToken=407dd0808d44fbdc”或它的某一个依赖项。系统找不到指定的文件。
+   在 NHibernate.ByteCode.Castle.ProxyFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 NHibernate.ByteCode.Castle.ProxyFactory..ctor()
+   在 NHibernate.ByteCode.Castle.ProxyFactoryFactory.BuildProxyFactory()
+   在 NHibernate.Tuple.Entity.PocoEntityTuplizer.BuildProxyFactoryInternal(PersistentClass class, IGetter getter, ISetter setter)
+   在 NHibernate.Tuple.Entity.PocoEntityTuplizer.BuildProxyFactory(PersistentClass persistentClass, IGetter idGetter, ISetter idSetter)
+   在 NHibernate.Tuple.Entity.AbstractEntityTuplizer..ctor(EntityMetamodel entityMetamodel, PersistentClass mappingInfo)
+   在 NHibernate.Tuple.Entity.PocoEntityTuplizer..ctor(EntityMetamodel entityMetamodel, PersistentClass mappedEntity)
+   在 NHibernate.Tuple.Entity.EntityEntityModeToTuplizerMapping..ctor(PersistentClass mappedEntity, EntityMetamodel em)
+   在 NHibernate.Tuple.Entity.EntityMetamodel..ctor(PersistentClass persistentClass, ISessionFactoryImplementor sessionFactory)
+   在 NHibernate.Persister.Entity.AbstractEntityPersister..ctor(PersistentClass persistentClass, ICacheConcurrencyStrategy cache, ISessionFactoryImplementor factory)
+   在 NHibernate.Persister.Entity.SingleTableEntityPersister..ctor(PersistentClass persistentClass, ICacheConcurrencyStrategy cache, ISessionFactoryImplementor factory, IMapping mapping)
+   在 NHibernate.Persister.PersisterFactory.CreateClassPersister(PersistentClass model, ICacheConcurrencyStrategy cache, ISessionFactoryImplementor factory, IMapping cfg)
+   在 NHibernate.Impl.SessionFactoryImpl..ctor(Configuration cfg, IMapping mapping, Settings settings, EventListeners listeners)
+   在 NHibernate.Cfg.Configuration.BuildSessionFactory()
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.CreateSessionFactory(String databaseName, String assemblyName, String dialect, String connectionDriver)
+   在 HuatongApply.Data.HuatongApplyContext.get_SessionFactory() 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\HuatongApply.Data\HuatongApplyContext.generated.cs:行号 39
+   在 HuatongApply.Data.HuatongApplyContext.CreateSession() 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\HuatongApply.Data\HuatongApplyContext.generated.cs:行号 50
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.NHibernateDataContextAdvanced.get_StateSession()
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.NHibernateDataContextAdvanced.get_DefaultSession()
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.BeginTransaction()
+   在 Service.Cost.ReimbursementControl.ReimbursementService.GetApplyitems(Int32 pageIndex, Int32 pageSize, String order, String sort, ApplyitemBO applyitemBo) 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\Service\Cost\ReimbursementControl\ReimbursementService.cs:行号 240
+
+异常时间：2013-12-13 22:44:05,952 [19] 
+异常级别：ERROR 
+异 常 类：logerror [(null)] 
+ReimbursementService.GetApplyitems(1,10,desc,CreatedOn,BusinessObject.CostBo.ApplyitemBO)异常 
+ System.TypeInitializationException: “NHibernate.ByteCode.Castle.ProxyFactory”的类型初始值设定项引发异常。 ---> System.IO.FileNotFoundException: 未能加载文件或程序集“Castle.Core, Version=2.5.1.0, Culture=neutral, PublicKeyToken=407dd0808d44fbdc”或它的某一个依赖项。系统找不到指定的文件。
+   在 NHibernate.ByteCode.Castle.ProxyFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 NHibernate.ByteCode.Castle.ProxyFactory..ctor()
+   在 NHibernate.ByteCode.Castle.ProxyFactoryFactory.BuildProxyFactory()
+   在 NHibernate.Tuple.Entity.PocoEntityTuplizer.BuildProxyFactoryInternal(PersistentClass class, IGetter getter, ISetter setter)
+   在 NHibernate.Tuple.Entity.PocoEntityTuplizer.BuildProxyFactory(PersistentClass persistentClass, IGetter idGetter, ISetter idSetter)
+   在 NHibernate.Tuple.Entity.AbstractEntityTuplizer..ctor(EntityMetamodel entityMetamodel, PersistentClass mappingInfo)
+   在 NHibernate.Tuple.Entity.PocoEntityTuplizer..ctor(EntityMetamodel entityMetamodel, PersistentClass mappedEntity)
+   在 NHibernate.Tuple.Entity.EntityEntityModeToTuplizerMapping..ctor(PersistentClass mappedEntity, EntityMetamodel em)
+   在 NHibernate.Tuple.Entity.EntityMetamodel..ctor(PersistentClass persistentClass, ISessionFactoryImplementor sessionFactory)
+   在 NHibernate.Persister.Entity.AbstractEntityPersister..ctor(PersistentClass persistentClass, ICacheConcurrencyStrategy cache, ISessionFactoryImplementor factory)
+   在 NHibernate.Persister.Entity.SingleTableEntityPersister..ctor(PersistentClass persistentClass, ICacheConcurrencyStrategy cache, ISessionFactoryImplementor factory, IMapping mapping)
+   在 NHibernate.Persister.PersisterFactory.CreateClassPersister(PersistentClass model, ICacheConcurrencyStrategy cache, ISessionFactoryImplementor factory, IMapping cfg)
+   在 NHibernate.Impl.SessionFactoryImpl..ctor(Configuration cfg, IMapping mapping, Settings settings, EventListeners listeners)
+   在 NHibernate.Cfg.Configuration.BuildSessionFactory()
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.CreateSessionFactory(String databaseName, String assemblyName, String dialect, String connectionDriver)
+   在 HuatongApply.Data.HuatongApplyContext.get_SessionFactory() 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\HuatongApply.Data\HuatongApplyContext.generated.cs:行号 39
+   在 HuatongApply.Data.HuatongApplyContext.CreateSession() 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\HuatongApply.Data\HuatongApplyContext.generated.cs:行号 50
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.NHibernateDataContextAdvanced.get_StateSession()
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.NHibernateDataContextAdvanced.get_DefaultSession()
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.BeginTransaction()
+   在 Service.Cost.ReimbursementControl.ReimbursementService.GetApplyitems(Int32 pageIndex, Int32 pageSize, String order, String sort, ApplyitemBO applyitemBo) 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\Service\Cost\ReimbursementControl\ReimbursementService.cs:行号 240
+
+异常时间：2013-12-13 22:44:27,937 [5] 
+异常级别：ERROR 
+异 常 类：logerror [(null)] 
+ReimbursementService.GetApplyitems(1,10,desc,CreatedOn,BusinessObject.CostBo.ApplyitemBO)异常 
+ System.TypeInitializationException: “NHibernate.ByteCode.Castle.ProxyFactory”的类型初始值设定项引发异常。 ---> System.IO.FileNotFoundException: 未能加载文件或程序集“Castle.Core, Version=2.5.1.0, Culture=neutral, PublicKeyToken=407dd0808d44fbdc”或它的某一个依赖项。系统找不到指定的文件。
+   在 NHibernate.ByteCode.Castle.ProxyFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 NHibernate.ByteCode.Castle.ProxyFactory..ctor()
+   在 NHibernate.ByteCode.Castle.ProxyFactoryFactory.BuildProxyFactory()
+   在 NHibernate.Tuple.Entity.PocoEntityTuplizer.BuildProxyFactoryInternal(PersistentClass class, IGetter getter, ISetter setter)
+   在 NHibernate.Tuple.Entity.PocoEntityTuplizer.BuildProxyFactory(PersistentClass persistentClass, IGetter idGetter, ISetter idSetter)
+   在 NHibernate.Tuple.Entity.AbstractEntityTuplizer..ctor(EntityMetamodel entityMetamodel, PersistentClass mappingInfo)
+   在 NHibernate.Tuple.Entity.PocoEntityTuplizer..ctor(EntityMetamodel entityMetamodel, PersistentClass mappedEntity)
+   在 NHibernate.Tuple.Entity.EntityEntityModeToTuplizerMapping..ctor(PersistentClass mappedEntity, EntityMetamodel em)
+   在 NHibernate.Tuple.Entity.EntityMetamodel..ctor(PersistentClass persistentClass, ISessionFactoryImplementor sessionFactory)
+   在 NHibernate.Persister.Entity.AbstractEntityPersister..ctor(PersistentClass persistentClass, ICacheConcurrencyStrategy cache, ISessionFactoryImplementor factory)
+   在 NHibernate.Persister.Entity.SingleTableEntityPersister..ctor(PersistentClass persistentClass, ICacheConcurrencyStrategy cache, ISessionFactoryImplementor factory, IMapping mapping)
+   在 NHibernate.Persister.PersisterFactory.CreateClassPersister(PersistentClass model, ICacheConcurrencyStrategy cache, ISessionFactoryImplementor factory, IMapping cfg)
+   在 NHibernate.Impl.SessionFactoryImpl..ctor(Configuration cfg, IMapping mapping, Settings settings, EventListeners listeners)
+   在 NHibernate.Cfg.Configuration.BuildSessionFactory()
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.CreateSessionFactory(String databaseName, String assemblyName, String dialect, String connectionDriver)
+   在 HuatongApply.Data.HuatongApplyContext.get_SessionFactory() 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\HuatongApply.Data\HuatongApplyContext.generated.cs:行号 39
+   在 HuatongApply.Data.HuatongApplyContext.CreateSession() 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\HuatongApply.Data\HuatongApplyContext.generated.cs:行号 50
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.NHibernateDataContextAdvanced.get_StateSession()
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.NHibernateDataContextAdvanced.get_DefaultSession()
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.BeginTransaction()
+   在 Service.Cost.ReimbursementControl.ReimbursementService.GetApplyitems(Int32 pageIndex, Int32 pageSize, String order, String sort, ApplyitemBO applyitemBo) 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\Service\Cost\ReimbursementControl\ReimbursementService.cs:行号 240
+
+异常时间：2013-12-13 22:49:19,514 [16] 
+异常级别：ERROR 
+异 常 类：logerror [(null)] 
+ReimbursementService.GetApplyitems(1,10,desc,CreatedOn,BusinessObject.CostBo.ApplyitemBO)异常 
+ System.TypeInitializationException: “NHibernate.ByteCode.Castle.ProxyFactory”的类型初始值设定项引发异常。 ---> System.IO.FileNotFoundException: 未能加载文件或程序集“Castle.Core, Version=2.5.1.0, Culture=neutral, PublicKeyToken=407dd0808d44fbdc”或它的某一个依赖项。系统找不到指定的文件。
+   在 NHibernate.ByteCode.Castle.ProxyFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 NHibernate.ByteCode.Castle.ProxyFactory..ctor()
+   在 NHibernate.ByteCode.Castle.ProxyFactoryFactory.BuildProxyFactory()
+   在 NHibernate.Tuple.Entity.PocoEntityTuplizer.BuildProxyFactoryInternal(PersistentClass class, IGetter getter, ISetter setter)
+   在 NHibernate.Tuple.Entity.PocoEntityTuplizer.BuildProxyFactory(PersistentClass persistentClass, IGetter idGetter, ISetter idSetter)
+   在 NHibernate.Tuple.Entity.AbstractEntityTuplizer..ctor(EntityMetamodel entityMetamodel, PersistentClass mappingInfo)
+   在 NHibernate.Tuple.Entity.PocoEntityTuplizer..ctor(EntityMetamodel entityMetamodel, PersistentClass mappedEntity)
+   在 NHibernate.Tuple.Entity.EntityEntityModeToTuplizerMapping..ctor(PersistentClass mappedEntity, EntityMetamodel em)
+   在 NHibernate.Tuple.Entity.EntityMetamodel..ctor(PersistentClass persistentClass, ISessionFactoryImplementor sessionFactory)
+   在 NHibernate.Persister.Entity.AbstractEntityPersister..ctor(PersistentClass persistentClass, ICacheConcurrencyStrategy cache, ISessionFactoryImplementor factory)
+   在 NHibernate.Persister.Entity.SingleTableEntityPersister..ctor(PersistentClass persistentClass, ICacheConcurrencyStrategy cache, ISessionFactoryImplementor factory, IMapping mapping)
+   在 NHibernate.Persister.PersisterFactory.CreateClassPersister(PersistentClass model, ICacheConcurrencyStrategy cache, ISessionFactoryImplementor factory, IMapping cfg)
+   在 NHibernate.Impl.SessionFactoryImpl..ctor(Configuration cfg, IMapping mapping, Settings settings, EventListeners listeners)
+   在 NHibernate.Cfg.Configuration.BuildSessionFactory()
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.CreateSessionFactory(String databaseName, String assemblyName, String dialect, String connectionDriver)
+   在 HuatongApply.Data.HuatongApplyContext.get_SessionFactory() 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\HuatongApply.Data\HuatongApplyContext.generated.cs:行号 39
+   在 HuatongApply.Data.HuatongApplyContext.CreateSession() 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\HuatongApply.Data\HuatongApplyContext.generated.cs:行号 50
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.NHibernateDataContextAdvanced.get_StateSession()
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.NHibernateDataContextAdvanced.get_DefaultSession()
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.BeginTransaction()
+   在 Service.Cost.ReimbursementControl.ReimbursementService.GetApplyitems(Int32 pageIndex, Int32 pageSize, String order, String sort, ApplyitemBO applyitemBo) 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\Service\Cost\ReimbursementControl\ReimbursementService.cs:行号 240
+
+异常时间：2013-12-13 22:53:06,522 [5] 
+异常级别：ERROR 
+异 常 类：logerror [(null)] 
+ReimbursementService.GetApplyitems(1,10,desc,CreatedOn,BusinessObject.CostBo.ApplyitemBO)异常 
+ System.TypeInitializationException: “NHibernate.ByteCode.Castle.ProxyFactory”的类型初始值设定项引发异常。 ---> System.IO.FileNotFoundException: 未能加载文件或程序集“Castle.Core, Version=2.5.1.0, Culture=neutral, PublicKeyToken=407dd0808d44fbdc”或它的某一个依赖项。系统找不到指定的文件。
+   在 NHibernate.ByteCode.Castle.ProxyFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 NHibernate.ByteCode.Castle.ProxyFactory..ctor()
+   在 NHibernate.ByteCode.Castle.ProxyFactoryFactory.BuildProxyFactory()
+   在 NHibernate.Tuple.Entity.PocoEntityTuplizer.BuildProxyFactoryInternal(PersistentClass class, IGetter getter, ISetter setter)
+   在 NHibernate.Tuple.Entity.PocoEntityTuplizer.BuildProxyFactory(PersistentClass persistentClass, IGetter idGetter, ISetter idSetter)
+   在 NHibernate.Tuple.Entity.AbstractEntityTuplizer..ctor(EntityMetamodel entityMetamodel, PersistentClass mappingInfo)
+   在 NHibernate.Tuple.Entity.PocoEntityTuplizer..ctor(EntityMetamodel entityMetamodel, PersistentClass mappedEntity)
+   在 NHibernate.Tuple.Entity.EntityEntityModeToTuplizerMapping..ctor(PersistentClass mappedEntity, EntityMetamodel em)
+   在 NHibernate.Tuple.Entity.EntityMetamodel..ctor(PersistentClass persistentClass, ISessionFactoryImplementor sessionFactory)
+   在 NHibernate.Persister.Entity.AbstractEntityPersister..ctor(PersistentClass persistentClass, ICacheConcurrencyStrategy cache, ISessionFactoryImplementor factory)
+   在 NHibernate.Persister.Entity.SingleTableEntityPersister..ctor(PersistentClass persistentClass, ICacheConcurrencyStrategy cache, ISessionFactoryImplementor factory, IMapping mapping)
+   在 NHibernate.Persister.PersisterFactory.CreateClassPersister(PersistentClass model, ICacheConcurrencyStrategy cache, ISessionFactoryImplementor factory, IMapping cfg)
+   在 NHibernate.Impl.SessionFactoryImpl..ctor(Configuration cfg, IMapping mapping, Settings settings, EventListeners listeners)
+   在 NHibernate.Cfg.Configuration.BuildSessionFactory()
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.CreateSessionFactory(String databaseName, String assemblyName, String dialect, String connectionDriver)
+   在 HuatongApply.Data.HuatongApplyContext.get_SessionFactory() 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\HuatongApply.Data\HuatongApplyContext.generated.cs:行号 39
+   在 HuatongApply.Data.HuatongApplyContext.CreateSession() 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\HuatongApply.Data\HuatongApplyContext.generated.cs:行号 50
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.NHibernateDataContextAdvanced.get_StateSession()
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.NHibernateDataContextAdvanced.get_DefaultSession()
+   在 CodeSmith.Data.NHibernate.NHibernateDataContext.BeginTransaction()
+   在 Service.Cost.ReimbursementControl.ReimbursementService.GetApplyitems(Int32 pageIndex, Int32 pageSize, String order, String sort, ApplyitemBO applyitemBo) 位置 C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\Service\Cost\ReimbursementControl\ReimbursementService.cs:行号 240

@@ -1,0 +1,61 @@
+﻿<table class="custom_forms_popup" >
+<tr>
+        <td width="20%" class="td_right">
+            报销部门:
+        </td>
+        <td class="td_left" width="30%">
+            <select  class="easyui-validatebox" name="OrName" data-options="required:true" id="ddlOrg" style="width: 145px;">
+                <option value="1" selected="selected">质量保障部</option>
+            <option value="2">研发部</option>
+            <option value="3">UI部</option>
+            <option value="4">前端技术部</option>
+            <option value="5">人力资源部</option>
+            </select>
+        </td>
+        <td  class="td_right" width="20%">
+            申请人:
+        </td>
+        <td class="td_left">
+            <input class="easyui-validatebox" type="text" name="ApplyBy" id="txtApplyPerson" data-options="required:true" maxlength="20"  style="width: 100px"/>
+        </td>
+    </tr>
+    <tr>
+        <td  class="td_right">
+            报销金额:
+        </td>
+        <td class="td_left">
+            <input class="easyui-validatebox" type="text" name="Price" id="txtPrice" data-options="required:true" maxlength="20" style="width: 100px"/>
+        </td>
+        <td  class="td_right">
+            报销币种:
+        </td>
+        <td class="td_left">
+            <label>
+                <input type="radio" id="radioRMB"  name="Currency" value="RMB" />人民币</label>
+            <label>
+                <input type="radio" id="radioHKD"  name="Currency" value="HKD"/>港币</label>
+        </td>
+    </tr>
+    <tr>
+        <td  class="td_right">
+            是否为车辆成本:
+        </td>
+        <td class="td_left">
+            <input type="checkbox" name="IsCar" id="chkIsCar" value="1" />
+        </td>
+        <td  class="td_right">
+            车辆号码:
+        </td>
+        <td class="td_left">
+            <input class="easyui-validatebox" type="text" name="CarNo" id="txtCarNo" data-options="required:true" maxlength="20" style="width: 100px"/>
+        </td>
+    </tr>
+<tr>
+    <td  class="td_right">
+        申请日期:
+    </td>
+    <td class="td_left" colspan="3">
+        <input  type="text" name="ApplyOnStr" class="easyui-datebox"  readonly="readonly" id="txtApplyOn" data-options="required:true" maxlength="20" style="width: 100px"/>
+    </td>
+</tr>
+</table>

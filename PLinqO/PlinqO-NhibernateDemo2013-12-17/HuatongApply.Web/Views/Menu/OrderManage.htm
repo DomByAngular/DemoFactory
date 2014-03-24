@@ -1,0 +1,66 @@
+﻿<script type="text/javascript">
+    $(document).ready(function () {
+        $('#west').load("Scripts/side-menu/SideMenuTemplate.htm", function () {
+            var source = $("#entry-template").html();
+            var template = Handlebars.compile(source);
+            var context =
+                {
+                    menu: [
+                        {
+                            "title": "产品订单",
+                            "content": [
+                                {
+                                    "id": "_order_ticket",
+                                    "url": "Views/Order/TicketOrder/TicketOrderList.htm",
+                                    "content": "车票订单列表"
+                                },
+                                {
+                                    "id": "_order_car",
+                                    "url": "Views/Product/ProductList.htm",
+                                    "content": "包车订单列表"
+                                },
+                                {
+                                    "id": "_order_free",
+                                    "url": "Views/Product/ProductList.htm",
+                                    "content": "自由行订单列表"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "挂账订单",
+                            "content": [
+                                {
+                                    "id": "_order_credit",
+                                    "url": "Views/Product/ProductList.htm",
+                                    "content": "挂账单列表"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "行李票订单",
+                            "content": [
+                                {
+                                    "id": "_order_package",
+                                    "url": "Views/Order/BagTicketList.htm",
+                                    "content": "行李票订单列表"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "订单出票",
+                            "content": [
+                                {
+                                    "id": "_order_oticket",
+                                    "url": "Views/Product/ProductList.htm",
+                                    "content": "出票列表"
+                                }
+                            ]
+                        }
+                    ]
+                };
+            var html = template(context);
+            $(".side-content").html(html);
+            $.getScript("/Scripts/side-menu/side-menu.js");
+        });
+    });
+</script>

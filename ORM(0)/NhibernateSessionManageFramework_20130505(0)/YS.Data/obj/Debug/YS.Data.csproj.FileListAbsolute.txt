@@ -1,0 +1,6 @@
+F:\个人重要资料备份\工作相关\工作软件和插件\我的微盘\Demo库\ORM\NhibernateSessionManageFramework_20130505\YS.Data\bin\Debug\Mapping\Person.hbm.xml
+F:\个人重要资料备份\工作相关\工作软件和插件\我的微盘\Demo库\ORM\NhibernateSessionManageFramework_20130505\YS.Data\bin\Debug\YS.Data.dll
+F:\个人重要资料备份\工作相关\工作软件和插件\我的微盘\Demo库\ORM\NhibernateSessionManageFramework_20130505\YS.Data\bin\Debug\YS.Data.pdb
+F:\个人重要资料备份\工作相关\工作软件和插件\我的微盘\Demo库\ORM\NhibernateSessionManageFramework_20130505\YS.Data\obj\Debug\ResolveAssemblyReference.cache
+F:\个人重要资料备份\工作相关\工作软件和插件\我的微盘\Demo库\ORM\NhibernateSessionManageFramework_20130505\YS.Data\obj\Debug\YS.Data.dll
+F:\个人重要资料备份\工作相关\工作软件和插件\我的微盘\Demo库\ORM\NhibernateSessionManageFramework_20130505\YS.Data\obj\Debug\YS.Data.pdb

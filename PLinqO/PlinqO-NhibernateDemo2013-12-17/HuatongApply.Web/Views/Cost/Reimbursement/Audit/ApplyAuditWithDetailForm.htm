@@ -1,0 +1,37 @@
+﻿<div id="dlg" style="width: 800px;height: 600px;padding: 10px" data-options=" buttons: '#dlg-buttons',
+                                                                closed: true,
+                                                                shadow:false,
+                                                                modal:true">
+    <style type="text/css">
+        .custom_forms tr td input[type="text"]
+        {
+            width: auto;
+        }
+    </style>
+      <div id="divLoading" class="panel-loading" style="position: absolute;">
+        Loading...
+    </div>
+    <form id="ff" method="post"> 
+        <div id="tableForm" style="display: none">
+            <fieldset id="fieldForm">
+                      <legend>报销单信息</legend>
+                <div id="tableTemplate" >
+                    <!--可编辑父form模版||只读父form模版-->
+                </div>
+                  </fieldset>
+            <fieldset style="height: 200px">
+                <legend>报销单详情</legend>
+                <table id="detailList" >
+                    <!--本table初始化报销子项-->
+                </table> 
+            </fieldset>
+        </div>
+        <div>
+            <input id="HidApplyId" type="hidden" name="ApplyId" />
+        </div>
+    </form>
+</div>
+<div id="dlg-buttons">
+    <a href="javascript:void(0)" class="easyui-linkbutton" onclick="saveData();">确定</a>
+    <a href="javascript:void(0)" class="easyui-linkbutton" onclick="closeFormDialog();">取消</a>
+</div>

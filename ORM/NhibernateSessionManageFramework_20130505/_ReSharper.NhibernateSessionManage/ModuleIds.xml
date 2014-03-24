@@ -1,0 +1,12 @@
+<Modules>
+  <Module PersistentId="CEAEE3A7-95DD-4E24-B7AC-C41039224DFC" ModuleId="NhibernateSessionManage" />
+  <Module PersistentId="34F05392-CE1D-4077-8EFC-48446D8F541D" ModuleId="YS.DAL" />
+  <Module PersistentId="3D84FA7C-CC35-420B-9998-51E4636D5000" ModuleId="YS.Test" />
+  <Module PersistentId="DDADAC15-873F-40E3-A36A-FF98AD2BA489" ModuleId="Domain" />
+  <Module PersistentId="A8C1846A-CC72-4AD8-84A0-3832E29D7E68" ModuleId="IService" />
+  <Module PersistentId="4ECA278D-C16C-4FBA-8790-666E9479BEF3" ModuleId="YS.SessionManageLayer" />
+  <Module PersistentId="DAC4065D-CF15-432D-B72F-BA18B1595E22" ModuleId="YS.Web" />
+  <Module PersistentId="7E3FF81A-A314-4A90-949B-F976981C38F1" ModuleId="YS.Domain" />
+  <Module PersistentId="D2763631-B287-410C-BE6D-D915806E0611" ModuleId="YS.BO" />
+  <Module PersistentId="5D54C727-0C22-4262-A508-7DC08522E5CE" ModuleId="YS.Data" />
+</Modules>

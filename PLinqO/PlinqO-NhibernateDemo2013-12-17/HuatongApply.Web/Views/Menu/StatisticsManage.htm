@@ -1,0 +1,36 @@
+﻿<script type="text/javascript">
+    $(document).ready(function () {
+        $('#west').load("Scripts/side-menu/SideMenuTemplate.htm", function () {
+            var source = $("#entry-template").html();
+            var template = Handlebars.compile(source);
+            var context =
+                {
+                    menu: [
+                        {
+                            "title": "发车单管理",
+                            "content": [
+                                {
+                                    "id": "_stati_ticket_fc",
+                                    "url": "Views/Report/DepartureSingle/DepartureSingleList.htm",
+                                    "content": "车票发车单列表"
+                                },
+                                {
+                                    "id": "_stati_car_fc",
+                                    "url": "Views/Product/ProductList.htm",
+                                    "content": "包车发车单列表"
+                                },
+                                {
+                                    "id": "_stati_fc_list",
+                                    "url": "Views/Product/ProductList.htm",
+                                    "content": "发车单汇总列表"
+                                }
+                            ]
+                        }
+                    ]
+                };
+            var html = template(context);
+            $(".side-content").html(html);
+            $.getScript("/Scripts/side-menu/side-menu.js");
+        });
+    });
+</script>

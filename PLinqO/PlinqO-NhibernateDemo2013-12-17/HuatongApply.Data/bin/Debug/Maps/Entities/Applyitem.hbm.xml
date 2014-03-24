@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" namespace="HuatongApply.Data" assembly="HuatongApply.Data">
+    <class name="Applyitem" table="[dbo].[tb_applyitem]" >
+        <id name="ItemId" column="[ItemId]" type="Int32" >
+            <generator class="native" />
+        </id>
+        <property name="ItemName" column="[ItemName]" type="AnsiString" not-null="false" length="100" /> 
+        <property name="CreatedOn" column="[CreatedOn]" type="DateTime" not-null="false" /> 
+        <property name="CreatedBy" column="[CreatedBy]" type="AnsiString" not-null="false" length="200" /> 
+        <property name="ModifiedOn" column="[ModifiedOn]" type="DateTime" not-null="false" /> 
+        <property name="ModifiedBy" column="[ModifiedBy]" type="AnsiString" not-null="false" length="200" /> 
+        <bag name="ApplydetailList" inverse="true" cascade="all-delete-orphan" lazy="true" >
+            <key>
+                <column name="[ItemId]" />
+            </key>
+            <one-to-many class="Applydetail" />
+        </bag>
+    </class>
+</hibernate-mapping>
+

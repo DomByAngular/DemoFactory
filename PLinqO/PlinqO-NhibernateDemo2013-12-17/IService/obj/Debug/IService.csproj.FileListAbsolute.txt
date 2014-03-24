@@ -1,0 +1,30 @@
+C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\IService\bin\Debug\IService.dll
+C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\IService\bin\Debug\IService.pdb
+C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\IService\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\IService\obj\Debug\IService.dll
+C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\IService\obj\Debug\IService.pdb
+C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\IService\bin\Debug\BusinessObject.dll
+C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\IService\bin\Debug\Domain.dll
+C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\IService\bin\Debug\log4net.dll
+C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\IService\bin\Debug\BusinessObject.pdb
+C:\Users\Administrator\Documents\CodeSmith Generator\Templates\PLINQO NH\HuatongApply\IService\bin\Debug\Domain.pdb
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\HuatongApply\IService\bin\Debug\IService.dll
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\HuatongApply\IService\bin\Debug\IService.pdb
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\HuatongApply\IService\bin\Debug\BusinessObject.dll
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\HuatongApply\IService\bin\Debug\Domain.dll
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\HuatongApply\IService\bin\Debug\log4net.dll
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\HuatongApply\IService\bin\Debug\BusinessObject.pdb
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\HuatongApply\IService\bin\Debug\Domain.pdb
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\HuatongApply\IService\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\HuatongApply\IService\obj\Debug\IService.dll
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\HuatongApply\IService\obj\Debug\IService.pdb
+C:\Users\Administrator\Desktop\PlinqO-NhibernateDemo2013-12-17\IService\bin\Debug\IService.dll
+C:\Users\Administrator\Desktop\PlinqO-NhibernateDemo2013-12-17\IService\bin\Debug\IService.pdb
+C:\Users\Administrator\Desktop\PlinqO-NhibernateDemo2013-12-17\IService\bin\Debug\BusinessObject.dll
+C:\Users\Administrator\Desktop\PlinqO-NhibernateDemo2013-12-17\IService\bin\Debug\Domain.dll
+C:\Users\Administrator\Desktop\PlinqO-NhibernateDemo2013-12-17\IService\bin\Debug\log4net.dll
+C:\Users\Administrator\Desktop\PlinqO-NhibernateDemo2013-12-17\IService\bin\Debug\BusinessObject.pdb
+C:\Users\Administrator\Desktop\PlinqO-NhibernateDemo2013-12-17\IService\bin\Debug\Domain.pdb
+C:\Users\Administrator\Desktop\PlinqO-NhibernateDemo2013-12-17\IService\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\PlinqO-NhibernateDemo2013-12-17\IService\obj\Debug\IService.dll
+C:\Users\Administrator\Desktop\PlinqO-NhibernateDemo2013-12-17\IService\obj\Debug\IService.pdb

@@ -1,0 +1,91 @@
+﻿<script type="text/javascript">
+    $(document).ready(function () {
+        $('#west').load("Scripts/side-menu/SideMenuTemplate.htm", function () {
+            var source = $("#entry-template").html();
+            var template = Handlebars.compile(source);
+            var context =
+                {
+                    menu: [
+                        {
+                            "title": "线路管理",
+                            "content": [
+                                {
+                                    "id": "_ticket_line",
+                                    "url": "Views/Ticket/TicketRoute/TicketRouteList.htm",
+                                    "content": "线路列表"
+                                },
+                                {
+                                    "id": "_ticket_on",
+                                    "url": "Views/Ticket/TicketOnPoint/TicketOnPointList.htm",
+                                    "content": "上车点列表"
+                                },
+                                {
+                                    "id": "_ticket_on_area",
+                                    "url": "Views/Ticket/OnPointArea/OnPointAreaList.htm",
+                                    "content": "上车区域列表"
+                                },
+                                {
+                                    "id": "_ticket_off",
+                                    "url": "Views/Ticket/TicketOffPoint/TicketOffPointList.htm",
+                                    "content": "下车点列表"
+                                },
+                                {
+                                    "id": "_ticket_off_area",
+                                    "url": "Views/Ticket/OffPointArea/OffPointAreaList.htm",
+                                    "content": "下车区域列表"
+                                },
+                                {
+                                    "id": "_ticket_price",
+                                    "url": "Views/Ticket/HolidayPrice/HolidayPriceList.htm",
+                                    "content": "线路假日价格"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "班次管理",
+                            "content": [
+                                {
+                                    "id": "_ticket_shift",
+                                    "url": "Views/Ticket/BanCi/BanCiList.htm",
+                                    "content": "班次列表"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "快捷设置",
+                            "content": [
+                                {
+                                    "id": "_ticket_quick",
+                                    "url": "Views/Ticket/OneStepBuyTicket/OneStepBuyTicketList.htm",
+                                    "content": "一步购票"
+                                },
+                                {
+                                    "id": "_ticket_checkline",
+                                    "url": "Views/Ticket/CheckLine/CheckLineList.htm",
+                                    "content": "验票线路"
+                                }
+                            ]
+                           },
+                        {
+                            "title": "提成管理",
+                            "content": [
+                                {
+                                    "id": "_ticket_station_royalty",
+                                    "url": "Views/Ticket/StationRoyalty/StationRoyaltyList.htm",
+                                    "content": "站点提成"
+                                },
+                                {
+                                    "id": "_ticket_agentTicketLine",
+                                    "url": "Views/Ticket/AgentTicketLine/AgentTicketLineList.htm",
+                                    "content": "代理线路管理"
+                                }
+                            ]
+                        }
+                    ]
+                };
+            var html = template(context);
+            $(".side-content").html(html);
+            $.getScript("/Scripts/side-menu/side-menu.js");
+        });
+    });
+</script>

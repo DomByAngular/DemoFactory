@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" namespace="Huatongmis.Data.Entities" assembly="hmbl">
+    <class name="Agentticketlinebymonthvw" table="vw_agentticketlinebymonthvw" >
+        <composite-id>
+            <key-property name="LoginName" column="LoginName" type="String" length="150" /> 
+            <key-property name="VipId" column="Vip_Id" type="Int32" /> 
+            <key-property name="UserName" column="UserName" type="String" length="90" /> 
+            <key-property name="LineName" column="LineName" type="String" length="150" /> 
+            <key-property name="TlId" column="Tl_Id" type="Int32" /> 
+            <key-property name="Rebates" column="Rebates" type="Int32" /> 
+            <key-property name="TicketPriceRMB" column="TicketPriceRMB" type="Double" /> 
+            <key-property name="TicketPriceHKD" column="TicketPriceHKD" type="Double" /> 
+            <key-property name="OneWayDiscountRMB" column="OneWayDiscountRMB" type="Double" /> 
+            <key-property name="OneWayDiscountHKD" column="OneWayDiscountHKD" type="Double" /> 
+            <key-property name="BackForthDiscountRMB" column="BackForthDiscountRMB" type="Double" /> 
+            <key-property name="BackForthDiscountHKD" column="BackForthDiscountHKD" type="Double" /> 
+            <key-property name="CreatedOn" column="CreatedOn" type="String" length="20" /> 
+        </composite-id>
+    </class>
+</hibernate-mapping>
+

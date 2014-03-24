@@ -1,0 +1,66 @@
+﻿<RecentFiles>
+  <RecentFiles>
+    <File id="A47740E5-995C-4F6A-B7E7-EDE3D97965BC/d:Queries/f:Student.generated.cs" caret="0" fromTop="0" />
+    <File id="A47740E5-995C-4F6A-B7E7-EDE3D97965BC/d:Queries/f:Student.cs" caret="0" fromTop="0" />
+    <File id="A47740E5-995C-4F6A-B7E7-EDE3D97965BC/d:Queries/f:Course.cs" caret="0" fromTop="0" />
+    <File id="A47740E5-995C-4F6A-B7E7-EDE3D97965BC/d:Queries/f:Course.generated.cs" caret="0" fromTop="0" />
+    <File id="A47740E5-995C-4F6A-B7E7-EDE3D97965BC/d:Entities/f:Course.generated.cs" caret="0" fromTop="0" />
+    <File id="A47740E5-995C-4F6A-B7E7-EDE3D97965BC/f:HuatongApplyContext.cs" caret="0" fromTop="0" />
+    <File id="A47740E5-995C-4F6A-B7E7-EDE3D97965BC/f:HuatongApplyContext.generated.cs" caret="1413" fromTop="16" />
+    <File id="37DBD507-D4A9-43A2-9B5A-3477AC5D386D/d:YS/f:ApplyDetailServiceTest.cs" caret="998" fromTop="6" />
+    <File id="A47740E5-995C-4F6A-B7E7-EDE3D97965BC/d:Entities/f:Student.generated.cs" caret="1187" fromTop="14" />
+    <File id="2DFEB337-6182-499A-99D6-B31B02F23139/d:Cost/d:ReimbursementControl/f:ReimbursementService.cs" caret="119" fromTop="4" />
+    <File id="973513E3-4743-4F68-ACDE-3C9F5A425829/d:StuCourseBo/f:CourseBo.cs" caret="85" fromTop="4" />
+    <File id="973513E3-4743-4F68-ACDE-3C9F5A425829/d:StuCourseBo/f:StudentBo.cs" caret="209" fromTop="10" />
+    <File id="1C703AAD-85BC-4285-8C17-5F34857480F7/d:IStudent/f:IStudentService.cs" caret="970" fromTop="28" />
+    <File id="A47740E5-995C-4F6A-B7E7-EDE3D97965BC/d:Maps/d:Entities/f:Student.hbm.xml" caret="705" fromTop="9" />
+    <File id="A47740E5-995C-4F6A-B7E7-EDE3D97965BC/d:Maps/d:Entities/f:Applyitem.hbm.xml" caret="106" fromTop="1" />
+    <File id="A47740E5-995C-4F6A-B7E7-EDE3D97965BC/d:Maps/d:Entities/f:Course.hbm.xml" caret="546" fromTop="7" />
+    <File id="A47740E5-995C-4F6A-B7E7-EDE3D97965BC/d:Maps/d:Entities/f:Applyrecord.hbm.xml" caret="337" fromTop="5" />
+    <File id="A47740E5-995C-4F6A-B7E7-EDE3D97965BC/d:Maps/d:Functions/f:GetDepartMentApplyRecords.hbm.xml" caret="1371" fromTop="21" />
+    <File id="A47740E5-995C-4F6A-B7E7-EDE3D97965BC/d:Models/f:Getallrapplyecord.generated.cs" caret="0" fromTop="0" />
+    <File id="A47740E5-995C-4F6A-B7E7-EDE3D97965BC/d:Models/f:GetDepartMentApplyRecordsResult.generated.cs" caret="0" fromTop="0" />
+    <File id="A47740E5-995C-4F6A-B7E7-EDE3D97965BC/d:Models/f:GetDepartMentApplyRecordsResult.cs" caret="0" fromTop="0" />
+    <File id="A47740E5-995C-4F6A-B7E7-EDE3D97965BC/d:Maps/d:Views/f:Getallrapplyecord.hbm.xml" caret="0" fromTop="0" />
+    <File id="1C703AAD-85BC-4285-8C17-5F34857480F7/d:ICost/d:IReimbursement/f:IApplyRecordService.cs" caret="2352" fromTop="16" />
+    <File id="A47740E5-995C-4F6A-B7E7-EDE3D97965BC/d:Models/f:Getallrapplyecord.cs" caret="0" fromTop="0" />
+    <File id="37DBD507-D4A9-43A2-9B5A-3477AC5D386D/f:App.config" caret="257" fromTop="4" />
+    <File id="231D5E7F-6DC4-4E21-B87E-AB5BDF8F2061/f:Web.config" caret="363" fromTop="13" />
+    <File id="2DFEB337-6182-499A-99D6-B31B02F23139/d:Cost/d:ReimbursementControl/f:ApplyRecordService.cs" caret="13346" fromTop="28" />
+    <File id="37DBD507-D4A9-43A2-9B5A-3477AC5D386D/d:YS/f:StudentServiceTest.cs" caret="1524" fromTop="19" />
+    <File id="37DBD507-D4A9-43A2-9B5A-3477AC5D386D/d:YS/f:ApplyRecordServiceTest.cs" caret="3494" fromTop="21" />
+    <File id="2DFEB337-6182-499A-99D6-B31B02F23139/d:StuCourse/f:StudentService.cs" caret="1918" fromTop="7" />
+  </RecentFiles>
+  <RecentEdits>
+    <File id="231D5E7F-6DC4-4E21-B87E-AB5BDF8F2061/f:Global.asax.cs" caret="600" fromTop="19" />
+    <File id="1C703AAD-85BC-4285-8C17-5F34857480F7/d:ICost/d:IReimbursement/f:IApplyRecordAuditService.cs" caret="1057" fromTop="48" />
+    <File id="2DFEB337-6182-499A-99D6-B31B02F23139/d:Cost/d:ReimbursementControl/f:ApplyAuditService.cs" caret="3573" fromTop="3" />
+    <File id="231D5E7F-6DC4-4E21-B87E-AB5BDF8F2061/d:Views/d:Cost/d:Reimbursement/d:Items/f:ApplyItemsList.htm" caret="356" fromTop="6" />
+    <File id="231D5E7F-6DC4-4E21-B87E-AB5BDF8F2061/d:Scripts/d:module/d:Cost/d:Reimbursement/f:ApplyRecordAudit.js" caret="0" fromTop="0" />
+    <File id="231D5E7F-6DC4-4E21-B87E-AB5BDF8F2061/d:Scripts/d:jquery-common-easyui/f:easyui.public.js" caret="28711" fromTop="32" />
+    <File id="231D5E7F-6DC4-4E21-B87E-AB5BDF8F2061/d:Scripts/d:module/d:Cost/d:Reimbursement/f:ApplyItems.js" caret="28710" fromTop="16" />
+    <File id="231D5E7F-6DC4-4E21-B87E-AB5BDF8F2061/d:Scripts/d:megamenu/f:menu.js" caret="1919" fromTop="17" />
+    <File id="231D5E7F-6DC4-4E21-B87E-AB5BDF8F2061/f:Default.aspx" caret="14682" fromTop="14" />
+    <File id="231D5E7F-6DC4-4E21-B87E-AB5BDF8F2061/d:Views/d:Cost/d:Reimbursement/d:Audit/f:ApplyAuitList.htm" caret="621" fromTop="13" />
+    <File id="231D5E7F-6DC4-4E21-B87E-AB5BDF8F2061/d:Views/d:Cost/d:Reimbursement/d:Records/f:ApplyRecordList.htm" caret="1050" fromTop="20" />
+    <File id="231D5E7F-6DC4-4E21-B87E-AB5BDF8F2061/d:Views/d:Cost/d:Reimbursement/d:Records/f:EditFormModel.htm" caret="208" fromTop="3" />
+    <File id="231D5E7F-6DC4-4E21-B87E-AB5BDF8F2061/d:Scripts/d:module/d:Cost/d:Reimbursement/f:ApplyRecord.js" caret="13947" fromTop="25" />
+    <File id="973513E3-4743-4F68-ACDE-3C9F5A425829/d:CostBo/f:ApplyRecordBO.cs" caret="817" fromTop="18" />
+    <File id="1C703AAD-85BC-4285-8C17-5F34857480F7/d:ICost/d:IReimbursement/f:IReimbursementService.cs" caret="162" fromTop="7" />
+    <File id="1C703AAD-85BC-4285-8C17-5F34857480F7/d:IStudent/f:IStudentService.cs" caret="970" fromTop="28" />
+    <File id="973513E3-4743-4F68-ACDE-3C9F5A425829/d:StuCourseBo/f:CourseBo.cs" caret="85" fromTop="4" />
+    <File id="973513E3-4743-4F68-ACDE-3C9F5A425829/d:StuCourseBo/f:StudentBo.cs" caret="209" fromTop="10" />
+    <File id="2DFEB337-6182-499A-99D6-B31B02F23139/d:Cost/d:ReimbursementControl/f:ReimbursementService.cs" caret="119" fromTop="4" />
+    <File id="A47740E5-995C-4F6A-B7E7-EDE3D97965BC/f:HuatongApplyContext.generated.cs" caret="1404" fromTop="16" />
+    <File id="A47740E5-995C-4F6A-B7E7-EDE3D97965BC/d:Maps/d:Entities/f:Student.hbm.xml" caret="705" fromTop="9" />
+    <File id="A47740E5-995C-4F6A-B7E7-EDE3D97965BC/d:Maps/d:Entities/f:Course.hbm.xml" caret="517" fromTop="7" />
+    <File id="2DFEB337-6182-499A-99D6-B31B02F23139/d:StuCourse/f:StudentService.cs" caret="2709" fromTop="13" />
+    <File id="37DBD507-D4A9-43A2-9B5A-3477AC5D386D/d:YS/f:StudentServiceTest.cs" caret="957" fromTop="9" />
+    <File id="A47740E5-995C-4F6A-B7E7-EDE3D97965BC/d:Maps/d:Functions/f:GetDepartMentApplyRecords.hbm.xml" caret="1371" fromTop="21" />
+    <File id="1C703AAD-85BC-4285-8C17-5F34857480F7/d:ICost/d:IReimbursement/f:IApplyRecordService.cs" caret="2443" fromTop="19" />
+    <File id="37DBD507-D4A9-43A2-9B5A-3477AC5D386D/d:YS/f:ApplyRecordServiceTest.cs" caret="3390" fromTop="25" />
+    <File id="2DFEB337-6182-499A-99D6-B31B02F23139/d:Cost/d:ReimbursementControl/f:ApplyRecordService.cs" caret="13346" fromTop="25" />
+    <File id="37DBD507-D4A9-43A2-9B5A-3477AC5D386D/f:App.config" caret="253" fromTop="4" />
+    <File id="231D5E7F-6DC4-4E21-B87E-AB5BDF8F2061/f:Web.config" caret="363" fromTop="13" />
+  </RecentEdits>
+</RecentFiles>

@@ -1,0 +1,56 @@
+﻿<script type="text/javascript">
+    $(document).ready(function () {
+        $('#west').load("Scripts/side-menu/SideMenuTemplate.htm", function () {
+            var source = $("#entry-template").html();
+            var template = Handlebars.compile(source);
+            var context =
+                {
+                    menu: [
+                        {
+                            "title": "线路管理",
+                            "content": [
+                                {
+                                    "id": "_car_line",
+                                    "url": "Views/Carrental/CarrentalRoute/CarrentalRouteList.htm",
+                                    "content": "线路列表"
+                                },
+                                {
+                                    "id": "_car_area",
+                                    "url": "Views/Product/ProductList.htm",
+                                    "content": "区域列表"
+                                },
+                                {
+                                    "id": "_car_on",
+                                    "url": "Views/Product/ProductList.htm",
+                                    "content": "上车点列表"
+                                },
+                                {
+                                    "id": "_car_off",
+                                    "url": "Views/Product/ProductList.htm",
+                                    "content": "下车点列表"
+                                },
+                                {
+                                    "id": "_car_price",
+                                    "url": "Views/Product/ProductList.htm",
+                                    "content": "线路假日价格"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "快捷设置",
+                            "content": [
+                                {
+                                    "id": "_car_quick",
+                                    "url": "Views/Product/ProductList.htm",
+                                    "content": "一键包车"
+                                }
+                            ]
+                        }
+                    ]
+                };
+            var html = template(context);
+            $(".side-content").html(html);
+            $.getScript("/Scripts/side-menu/side-menu.js");
+        });
+    });
+</script>
