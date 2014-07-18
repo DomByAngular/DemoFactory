@@ -1,0 +1,12 @@
+﻿@{
+    ViewBag.Title = "UsingViewBag";
+}
+
+<h2>UsingViewBag</h2>
+
+@Html.Partial("_Form")
+
+@if (ViewBag.Msg != null)
+{
+  <h4>@ViewBag.Msg</h4>
+}

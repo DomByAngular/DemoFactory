@@ -1,0 +1,20 @@
+﻿@{
+  ViewBag.Title = "Home Page";
+}
+<h2>@ViewBag.Message</h2>
+<p>
+  To learn more about ASP.NET MVC visit <a href="http://asp.net/mvc" title="ASP.NET MVC Website">http://asp.net/mvc</a>. 
+  <br />@Html.ActionLink("自己的简单实现", "", "NoDefault")<br />
+  @Html.ActionLink("默认的简单实现", "Index", "Hello")<br />
+  @Html.ActionLink("设置了NonAction的操作方法", "NonAction")<br />
+  @Html.ActionLink("重命名操作方法", "NewActionName","Index")<br />
+  @Html.ActionLink("操作结果集合", "Index", "ActionResult")<br />
+  @Html.ActionLink("3个参数p1,p2,p3的例子", "UsingParams", "Home",
+    new { p1 = "gmmfu886usb2012", p2 = "091", p3 = "a-z1-a_97.html" }, null
+  )<br />
+  @Html.ActionLink("访YouKu_1", "Show", "YouKu", new { id = "1234567890abc" }, null)
+  @Html.ActionLink("访YouKu_2", "PlayList", "YouKu", new { id = "234567890abc" }, null)
+  <br />
+  <br />
+  @Html.ActionLink("数据交互", "Index", "Params")
+</p>

@@ -1,0 +1,31 @@
+﻿@{
+    ViewBag.Title = "Index";
+}
+
+<h2>操作方法结果目录</h2>
+
+<div>
+  @Html.ActionLink("ContentResult", "ContentResult") <br />
+  @Html.ActionLink("EmptyResult", "EmptyResult") <br />
+  @Html.ActionLink("FileResult", "FileResult") <br />
+  HttpStatusCodeResult <Br />
+  @Html.ActionLink("HttpNotFoundResult", "HttpNotFoundResult") <br />
+  @Html.ActionLink("HttpUnauthorizedResult", "HttpUnauthorizedResult") <br />
+  <a href="#" onclick="return foo();">JavaScriptResult</a><br />
+  @Html.ActionLink("JsonResult", "JsonResult") <br />
+  @Html.ActionLink("RedirectResult", "RedirectResult") <br />
+  @Html.ActionLink("RedirectToRouteResult", "RedirectToRouteResult") <br />
+  ViewResultBase<br />
+  @Html.ActionLink("PartialViewResult", "PartialViewResult") <br />
+  @Html.ActionLink("ViewResult", "ViewResult") <br />
+  <br />
+  @Html.ActionLink("直接访问ChildAction失败", "ChildAction")<br />
+  @Html.ActionLink("正确使用ChildAction", "UsingChildAction")
+</div>
+<script type="text/javascript">
+  function foo() {
+    document.write("<script type='text/javascript' src='/ActionResult/JavaScriptResult'><" + "/script>");
+
+    return false;
+  }
+</script>

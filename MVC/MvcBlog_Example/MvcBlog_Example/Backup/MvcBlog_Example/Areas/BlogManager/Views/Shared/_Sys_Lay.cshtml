@@ -1,0 +1,24 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>@string.Format(App.SysTitle, ViewBag.Title)</title>
+    <link href="@Url.Content("~/Content/Site.css")" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <div class="page">
+        <div id="header">
+            <div id="title">
+                <h1>后台另用一套Layout布局</h1>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <div id="main">
+            @RenderBody()
+        </div>
+        <div id="footer">
+          请多多关注http://www.cnblogs.com/highend/<br />
+          (C) 2011 dotNetDR_
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,10 @@
+D:\SVN_WorkFolder\dotNetDR\Project\Code\MvcApplication1\MvcApplication1\bin\MvcApplication1.dll
+D:\SVN_WorkFolder\dotNetDR\Project\Code\MvcApplication1\MvcApplication1\bin\MvcApplication1.pdb
+D:\SVN_WorkFolder\dotNetDR\Project\Code\MvcApplication1\MvcApplication1\obj\Debug\ResolveAssemblyReference.cache
+D:\SVN_WorkFolder\dotNetDR\Project\Code\MvcApplication1\MvcApplication1\obj\Debug\MvcApplication1.dll
+D:\SVN_WorkFolder\dotNetDR\Project\Code\MvcApplication1\MvcApplication1\obj\Debug\MvcApplication1.pdb
+F:\个人重要资料备份\工作相关\工作软件和插件\我的微盘\Demo库\MVC\MVC3_Controller_View\MvcApplication1\MvcApplication1\bin\MvcApplication1.dll
+F:\个人重要资料备份\工作相关\工作软件和插件\我的微盘\Demo库\MVC\MVC3_Controller_View\MvcApplication1\MvcApplication1\bin\MvcApplication1.pdb
+F:\个人重要资料备份\工作相关\工作软件和插件\我的微盘\Demo库\MVC\MVC3_Controller_View\MvcApplication1\MvcApplication1\obj\Debug\MvcApplication1.csprojResolveAssemblyReference.cache
+F:\个人重要资料备份\工作相关\工作软件和插件\我的微盘\Demo库\MVC\MVC3_Controller_View\MvcApplication1\MvcApplication1\obj\Debug\MvcApplication1.dll
+F:\个人重要资料备份\工作相关\工作软件和插件\我的微盘\Demo库\MVC\MVC3_Controller_View\MvcApplication1\MvcApplication1\obj\Debug\MvcApplication1.pdb

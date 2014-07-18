@@ -1,0 +1,7 @@
+﻿@{
+    ViewBag.Title = "NotFound";
+    
+    var userName = Request.QueryString["UserName"] ?? "参数不存在";
+}
+
+<h2>没有找到博客用户: @userName</h2>

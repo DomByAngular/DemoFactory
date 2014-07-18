@@ -1,0 +1,18 @@
+﻿@{
+    ViewBag.Title = ViewBag.UserName + " 文章列表";
+
+    int random = new Random().Next(5, 15);
+}
+
+<h2>@ViewBag.Title</h2>
+                    @* 路由名称 *@
+@Html.RouteLink("首页", "Blog", new {
+      userName = ViewBag.UserName, 
+      action = "Home" 
+    })
+<div>
+  @for (int i = 1; i < random; i++)
+  {
+    <p>第 @i 篇文章</p>
+  }
+</div>

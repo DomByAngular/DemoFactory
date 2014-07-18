@@ -1,0 +1,10 @@
+D:\SVN_WorkFolder\dotNetDR\Project\Code\MvcBlog_Example\MvcBlog_Example\bin\MvcBlog_Example.dll
+D:\SVN_WorkFolder\dotNetDR\Project\Code\MvcBlog_Example\MvcBlog_Example\bin\MvcBlog_Example.pdb
+D:\SVN_WorkFolder\dotNetDR\Project\Code\MvcBlog_Example\MvcBlog_Example\obj\Debug\ResolveAssemblyReference.cache
+D:\SVN_WorkFolder\dotNetDR\Project\Code\MvcBlog_Example\MvcBlog_Example\obj\Debug\MvcBlog_Example.dll
+D:\SVN_WorkFolder\dotNetDR\Project\Code\MvcBlog_Example\MvcBlog_Example\obj\Debug\MvcBlog_Example.pdb
+F:\个人重要资料备份\工作相关\工作软件和插件\我的微盘\Demo库\MVC\MvcBlog_Example\MvcBlog_Example\MvcBlog_Example\bin\MvcBlog_Example.dll
+F:\个人重要资料备份\工作相关\工作软件和插件\我的微盘\Demo库\MVC\MvcBlog_Example\MvcBlog_Example\MvcBlog_Example\bin\MvcBlog_Example.pdb
+F:\个人重要资料备份\工作相关\工作软件和插件\我的微盘\Demo库\MVC\MvcBlog_Example\MvcBlog_Example\MvcBlog_Example\obj\Debug\MvcBlog_Example.csprojResolveAssemblyReference.cache
+F:\个人重要资料备份\工作相关\工作软件和插件\我的微盘\Demo库\MVC\MvcBlog_Example\MvcBlog_Example\MvcBlog_Example\obj\Debug\MvcBlog_Example.dll
+F:\个人重要资料备份\工作相关\工作软件和插件\我的微盘\Demo库\MVC\MvcBlog_Example\MvcBlog_Example\MvcBlog_Example\obj\Debug\MvcBlog_Example.pdb

@@ -1,0 +1,9 @@
+﻿@{
+  Layout = "~/Views/Shared/_Layout.cshtml";
+
+  if (this.App.SysTitle == null)
+  {
+    this.App.SysTitle = System.Configuration.ConfigurationManager
+      .AppSettings["SysTitle"] ?? "{0} - 博科院";
+  }
+}

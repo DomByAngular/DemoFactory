@@ -1,0 +1,12 @@
+﻿@{
+    ViewBag.Title = "UsingTempData";
+}
+
+<h2>UsingTempData</h2>
+
+@Html.Partial("_Form")
+
+@if (TempData["msg"] != null)
+{
+  <h4>@TempData["msg"].ToString()</h4>
+}

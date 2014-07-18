@@ -1,0 +1,15 @@
+﻿@model List<string>
+@{
+    ViewBag.Title = "所有博客";
+}
+
+<h2>所有博客用户列表</h2>
+@foreach (var user in Model)
+{
+  <p>@Html.RouteLink(user, "Blog", new { userName = user, action = "Home" })&nbsp;&nbsp;
+  |&nbsp;&nbsp;
+  @Html.RouteLink("后台管理", "BlogManager_default", 
+    new { userName = user }
+  )
+  </p>
+}

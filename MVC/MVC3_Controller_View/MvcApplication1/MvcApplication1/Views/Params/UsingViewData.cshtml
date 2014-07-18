@@ -1,0 +1,12 @@
+﻿@{
+    ViewBag.Title = "UsingViewData";
+}
+
+<h2>UsingViewData</h2>
+
+@Html.Partial("_Form")
+
+@if (ViewData["msg"] != null)
+{
+  <h4>@ViewData["msg"].ToString()</h4>
+}

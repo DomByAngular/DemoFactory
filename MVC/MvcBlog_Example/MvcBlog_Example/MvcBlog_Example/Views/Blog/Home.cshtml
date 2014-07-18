@@ -1,0 +1,15 @@
+﻿@{
+    ViewBag.Title = ViewBag.UserName + " 主页";
+}
+
+<h2>你好, 欢迎来到 @ViewBag.UserName 的博客主页</h2>
+<p>
+                          @* 路由名称 *@
+  @Html.RouteLink("文章列表", "Blog", new {
+      userName = ViewBag.UserName, 
+      action = "Post" 
+    })
+</p>
+<p>这里是一堆堆关于 @ViewBag.UserName 的介绍~~</p>
+<p>欢迎观光</p>
+<br />
