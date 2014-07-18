@@ -1,7 +1,0 @@
-F:\Exercise\SpringNet\Step1\SpringNet_Lesson4\CreateObjects\bin\Debug\CreateObjects.exe
-F:\Exercise\SpringNet\Step1\SpringNet_Lesson4\CreateObjects\bin\Debug\CreateObjects.pdb
-F:\Exercise\SpringNet\Step1\SpringNet_Lesson4\CreateObjects\bin\Debug\Common.Logging.dll
-F:\Exercise\SpringNet\Step1\SpringNet_Lesson4\CreateObjects\bin\Debug\Spring.Core.dll
-F:\Exercise\SpringNet\Step1\SpringNet_Lesson4\CreateObjects\obj\Debug\ResolveAssemblyReference.cache
-F:\Exercise\SpringNet\Step1\SpringNet_Lesson4\CreateObjects\obj\Debug\CreateObjects.exe
-F:\Exercise\SpringNet\Step1\SpringNet_Lesson4\CreateObjects\obj\Debug\CreateObjects.pdb
