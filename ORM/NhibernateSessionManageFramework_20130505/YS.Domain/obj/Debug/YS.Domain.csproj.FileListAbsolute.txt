@@ -1,5 +1,0 @@
-F:\个人重要资料备份\工作相关\工作软件和插件\我的微盘\Demo库\ORM\NhibernateSessionManageFramework_20130505\YS.Domain\bin\Debug\YS.Domain.dll
-F:\个人重要资料备份\工作相关\工作软件和插件\我的微盘\Demo库\ORM\NhibernateSessionManageFramework_20130505\YS.Domain\bin\Debug\YS.Domain.pdb
-F:\个人重要资料备份\工作相关\工作软件和插件\我的微盘\Demo库\ORM\NhibernateSessionManageFramework_20130505\YS.Domain\obj\Debug\ResolveAssemblyReference.cache
-F:\个人重要资料备份\工作相关\工作软件和插件\我的微盘\Demo库\ORM\NhibernateSessionManageFramework_20130505\YS.Domain\obj\Debug\YS.Domain.dll
-F:\个人重要资料备份\工作相关\工作软件和插件\我的微盘\Demo库\ORM\NhibernateSessionManageFramework_20130505\YS.Domain\obj\Debug\YS.Domain.pdb

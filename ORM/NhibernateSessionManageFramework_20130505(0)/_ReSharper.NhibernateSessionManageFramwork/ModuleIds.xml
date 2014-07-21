@@ -1,6 +1,0 @@
-<Modules>
-  <Module PersistentId="34F05392-CE1D-4077-8EFC-48446D8F541D" ModuleId="YS.Service" />
-  <Module PersistentId="DAC4065D-CF15-432D-B72F-BA18B1595E22" ModuleId="YS.Web" />
-  <Module PersistentId="A8C1846A-CC72-4AD8-84A0-3832E29D7E68" ModuleId="YS.IService" />
-  <Module PersistentId="3D84FA7C-CC35-420B-9998-51E4636D5000" ModuleId="YS.Test" />
-</Modules>
